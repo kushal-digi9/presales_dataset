@@ -1,0 +1,2042 @@
+[
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a scalable solution for our growing user base."
+      },
+      {
+        "role": "agent",
+        "content": "Great to hear that! To ensure Startup Suite is the right fit for your needs, I'd recommend scheduling a demo with one of our product specialists. This will give you a chance to see the platform in action and ask any specific questions you might have."
+      }
+    ],
+    "notes": "User seeking scalable solution leads to 'schedule demo'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're still in the process of evaluating different solutions."
+      },
+      {
+        "role": "agent",
+        "content": "I understand the importance of finding the right solution for your team. Let me send you a comprehensive product guide and arrange a follow-up call in two weeks to discuss any further questions or concerns."
+      }
+    ],
+    "notes": "User in evaluation process leads to 'send product guide and follow-up call'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our company is in the middle of a rebrand, so we're not actively seeking new solutions at the moment."
+      },
+      {
+        "role": "agent",
+        "content": "I completely understand the challenges of a rebrand. To keep you informed, I'll add you to our monthly newsletter, and we can reconnect in a few months to see if Startup Suite aligns with your new strategy."
+      }
+    ],
+    "notes": "Company in rebrand leads to 'subscribe to newsletter and future follow-up'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in Startup Suite, but we need to discuss budget with our financial team."
+      },
+      {
+        "role": "agent",
+        "content": "That's perfectly fine! I'd be happy to provide you with detailed pricing information and a breakdown of the ROI. Once you've had a chance to review it with your team, we can schedule a call to discuss any further questions and next steps."
+      }
+    ],
+    "notes": "User needs to discuss budget leads to 'send detailed pricing and ROI information, followed by a call to discuss further'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're currently using a different solution that has been working well for us."
+      },
+      {
+        "role": "agent",
+        "content": "I appreciate that you've found success with your current solution. To help you make an informed decision, I'll send you a case study comparing Startup Suite's unique features and benefits to your current provider. After reviewing the case study, we can discuss any further questions or concerns."
+      }
+    ],
+    "notes": "User happy with current solution leads to 'send case study comparing features and benefits'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're excited about your solution, but we'd like to compare it with a few other options before making a decision."
+      },
+      {
+        "role": "agent",
+        "content": "Of course, I completely understand your approach. To help you make an informed decision, I'd be happy to arrange a competitive comparison demo for you, featuring our solution alongside a few other leading solutions in the market. How about next Tuesday at 2 PM?"
+      }
+    ],
+    "notes": "User needs more comparison before deciding, so propose a competitive comparison demo."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in your solution, but we're currently in the middle of a project and can't devote much time to evaluating new tools right now."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your busy schedule. Let me send you a brief overview of our solution, along with some case studies demonstrating real-world success stories. When you're ready to re-evaluate, we can reconnect and discuss any questions you might have."
+      }
+    ],
+    "notes": "User is busy, so propose sending a brief overview and case studies."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're impressed with the scalability your solution offers, but we're not sure if it's the right fit for our specific use case."
+      },
+      {
+        "role": "agent",
+        "content": "That's a great question. To help ensure the best fit, I'd like to schedule a call with one of our Solutions Architects to discuss your unique requirements and demonstrate how our solution can be tailored to meet them."
+      }
+    ],
+    "notes": "User has specific use case concerns, so propose a call with a Solutions Architect."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a solution that offers excellent customer support. Can you tell us more about the level of support you provide?"
+      },
+      {
+        "role": "agent",
+        "content": "Customer support is a top priority for us. To give you a better idea of our support offering, I can arrange a call with one of our dedicated Support Managers to discuss your specific needs and expectations."
+      }
+    ],
+    "notes": "User values customer support, so propose a call with a Support Manager."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're concerned about the security of our data in the cloud. Can you share more about your data protection measures?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely. To help alleviate your concerns, I can arrange a call with our Chief Security Officer to discuss our robust security measures and answer any questions you may have about data protection."
+      }
+    ],
+    "notes": "User is concerned about data security, so propose a call with the Chief Security Officer."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're impressed by the scalability of your platform, but we need to ensure it can handle our peak usage times."
+      },
+      {
+        "role": "agent",
+        "content": "I'm glad you appreciate the scalability. To confirm our solution fits your needs, I'd recommend arranging a custom performance benchmarking session. Let's work together to simulate your peak usage times and demonstrate our platform's capabilities."
+      }
+    ],
+    "notes": "User expresses concern about scalability, leading to 'schedule custom performance benchmarking'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're already using a similar solution, but we're interested in the benefits of migrating to your platform."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to show you the benefits! To help you make an informed decision, I propose a live demonstration of our platform and its unique features. This way, you can see for yourself the improvements and efficiencies we can bring to your operations."
+      }
+    ],
+    "notes": "User is considering migration, leading to 'schedule live demonstration'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Your pricing seems competitive, but we'd like to discuss a potential volume discount for our enterprise-level usage."
+      },
+      {
+        "role": "agent",
+        "content": "I'm glad you find our pricing competitive. To provide a more accurate quote, I suggest discussing your specific usage requirements with our Sales Director. They can offer tailored pricing options to better fit your needs."
+      }
+    ],
+    "notes": "User inquires about volume discount, leading to 'escalate to Sales Director'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're in the process of restructuring our IT department, so we won't be able to make a decision for a few months."
+      },
+      {
+        "role": "agent",
+        "content": "I understand the importance of restructuring. To keep you updated on our platform advancements and best practices, I'd like to set you up to receive our quarterly newsletter. This way, you'll be well-informed when the time comes to make your decision."
+      }
+    ],
+    "notes": "User is undergoing internal changes, leading to 'send newsletter'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We'd like to learn more about your platform's compatibility with our existing tech stack."
+      },
+      {
+        "role": "agent",
+        "content": "I'm glad you're interested in compatibility. To provide a comprehensive overview, I recommend scheduling a session with our Solutions Architect to discuss the technical aspects of integrating our platform with your existing tech stack."
+      }
+    ],
+    "notes": "User wants compatibility details, leading to 'schedule session with Solutions Architect'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're really excited about your product, but we need to make sure it integrates with our existing systems."
+      },
+      {
+        "role": "agent",
+        "content": "That's great to hear! To ensure a smooth integration, I recommend scheduling a demo where we can walk you through the process step-by-step. How does this coming Friday at 2 PM work for you?"
+      }
+    ],
+    "notes": "User has expressed interest in integration, so the logical next step is to schedule a demo."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a solution that can scale to millions of users."
+      },
+      {
+        "role": "agent",
+        "content": "I'm glad you value scalability. To show you how our solution performs at scale, I'd suggest arranging a call with our Scalability Expert. How about next Tuesday at 11 AM?"
+      }
+    ],
+    "notes": "User has expressed a need for scalability, so the logical next step is to connect with a Scalability Expert."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're using a mix of AWS and Google Cloud. Can your solution support both?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! Our solution is cloud-agnostic, meaning it can support both AWS and Google Cloud. To discuss this further, let's schedule a call with one of our Cloud Architects. What's your preferred date and time for a 30-minute session?"
+      }
+    ],
+    "notes": "User has expressed concern about cloud compatibility, so the logical next step is to schedule a call with a Cloud Architect."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in the security features of your product."
+      },
+      {
+        "role": "agent",
+        "content": "I'm glad to hear that. To address your concerns, I'd like to arrange a call with our Security Specialist. How about Wednesday at 3 PM?"
+      }
+    ],
+    "notes": "User has expressed interest in security, so the logical next step is to schedule a call with a Security Specialist."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We'd like to learn more about your support and onboarding process."
+      },
+      {
+        "role": "agent",
+        "content": "That's important! I'd recommend setting up a call with our Onboarding Manager to discuss our comprehensive support and onboarding process. How does Thursday at 10 AM sound?"
+      }
+    ],
+    "notes": "User has expressed interest in support and onboarding, so the logical next step is to schedule a call with the Onboarding Manager."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our current solution struggles with handling high volumes of requests."
+      },
+      {
+        "role": "agent",
+        "content": "Sounds like scalability is crucial for your business. To help address this, I'd like to schedule a demo showcasing our platform's performance at scale. How does next Thursday at 2 PM work for you?"
+      }
+    ],
+    "notes": "User has a scalability issue, so the logical next step is to schedule a demo."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're currently looking to reduce our tech debt and simplify our infrastructure."
+      },
+      {
+        "role": "agent",
+        "content": "Simplifying infrastructure is an important goal. To help you achieve this, I'd suggest setting up a call with our Solutions Architect to discuss potential refactoring strategies. How does the coming week look for a 30-minute call?"
+      }
+    ],
+    "notes": "User is looking to reduce tech debt, so the logical next step is to schedule a call with a Solutions Architect."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're facing compliance issues with our current API management solution."
+      },
+      {
+        "role": "agent",
+        "content": "Compliance is essential in any industry. To help you address this, I'd like to schedule a call with our Compliance Specialist to discuss how our platform meets your requirements. How does the coming week look for a 30-minute call?"
+      }
+    ],
+    "notes": "User has compliance issues, so the logical next step is to schedule a call with a Compliance Specialist."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in implementing microservices architecture but lack expertise in the area."
+      },
+      {
+        "role": "agent",
+        "content": "Implementing microservices is a complex task. To help you get started, I'd suggest setting up a call with one of our Microservices Architects to discuss best practices and our platform's support for this approach. How does the coming week look for a 30-minute call?"
+      }
+    ],
+    "notes": "User is interested in implementing microservices, so the logical next step is to schedule a call with a Microservices Architect."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering switching from our current solution due to its lack of customization."
+      },
+      {
+        "role": "agent",
+        "content": "Customization is key to ensuring your API management solution meets your specific needs. To help you evaluate our platform's capabilities, I'd like to schedule a customized demo tailored to your use case. How does next Tuesday at 10 AM work for you?"
+      }
+    ],
+    "notes": "User is considering switching due to lack of customization, so the logical next step is to schedule a customized demo."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're really impressed with the platform and its scalability."
+      },
+      {
+        "role": "agent",
+        "content": "That's wonderful to hear! To help you further understand the platform's potential, let's schedule a demo with our Product Specialist. How about next Thursday at 10 AM?"
+      }
+    ],
+    "notes": "Positive feedback leads to 'schedule a demo'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a solution that can handle high concurrent requests."
+      },
+      {
+        "role": "agent",
+        "content": "Our platform is designed for exactly that. To provide a more detailed analysis of your use case, let's arrange a call with our Solutions Architect. How does a 30-minute meeting next week sound?"
+      }
+    ],
+    "notes": "Specific needs lead to 'schedule a call with Solutions Architect'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're already using a similar solution."
+      },
+      {
+        "role": "agent",
+        "content": "I see. To show you the unique features and benefits our solution offers, I'd like to send over a detailed comparison document. Once you've had a chance to review it, we can discuss any questions or concerns you might have."
+      }
+    ],
+    "notes": "Competitor use leads to 'send comparison document'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're concerned about the learning curve for the platform."
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely, we understand your concern. To help you and your team get up to speed quickly, I propose a custom onboarding session with one of our Customer Success Managers. How does a 2-hour session sound for next week?"
+      }
+    ],
+    "notes": "Learning curve concern leads to 'schedule custom onboarding session'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in the platform but would like to see more case studies."
+      },
+      {
+        "role": "agent",
+        "content": "Of course! To provide you with more insights, I'll send over a selection of relevant case studies. Once you've had a chance to review them, we can discuss any questions or concerns you might have."
+      }
+    ],
+    "notes": "Request for case studies leads to 'send case studies'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm really impressed with the scalability options."
+      },
+      {
+        "role": "agent",
+        "content": "That's wonderful to hear! To dive deeper into how our scalability solutions can meet your needs, let's schedule a 30-minute demo. How does this coming Thursday work for you?"
+      }
+    ],
+    "notes": "Positive feedback leads to 'schedule demo'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're evaluating multiple solutions right now."
+      },
+      {
+        "role": "agent",
+        "content": "Understood, I'd be happy to provide more information and resources to help you in your evaluation process. How about I send you a detailed comparison chart between our solution and the other options you're considering?"
+      }
+    ],
+    "notes": "Multiple solutions being evaluated leads to 'send comparison chart'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're not ready to move away from our existing solution yet."
+      },
+      {
+        "role": "agent",
+        "content": "I respect your decision. To keep you informed about the latest developments and improvements in our platform, I'll set you up to receive our quarterly newsletters. I'll reach out again in six months to check in and see if you're ready to reevaluate."
+      }
+    ],
+    "notes": "Not ready to move leads to 'send nurturing content and follow-up'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'd like to discuss the security features in more detail."
+      },
+      {
+        "role": "agent",
+        "content": "Security is of utmost importance to us. To provide a more in-depth understanding of our security features, let's arrange for a 45-minute security-focused session with one of our Security Specialists. What time next week works best for you?"
+      }
+    ],
+    "notes": "Security interest leads to 'schedule security-focused session'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "The pricing seems high compared to our budget."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concerns. To help you better understand how our solution fits within your budget, I'd be happy to provide a customized pricing proposal tailored to your specific needs. Let's schedule a 15-minute pricing call next week to discuss this further."
+      }
+    ],
+    "notes": "High pricing concern leads to 'schedule pricing call'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering implementing microservices architecture in our system."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! Given your interest in microservices, it would be beneficial to explore how our platform can help streamline that transition. How about a 30-minute demo next Thursday?"
+      }
+    ],
+    "notes": "User is interested in a specific feature, leading to 'schedule demo'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're using multiple third-party APIs, and managing them has become a challenge."
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! To help address that challenge, I'd suggest setting up a call with our API Integration Expert to discuss how our API management solutions can simplify your workflow. How does Tuesday next week work for you?"
+      }
+    ],
+    "notes": "User is facing a common problem, leading to 'escalate to an expert'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a more scalable solution for our rapidly growing user base."
+      },
+      {
+        "role": "agent",
+        "content": "Scalability is crucial in today's fast-paced market. To demonstrate how our platform can handle your growth, I recommend a 45-minute demo next week, focusing on our scalability features. How does Wednesday at 2 PM work for you?"
+      }
+    ],
+    "notes": "User has a specific need, leading to 'schedule demo'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in your serverless offering."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To provide you with a comprehensive understanding of our serverless capabilities, I suggest arranging a call with our Serverless Solutions Architect. How does the following week work for you?"
+      }
+    ],
+    "notes": "User is interested in a specific product, leading to 'escalate to an expert'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a more cost-effective solution."
+      },
+      {
+        "role": "agent",
+        "content": "Cost-effectiveness is always a concern, especially for startups. To help you compare our solution with your current costs, I'd suggest a detailed TCO analysis. I can send you a TCO calculator tool and a case study on cost reduction for similar companies. I'll reach out in a week with the results."
+      }
+    ],
+    "notes": "User has a specific concern, leading to 'send nurturing content'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're already using a similar solution, but we're facing scalability issues."
+      },
+      {
+        "role": "agent",
+        "content": "Scalability is crucial for business growth. Let's schedule a demo to showcase how our platform handles large-scale operations. How does this coming Monday at 10 AM work for you?"
+      }
+    ],
+    "notes": "Scalability issue leads to 'schedule demo'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're not sure if our team is ready to adopt a new platform."
+      },
+      {
+        "role": "agent",
+        "content": "I completely understand the importance of a smooth transition. To help you prepare, I'll send you a whitepaper on best practices for successful platform adoption. Once you're ready, we can reconnect to discuss the next steps."
+      }
+    ],
+    "notes": "Uncertainty about team readiness leads to 'send whitepaper'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're concerned about the learning curve for your software."
+      },
+      {
+        "role": "agent",
+        "content": "A steep learning curve can be challenging. To help you ease into it, we can offer a free trial with dedicated onboarding support. This way, you can get a feel for the platform before making a decision."
+      }
+    ],
+    "notes": "Concern about learning curve leads to 'offer free trial with onboarding support'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a solution that can integrate with our existing infrastructure."
+      },
+      {
+        "role": "agent",
+        "content": "Integration is key to seamless operation. Let's schedule a consultation with our Solutions Architect to discuss the specifics of integrating our platform with your existing infrastructure. How does this Friday at 2 PM sound?"
+      }
+    ],
+    "notes": "Need for integration leads to 'schedule consultation'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're not sure about the long-term ROI of your solution."
+      },
+      {
+        "role": "agent",
+        "content": "ROI is an important factor to consider. To help you calculate the potential benefits, I'll send you a ROI calculator along with a case study on similar use cases. Once you've had a chance to review them, we can discuss the results."
+      }
+    ],
+    "notes": "Concern about long-term ROI leads to 'send ROI calculator and case study'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're impressed by the scalability and flexibility of your solution. I'd like to discuss it further with our team."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! I'd be happy to arrange a 90-minute demo session for your team next Thursday. This will give everyone a chance to ask questions and explore features in detail."
+      }
+    ],
+    "notes": "Positive interest leads to 'schedule demo'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We appreciate your product, but we're currently in the middle of a project and can't evaluate new solutions for a few months."
+      },
+      {
+        "role": "agent",
+        "content": "Understood, I can send you a series of case studies and success stories to help you understand the value our solution brings to similar organizations. We can reconnect in a few months when you're ready to explore further."
+      }
+    ],
+    "notes": "Temporarily unavailable leads to 'send nurturing content'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "The security features are very appealing, but we're concerned about the learning curve for our developers."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concern. I can arrange for a training session with our Developer Advocate to help your team get up to speed quickly. This session will cover best practices and common use cases."
+      }
+    ],
+    "notes": "Concern about learning curve leads to 'schedule training session'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Your solution seems to meet our needs, but we're still evaluating other options."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to provide you with a detailed comparison between our solution and other options on the market. This document will help you make an informed decision when you're ready."
+      }
+    ],
+    "notes": "Still evaluating leads to 'provide comparison document'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're not sure if your solution can integrate with our existing ecosystem."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to connect you with one of our Integration Specialists who can assess the feasibility of integrating with your existing ecosystem. They can help you understand the process and potential timeline."
+      }
+    ],
+    "notes": "Uncertain about integration leads to 'connect with Integration Specialist'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're currently in the middle of a project, but I'd like to explore how we can incorporate your solution in the next phase."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Let's set up a call next week to discuss the potential use cases and timeline for implementation. Would Tuesday or Thursday work best for you?"
+      }
+    ],
+    "notes": "User is interested but not ready to commit immediately, so 'schedule call to discuss potential use cases'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're happy with our current solution, but open to exploring alternatives in the future."
+      },
+      {
+        "role": "agent",
+        "content": "I appreciate your openness to consider us in the future. To help you make an informed decision, I'll send you some case studies and success stories from similar companies. Would you like me to start sending those now?"
+      }
+    ],
+    "notes": "User is not ready to commit immediately, so 'send case studies and success stories'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're very interested in your solution, but we need to discuss it with our team first."
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely, I understand the importance of involving all relevant parties. I'll send you some additional information and a demo link for your team to review. Once they've had a chance to digest the material, we can schedule a follow-up call to address any questions they might have."
+      }
+    ],
+    "notes": "User needs to discuss with their team, so 'send additional information and demo link' followed by 'schedule follow-up call'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a solution to help us scale our operations, but we're in the process of evaluating multiple options."
+      },
+      {
+        "role": "agent",
+        "content": "That's a wise approach. To help you make the best decision, I'd like to offer a free trial of our platform. This will give your team a chance to test our solution and see if it meets your needs. Would you like to proceed with the trial?"
+      }
+    ],
+    "notes": "User is evaluating multiple options, so 'offer a free trial'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're in the process of re-evaluating our tech stack and looking for a better fit for our API needs."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help you explore how our platform can meet your API needs. Let's schedule a call with one of our Solutions Architects to discuss your specific requirements and potential use cases. How does next Thursday at 10am work for you?"
+      }
+    ],
+    "notes": "User is re-evaluating their tech stack, so 'schedule call with Solutions Architect'."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in the scalability features, but we need to ensure it won't impact our current system's performance."
+      },
+      {
+        "role": "agent",
+        "content": "Great question! To help you assess the impact, I'd recommend a Proof of Concept (POC) trial. We can arrange a 30-day trial with your current environment to test the performance improvements. Shall we set it up for next week?"
+      }
+    ],
+    "notes": "User has performance concerns, proposing a POC trial."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our company is going through a restructuring phase, so we're putting all non-essential projects on hold."
+      },
+      {
+        "role": "agent",
+        "content": "I understand the current situation. In the meantime, let's keep in touch and explore potential opportunities when your company resumes regular operations. I'll reach out in 3 months to see if you're ready to discuss further."
+      }
+    ],
+    "notes": "Company is in restructuring phase, proposing to keep in touch."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're using a different tool for our API management, but we're open to discussing potential improvements and features."
+      },
+      {
+        "role": "agent",
+        "content": "That's great news! To better understand your needs, I'd like to schedule a demo that highlights our advanced features and how they can benefit your current API management. How does next week work for a 45-minute session?"
+      }
+    ],
+    "notes": "Using a different tool, proposing a demo."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're not sure about adopting a new software solution at the moment, but we'll keep it in mind for future considerations."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for your interest! To ensure we're top of mind when you're ready, I'll send you a quarterly newsletter showcasing our latest innovations and success stories. I'll reach out again in 3 months to check in."
+      }
+    ],
+    "notes": "Not ready to adopt a new solution, proposing to send a newsletter."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're impressed with the scalability of your solution, but we're still in the process of evaluating solutions and won't make a decision for a few months."
+      },
+      {
+        "role": "agent",
+        "content": "I appreciate your interest! To help you make an informed decision, I'll set you up to receive our monthly API trends newsletter, case studies, and whitepapers. This will provide you with the necessary insights to evaluate our solution further. I'll reach out again in 3 months to check in."
+      }
+    ],
+    "notes": "Still in the evaluation process, proposing to send newsletters, case studies, and whitepapers."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a more comprehensive solution, but our current focus is only on mobile applications."
+      },
+      {
+        "role": "agent",
+        "content": "That's great to hear! Our platform is API-first and cloud-native, making it highly adaptable across various channels. I'd like to send you a case study on how we've helped other mobile-focused companies scale their businesses. Once you've reviewed it, we can discuss how our solution can be tailored to your mobile application needs. Would that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, please send the case study."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic! I'll send that case study immediately. In the meantime, if you have any questions or need clarification, don't hesitate to reach out. I'll follow up with you in a week to discuss how we can customize our platform for your mobile application."
+      },
+      {
+        "role": "user",
+        "content": "Sounds good."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I'll send that case study right away and schedule a follow-up call for next week to discuss the potential customization of our platform for your mobile application."
+      }
+    ],
+    "notes": "Multi-turn flow: initial objection (focus on mobile applications), the agent repositions the platform's adaptability, sends a case study, and schedules a follow-up call to discuss customization."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're already using a different solution, but we're open to exploring new options."
+      },
+      {
+        "role": "agent",
+        "content": "I understand. I'd like to schedule a demo to showcase the unique features and benefits of our platform that could help you achieve better results than your current solution. Would you be available next Tuesday at 2 PM EST?"
+      },
+      {
+        "role": "user",
+        "content": "I'm afraid I can't make that time. How about next Thursday at 11 AM EST?"
+      },
+      {
+        "role": "agent",
+        "content": "Thursday at 11 AM EST works perfectly for me. I'll send you a calendar invite with the demo details. In the meantime, if you have any specific questions or areas of our platform you'd like to focus on during the demo, please let me know."
+      },
+      {
+        "role": "user",
+        "content": "I'll check our schedule and get back to you."
+      },
+      {
+        "role": "agent",
+        "content": "Sounds good! I look forward to hearing from you soon."
+      }
+    ],
+    "notes": "Multi-turn flow: initial objection (already using a different solution), the agent proposes a demo, schedules it, and asks the user to specify any areas of focus during the demo."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a B2B company, and we're looking for a solution that can handle complex integrations."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our platform is API-first and cloud-native, allowing for seamless integrations with various third-party tools. I'd like to send you a case study on how we've helped other B2B companies streamline their operations through our platform. Once you've reviewed it, we can discuss the specific integrations your company requires. Would that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, please send the case study."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic! I'll send that case study immediately. In the meantime, if you have any questions or need clarification, don't hesitate to reach out. I'll follow up with you in a week to discuss the specific integrations your company requires."
+      },
+      {
+        "role": "user",
+        "content": "Sounds good."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I'll send that case study right away and schedule a follow-up call for next week to discuss the potential integrations for your B2B company."
+      }
+    ],
+    "notes": "Multi-turn flow: initial objection (B2B company looking for complex integrations), the agent repositions the platform's API-first and cloud-native capabilities, sends a case study, and schedules a follow-up call to discuss specific integrations."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a larger company, and we're concerned about the scalability of the solution."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concerns. Our platform is designed to handle scale efficiently, with built-in redundancy and auto-scaling capabilities. I'd like to send you a case study on how we've helped other large companies scale their businesses using our platform. Once you've reviewed it, we can discuss the specific scaling requirements for your company. Would that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, please send the case study."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic! I'll send that case study immediately. In the meantime, if you have any questions or need clarification, don't hesitate to reach out. I'll follow up with you in a week to discuss the potential scaling solutions for your company."
+      },
+      {
+        "role": "user",
+        "content": "Sounds good."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I'll send that case study right away and schedule a follow-up call for next week to discuss the potential scaling solutions for your larger company."
+      }
+    ],
+    "notes": "Multi-turn flow: initial objection (concerns about scalability for a larger company), the agent positions the platform's scalability capabilities, sends a case study, and schedules a follow-up call to discuss specific scaling solutions."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a startup in the e-commerce space, and we're looking for a solution that can help us streamline our operations."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our platform is API-first and cloud-native, making it highly adaptable to various industries, including e-commerce. I'd like to send you a case study on how we've helped other e-commerce companies streamline their operations using our platform. Once you've reviewed it, we can discuss how our solution can be tailored to your specific e-commerce needs. Would that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, please send the case study."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic! I'll send that case study immediately. In the meantime, if you have any questions or need clarification, don't hesitate to reach out. I'll follow up with you in a week to discuss how we can customize our platform for your e-commerce company."
+      },
+      {
+        "role": "user",
+        "content": "Sounds good."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I'll send that case study right away and schedule a follow-up call for next week to discuss the potential customization of our platform for your e-commerce company."
+      }
+    ],
+    "notes": "Multi-turn flow: initial objection (e-commerce startup looking for a solution to streamline operations), the agent repositions the platform's adaptability, sends a case study, and schedules a follow-up call to discuss customization."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized company, and we're looking for a scalable solution for our growing data needs."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Enterprise tier is designed for companies like yours, offering unlimited data processing and API integrations. Can you tell me more about the specific challenges you're facing with your current data management?"
+      },
+      {
+        "role": "user",
+        "content": "We have issues with data synchronization and lack of real-time insights."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our Enterprise tier includes real-time data synchronization and advanced analytics capabilities. Let's schedule a demo to walk you through how it can address your data challenges. Does that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "We need to evaluate the solution first before scheduling a demo."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. In that case, I'll arrange for a trial account to be set up for your team. This will allow you to test the product and see the benefits for your data management. Once you're ready to proceed, we can schedule the demo."
+      }
+    ],
+    "notes": "Multi-turn flow: user qualifies themselves as a mid-sized company with specific data challenges, which leads to the agent proposing a demo (unsuccessful), then the agent determines the followup stage is 'set up trial account and re-engage for demo.'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large enterprise, and we need a customized solution."
+      },
+      {
+        "role": "agent",
+        "content": "I understand. Our Custom Solutions team specializes in tailoring our platform to meet the unique needs of large enterprises. Can you tell me more about the specific requirements for your custom solution?"
+      },
+      {
+        "role": "user",
+        "content": "We need to integrate our existing systems and implement specific workflows."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our Custom Solutions team can certainly help with that. Let's schedule a call with one of our solution architects to discuss your requirements and explore how we can create a customized solution that meets your needs. Does that sound like a good next step?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to discuss it with our team first."
+      },
+      {
+        "role": "agent",
+        "content": "Of course. I'll send you an email with some case studies and success stories from similar large enterprise implementations. Once your team has reviewed the information, we can schedule that call with the solution architect."
+      }
+    ],
+    "notes": "Multi-turn flow: user qualifies themselves as a large enterprise with specific integration and workflow requirements, which leads to the agent proposing a call with a solution architect (unsuccessful), then the agent determines the followup stage is 'send case studies and re-engage for call.'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a non-profit organization, and we're looking for a cost-effective solution."
+      },
+      {
+        "role": "agent",
+        "content": "We offer discounts for non-profit organizations. Our Basic tier is a great starting point, offering essential features at a reduced cost. Can you tell me more about your organization and its specific needs?"
+      },
+      {
+        "role": "user",
+        "content": "We work with volunteers and need to manage our data efficiently."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our Basic tier includes data management tools that can help you manage your volunteer data efficiently. Let's schedule a demo to walk you through how it can address your needs. Does that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to discuss it with our team first."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. I'll send you an email with some success stories from similar non-profit organizations that have used our platform. Once your team has reviewed the information, we can schedule the demo."
+      }
+    ],
+    "notes": "Multi-turn flow: user qualifies themselves as a non-profit organization with specific data management needs, which leads to the agent proposing a demo (unsuccessful), then the agent determines the followup stage is 'send success stories and re-engage for demo.'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small startup, and we're looking for a basic solution."
+      },
+      {
+        "role": "agent",
+        "content": "Our entry-level Pro tier is perfect for startups like yours, offering essential features at an affordable price. Can you tell me more about your startup and its specific needs?"
+      },
+      {
+        "role": "user",
+        "content": "We need a simple CRM solution to manage our customer relationships."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our Pro tier includes a basic CRM system that can help you manage your customer relationships. Let's schedule a demo to walk you through how it can address your needs. Does that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to discuss it with our team first."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. I'll send you an email with some case studies and success stories from similar startups that have used our platform. Once your team has reviewed the information, we can schedule the demo."
+      }
+    ],
+    "notes": "Multi-turn flow: user qualifies themselves as a small startup with specific CRM needs, which leads to the agent proposing a demo (unsuccessful), then the agent determines the followup stage is 'send case studies and re-engage for demo.'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small business, and we're looking for a comprehensive solution."
+      },
+      {
+        "role": "agent",
+        "content": "Our Business tier is designed for small businesses like yours, offering a wide range of features to help manage your business effectively. Can you tell me more about your business and its specific needs?"
+      },
+      {
+        "role": "user",
+        "content": "We need help with project management, accounting, and inventory management."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our Business tier includes tools for project management, accounting, and inventory management. Let's schedule a demo to walk you through how it can address your needs. Does that work for you?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to discuss it with our team first."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. I'll send you an email with some case studies and success stories from similar businesses that have used our platform. Once your team has reviewed the information, we can schedule the demo."
+      }
+    ],
+    "notes": "Multi-turn flow: user qualifies themselves as a small business with specific project management, accounting, and inventory management needs, which leads to the agent proposing a demo (unsuccessful), then the agent determines the followup stage is 'send case studies and re-engage for demo.'"
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in your product, but we're currently working on a project that's due in 3 months."
+      },
+      {
+        "role": "agent",
+        "content": "That's understandable. I'd like to offer you a demo to help you get a feel for our platform. After that, we can discuss a trial period that aligns with your project timeline."
+      },
+      {
+        "role": "user",
+        "content": "We'd prefer not to commit to a demo or trial just yet."
+      },
+      {
+        "role": "agent",
+        "content": "Fair enough. To keep you updated, I'll send you a quarterly newsletter showcasing new features and customer success stories. Let's reconnect when your project is ready to start."
+      },
+      {
+        "role": "user",
+        "content": "Sounds good."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I'll add you to our newsletter list and send you a welcome email. I'll also schedule a follow-up call in three months to discuss your project needs."
+      }
+    ],
+    "notes": "Multi-turn flow: user expresses timing objection, agent offers flexible demo/trial and newsletter updates, user agrees, agent proposes a future follow-up call."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're concerned about the learning curve for your software."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concerns. We offer comprehensive onboarding services, including personalized training sessions and 24/7 customer support to ensure a smooth transition."
+      },
+      {
+        "role": "user",
+        "content": "That sounds promising. Can we schedule a demo to see the platform in action?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! I'll arrange a demo for next week. In the meantime, I'll send you some case studies and testimonials to show the benefits our platform has delivered to similar businesses."
+      },
+      {
+        "role": "user",
+        "content": "Thank you. We're looking forward to the demo."
+      },
+      {
+        "role": "agent",
+        "content": "I'm glad to hear that! I'll also send you a follow-up email after the demo to discuss any questions you might have and next steps."
+      }
+    ],
+    "notes": "Multi-turn flow: user expresses concerns about learning curve, agent offers onboarding services and demo, user agrees to a demo, agent proposes follow-up email after demo."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in your product, but we're evaluating a few solutions."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to schedule a call to discuss how our product can meet your specific needs."
+      },
+      {
+        "role": "user",
+        "content": "That sounds good. Can you provide some information on pricing and features?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! I'll send you a detailed pricing and features guide. After you've had a chance to review it, we can schedule that call to discuss your needs in more detail."
+      },
+      {
+        "role": "user",
+        "content": "Thank you. I'll review the guide and look forward to scheduling the call."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I'll send the guide right away. I'll also follow up next week to schedule the call and answer any questions you might have."
+      }
+    ],
+    "notes": "Multi-turn flow: user expresses interest but is evaluating solutions, agent offers a call to discuss needs, user asks for pricing/features information, agent sends a guide and proposes a follow-up call."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in your product, but we're not sure if it's a good fit for our specific use case."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to schedule a call to discuss your specific use case and how our product can help you achieve your goals."
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. Can you share some examples of similar use cases where your product has been successful?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! I'll send you some case studies and testimonials that show how our product has helped businesses in similar situations. After you've had a chance to review them, we can schedule that call to discuss your specific use case in more detail."
+      },
+      {
+        "role": "user",
+        "content": "Thank you. We'll review the case studies and get back to you."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I'll send the case studies right away. I'll also follow up next week to schedule the call and answer any questions you might have."
+      }
+    ],
+    "notes": "Multi-turn flow: user is unsure about fit, agent offers a call to discuss specific use case, user asks for examples, agent sends case studies and proposes a follow-up call."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a bit overwhelmed with the amount of features your product offers."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concern. We can tailor a custom solution to address your specific needs. I'd be happy to schedule a call to discuss this further."
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a good idea. Can you tell me more about the customization process?"
+      },
+      {
+        "role": "agent",
+        "content": "Of course! I'll send you a detailed breakdown of our customization process. After you've had a chance to review it, we can schedule that call to discuss your specific needs and how our product can be tailored to meet them."
+      },
+      {
+        "role": "user",
+        "content": "Thank you. We'll review the breakdown and look forward to the call."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I'll send the breakdown right away. I'll also follow up next week to schedule the call and answer any questions you might have."
+      }
+    ],
+    "notes": "Multi-turn flow: user is overwhelmed by features, agent offers a custom solution and a call to discuss, user asks for more information, agent sends a detailed breakdown and proposes a follow-up call."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a mid-sized company with around 200 employees, and we're looking for a comprehensive solution to manage our data."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! Our Business tier is ideal for companies of your size. It includes advanced data analytics and integration features. Can you tell me more about your specific needs and how our solution can address them?"
+      },
+      {
+        "role": "user",
+        "content": "We primarily need real-time data analysis and integration with our existing CRM."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Business tier offers real-time data analysis and seamless CRM integration. To help you further, I'd like to arrange a demo and connect you with one of our solutions architects. How does tomorrow at 2 PM EST work for you?"
+      },
+      {
+        "role": "user",
+        "content": "That works perfectly. Let's go ahead with the demo and I look forward to speaking with the solutions architect."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I'll schedule the demo and the meeting with the solutions architect. I'll also send you a case study demonstrating how similar companies have benefited from our solution. Looking forward to discussing further."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification, addressing specific needs, proposing a demo and connecting with a solutions architect, offering additional case studies, and scheduling follow-up."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a startup focusing on mobile app development. We're looking for a solution that can help us manage our APIs and scale as we grow."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Developer tier is tailored to startups like yours. It includes API management, monitoring, and scaling features. Can you tell me more about your current API management setup and any specific challenges you're facing?"
+      },
+      {
+        "role": "user",
+        "content": "We're currently using a homegrown solution, but we're struggling with monitoring and scaling as our user base grows."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Our Developer tier offers robust API monitoring and scaling capabilities. I'd like to arrange a demo to showcase these features and discuss your specific use case. How does this Friday at 10 AM EST work for you?"
+      },
+      {
+        "role": "user",
+        "content": "That works perfectly. Let's go ahead with the demo."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I'll schedule the demo and send you a link to join. I'll also send you a success story demonstrating how similar startups have benefited from our solution. Looking forward to discussing further."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification, addressing specific needs (API management, monitoring, and scaling), proposing a demo, offering additional success stories, and scheduling follow-up."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a large enterprise looking for a solution to manage our complex data and integrations."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Enterprise tier is designed for large enterprises like yours. It includes advanced data management, integration, and security features. Can you tell me more about your current data management setup and any specific challenges you're facing?"
+      },
+      {
+        "role": "user",
+        "content": "We're currently using a legacy solution, but we're struggling with data security and integration with new systems."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Our Enterprise tier offers advanced data security and seamless integration capabilities. I'd like to arrange a demo to showcase these features and discuss your specific use case. How does next Tuesday at 2 PM EST work for you?"
+      },
+      {
+        "role": "user",
+        "content": "That works perfectly. Let's go ahead with the demo."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I'll schedule the demo and send you a link to join. I'll also send you a case study demonstrating how similar enterprises have benefited from our solution. Looking forward to discussing further."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification, addressing specific needs (data management, integration, and security), proposing a demo, offering additional case studies, and scheduling follow-up."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a small e-commerce business looking for a solution to manage our inventory and orders."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Starter tier is perfect for small businesses like yours. It includes inventory management, order processing, and shipping features. Can you tell me more about your current inventory management setup and any specific challenges you're facing?"
+      },
+      {
+        "role": "user",
+        "content": "We're currently using a manual system, but we're struggling with order processing and inventory tracking."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Our Starter tier offers efficient inventory management, streamlined order processing, and accurate inventory tracking. I'd like to arrange a demo to showcase these features and discuss your specific use case. How does next Thursday at 11 AM EST work for you?"
+      },
+      {
+        "role": "user",
+        "content": "That works perfectly. Let's go ahead with the demo."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I'll schedule the demo and send you a link to join. I'll also send you a success story demonstrating how similar businesses have benefited from our solution. Looking forward to discussing further."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification, addressing specific needs (inventory management, order processing, and shipping), proposing a demo, offering additional success stories, and scheduling follow-up."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a medium-sized agency looking for a solution to manage our projects and clients."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Agency tier is designed for agencies like yours. It includes project management, client management, and team collaboration features. Can you tell me more about your current project management setup and any specific challenges you're facing?"
+      },
+      {
+        "role": "user",
+        "content": "We're currently using multiple tools, but we're struggling with project coordination and client communication."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Our Agency tier offers integrated project and client management, streamlined communication, and efficient team collaboration. I'd like to arrange a demo to showcase these features and discuss your specific use case. How does this Wednesday at 3 PM EST work for you?"
+      },
+      {
+        "role": "user",
+        "content": "That works perfectly. Let's go ahead with the demo."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I'll schedule the demo and send you a link to join. I'll also send you a case study demonstrating how similar agencies have benefited from our solution. Looking forward to discussing further."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification, addressing specific needs (project management, client management, and team collaboration), proposing a demo, offering additional case studies, and scheduling follow-up."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized startup with 50 employees and we're looking for a comprehensive solution."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Business tier fits perfectly for companies with 50-200 employees, offering advanced features at $1500 per month. Have you had a chance to review our documentation and demo?"
+      },
+      {
+        "role": "user",
+        "content": "We've reviewed the demo, but the cost seems high for our current budget."
+      },
+      {
+        "role": "agent",
+        "content": "I understand the concern. Given your specific needs and the current budget, I recommend we schedule a meeting with our solutions architect to discuss potential cost savings and tailored pricing options. They can provide a detailed analysis and help optimize your solution based on your requirements."
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a great idea. When can we schedule that meeting?"
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! I've scheduled the meeting for next Tuesday at 10 AM. I'll send you the calendar invite and a preparation guide beforehand. Looking forward to our discussion!"
+      }
+    ],
+    "notes": "Multi-turn flow: user has a budget concern, so the agent offers a meeting with a solutions architect to discuss tailored pricing options."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large enterprise with over 1000 employees, and we need a robust solution."
+      },
+      {
+        "role": "agent",
+        "content": "Our Enterprise tier is designed for companies with 1000+ employees, offering tailored support, SLAs, and dedicated account management for $5000 per month. Would you be interested in scheduling a demo?"
+      },
+      {
+        "role": "user",
+        "content": "We've already scheduled a demo with another vendor, but we're still open to other solutions."
+      },
+      {
+        "role": "agent",
+        "content": "I see. To help us better understand your requirements, could you share more about your current pain points and why you're considering a change?"
+      },
+      {
+        "role": "user",
+        "content": "Our current solution lacks scalability and has poor customer support. We're looking for a platform that can grow with us and provide exceptional support."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for the information. Based on your needs, I recommend we schedule a follow-up call with our solutions architect to discuss how our Enterprise tier can address your scalability and support concerns. They can also provide a detailed analysis and demo tailored to your specific use case."
+      }
+    ],
+    "notes": "Multi-turn flow: user has a scheduled demo with another vendor, so the agent focuses on understanding their requirements to offer a tailored follow-up with a solutions architect."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a startup that only requires basic functionality."
+      },
+      {
+        "role": "agent",
+        "content": "Our Starter tier offers a basic set of features at $200 per month. Have you had a chance to review the documentation and demo?"
+      },
+      {
+        "role": "user",
+        "content": "We've reviewed the demo, but we're looking for more customization options."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your need for customization. Our Professional tier offers more flexibility, including API access and custom integrations, starting at $500 per month. Would you be interested in scheduling a meeting with our solutions architect to discuss the Professional tier and its customization options?"
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a great option. Let's schedule the meeting for next week."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I've scheduled the meeting for next Wednesday at 2 PM. I'll send you the calendar invite and a preparation guide beforehand. Looking forward to our discussion!"
+      }
+    ],
+    "notes": "Multi-turn flow: user requires more customization options, so the agent offers the Professional tier with API access and custom integrations."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small startup, and we're unsure about making a long-term commitment."
+      },
+      {
+        "role": "agent",
+        "content": "Our Flexible tier offers month-to-month contracts with no long-term commitment, starting at $250 per month. Have you had a chance to review the documentation and demo?"
+      },
+      {
+        "role": "user",
+        "content": "We've reviewed the demo, but we're still concerned about the cost."
+      },
+      {
+        "role": "agent",
+        "content": "I understand the concern. Given your specific needs and the current budget, I recommend we schedule a meeting with our solutions architect to discuss potential cost savings and tailored pricing options. They can provide a detailed analysis and help optimize your solution based on your requirements."
+      },
+      {
+        "role": "user",
+        "content": "That sounds like a great idea. When can we schedule that meeting?"
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! I've scheduled the meeting for next Thursday at 11 AM. I'll send you the calendar invite and a preparation guide beforehand. Looking forward to our discussion!"
+      }
+    ],
+    "notes": "Multi-turn flow: user is unsure about making a long-term commitment, so the agent offers the Flexible tier with month-to-month contracts and schedules a meeting with a solutions architect to discuss tailored pricing options."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large enterprise with multiple departments, and we need a solution that can handle our complex needs."
+      },
+      {
+        "role": "agent",
+        "content": "Our Enterprise tier offers tailored support, SLAs, and dedicated account management for $5000 per month. Would you be interested in scheduling a demo?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to discuss our needs further before scheduling a demo."
+      },
+      {
+        "role": "agent",
+        "content": "I understand. To help us better understand your requirements, could you share more about your departments and their specific needs?"
+      },
+      {
+        "role": "user",
+        "content": "Our departments include marketing, sales, and customer service. Each department requires unique features and tools."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for the information. Based on your needs, I recommend we schedule a follow-up call with our solutions architect to discuss how our Enterprise tier can address the unique needs of your marketing, sales, and customer service departments. They can also provide a detailed analysis and demo tailored to your specific use case."
+      }
+    ],
+    "notes": "Multi-turn flow: user has multiple departments with unique needs, so the agent offers a follow-up call with a solutions architect to discuss the Enterprise tier's tailored support."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized company looking for a comprehensive solution."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Standard tier offers a wide range of features tailored for mid-sized businesses. It starts at $1500 per month. Would that work for your budget, or would you prefer a more detailed breakdown of the pricing?"
+      },
+      {
+        "role": "user",
+        "content": "I'd like to see a more detailed breakdown."
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely. I'll send you a pricing comparison chart and a case study showcasing how similar companies have optimized their workflows using our software. I'll follow up with you next week to discuss further and answer any questions you might have."
+      },
+      {
+        "role": "user",
+        "content": "That sounds good. I'd appreciate the additional information."
+      },
+      {
+        "role": "agent",
+        "content": "I'll send you the comparison chart and case study immediately. I'll also schedule a call with our sales team next week to discuss your specific needs and answer any questions you might have."
+      }
+    ],
+    "notes": "Multi-turn flow: initial interest leads to pricing discussion, followed by sending detailed information and scheduling a call with sales team."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large enterprise, and we need a highly customizable solution."
+      },
+      {
+        "role": "agent",
+        "content": "I understand. Our Enterprise tier offers custom solutions and dedicated support for large enterprises. Our pricing varies based on the specific requirements of each business. Could you please provide some details about your current workflow, and I'll be able to give you a more accurate quote."
+      },
+      {
+        "role": "user",
+        "content": "We need to automate our customer service and sales processes, integrate with our CRM, and provide scalable analytics."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Based on your requirements, I'd recommend scheduling a meeting with our Enterprise Solutions team. They'll be able to walk you through the customization process and provide you with an accurate quote. How does next Monday at 10 am EST work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Next Monday at 10 am EST works perfectly."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I've scheduled the meeting with our Enterprise Solutions team. I'll send you a calendar invite and some additional information about our Enterprise tier in the meantime."
+      }
+    ],
+    "notes": "Multi-turn flow: enterprise requirements lead to scheduling a meeting with the Enterprise Solutions team."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a non-profit organization and have a limited budget."
+      },
+      {
+        "role": "agent",
+        "content": "I'm glad to help. We offer a non-profit discount for eligible organizations. Our Basic tier starts at $250 per month, which includes essential features for streamlining your workflow. Would that work for your budget, or would you prefer to see a more detailed breakdown of the pricing?"
+      },
+      {
+        "role": "user",
+        "content": "Let's see a more detailed breakdown."
+      },
+      {
+        "role": "agent",
+        "content": "Certainly. I'll send you a pricing comparison chart and a case study showcasing how similar organizations have optimized their workflows using our software. I'll follow up with you next week to discuss further and answer any questions you might have."
+      },
+      {
+        "role": "user",
+        "content": "I'd appreciate the additional information."
+      },
+      {
+        "role": "agent",
+        "content": "I'll send you the comparison chart and case study immediately. I'll also schedule a call with our sales team next week to discuss your specific needs and answer any questions you might have."
+      }
+    ],
+    "notes": "Multi-turn flow: non-profit budget leads to sending detailed information and scheduling a call with sales team."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small startup, and we are looking for a simple solution."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! Our Starter tier offers a simple yet powerful solution for small businesses. It starts at $50 per month and includes essential features like API access, real-time analytics, and 24/7 support. Would that work for your budget, or would you prefer a more detailed breakdown of the pricing?"
+      },
+      {
+        "role": "user",
+        "content": "I'd like to see a more detailed breakdown."
+      },
+      {
+        "role": "agent",
+        "content": "Of course. I'll send you a pricing comparison chart and a case study showcasing how similar businesses have optimized their workflows using our software. I'll follow up with you next week to discuss further and answer any questions you might have."
+      },
+      {
+        "role": "user",
+        "content": "I'd appreciate the additional information."
+      },
+      {
+        "role": "agent",
+        "content": "I'll send you the comparison chart and case study immediately. I'll also schedule a call with our sales team next week to discuss your specific needs and answer any questions you might have."
+      }
+    ],
+    "notes": "Multi-turn flow: small startup budget leads to sending detailed information and scheduling a call with sales team."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large enterprise with specific integration requirements."
+      },
+      {
+        "role": "agent",
+        "content": "I understand. Our Enterprise tier offers custom solutions and dedicated support for large enterprises. Our pricing varies based on the specific requirements of each business. Could you please provide some details about your current workflow, and I'll be able to give you a more accurate quote."
+      },
+      {
+        "role": "user",
+        "content": "We need to integrate with our CRM, ERP, and have a custom dashboard for our executive team."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Based on your requirements, I'd recommend scheduling a meeting with our Enterprise Solutions team. They'll be able to walk you through the customization process and provide you with an accurate quote. How does next Wednesday at 2 pm EST work for you?"
+      },
+      {
+        "role": "user",
+        "content": "Next Wednesday at 2 pm EST works perfectly."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I've scheduled the meeting with our Enterprise Solutions team. I'll send you a calendar invite and some additional information about our Enterprise tier in the meantime."
+      }
+    ],
+    "notes": "Multi-turn flow: enterprise integration requirements lead to scheduling a meeting with the Enterprise Solutions team."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized company and looking for a scalable solution."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Business tier is designed for companies like yours. It includes features such as multi-tenant architecture, real-time data synchronization, and dedicated support. Would you like to schedule a demo to see how it can benefit your business?"
+      },
+      {
+        "role": "user",
+        "content": "We are considering multiple solutions and would like to compare the pricing and features of your Business tier with those of our current provider."
+      },
+      {
+        "role": "agent",
+        "content": "Of course! I can provide you with a detailed feature comparison and pricing analysis between our Business tier and your current provider. This will help you understand the value we offer and how it can help your business scale effectively."
+      },
+      {
+        "role": "user",
+        "content": "That sounds helpful. Can we schedule a call for next week to discuss this further?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! I've scheduled a call for next Tuesday at 3 PM. I'll send you a calendar invitation shortly. In the meantime, I'll prepare the feature comparison and pricing analysis for our Business tier."
+      }
+    ],
+    "notes": "Multi-turn flow: initial interest leads to feature comparison and pricing analysis proposal, resulting in scheduling a call."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a non-profit organization and have limited budget for software."
+      },
+      {
+        "role": "agent",
+        "content": "We have a tier designed specifically for non-profit organizations. It offers significant discounts and includes all essential features. Would you like to learn more about this tier?"
+      },
+      {
+        "role": "user",
+        "content": "Our primary need is for a robust API for data management."
+      },
+      {
+        "role": "agent",
+        "content": "Our API-first platform is highly robust and scalable, perfect for data management. While our non-profit tier offers discounts, the API usage fees are based on the volume of requests. Is managing your data volume within the usage limits feasible for your non-profit?"
+      },
+      {
+        "role": "user",
+        "content": "We expect a high volume of data, which might exceed the usage limits."
+      },
+      {
+        "role": "agent",
+        "content": "In that case, I would recommend our Enterprise tier, which offers unlimited API usage along with additional features tailored for high-volume data management. I can provide you with a detailed breakdown of the Enterprise tier's offerings and pricing."
+      }
+    ],
+    "notes": "Multi-turn flow: initial objection (limited budget) leads to repositioning (non-profit tier), but the user's primary need (high data volume) requires an upgrade to the Enterprise tier."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a startup with a unique business model."
+      },
+      {
+        "role": "agent",
+        "content": "That's great! Our Startup tier is designed to cater to unique business models. It offers flexible pricing and features that can grow with your business. Would you like to schedule a demo to see how it can help your unique business model?"
+      },
+      {
+        "role": "user",
+        "content": "We have a complex workflow that requires customization."
+      },
+      {
+        "role": "agent",
+        "content": "Our API-first platform allows for extensive customization, making it ideal for complex workflows. In addition, the Startup tier offers a dedicated account manager to guide you through the customization process. Would you like to discuss your specific workflow requirements with our account manager?"
+      },
+      {
+        "role": "user",
+        "content": "We would appreciate a more detailed breakdown of the customization capabilities and the process involved."
+      },
+      {
+        "role": "agent",
+        "content": "Of course! I can schedule a call with our account manager to discuss your specific workflow requirements in detail and provide you with a comprehensive overview of the customization capabilities."
+      }
+    ],
+    "notes": "Multi-turn flow: initial interest leads to discussing customization capabilities, resulting in scheduling a call with an account manager."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are an e-commerce company and need a solution for inventory management."
+      },
+      {
+        "role": "agent",
+        "content": "Our platform includes robust inventory management features, such as real-time stock updates, automatic reordering, and multi-channel synchronization. Would you like to schedule a demo to see how it can help manage your inventory?"
+      },
+      {
+        "role": "user",
+        "content": "We already have a solution in place for inventory management."
+      },
+      {
+        "role": "agent",
+        "content": "In that case, our platform can still offer you benefits like real-time data synchronization across all channels, providing a unified view of your inventory. Additionally, our platform supports seamless integration with popular e-commerce platforms like Shopify, Magento, and WooCommerce. Would you be interested in exploring these additional features?"
+      },
+      {
+        "role": "user",
+        "content": "We would be interested in learning more about the seamless integration capabilities."
+      },
+      {
+        "role": "agent",
+        "content": "I can provide you with a detailed overview of the seamless integration capabilities and how our platform can help streamline your e-commerce operations. I'll also send you a case study of a similar e-commerce company that has seen significant improvements after integrating with our platform."
+      }
+    ],
+    "notes": "Multi-turn flow: initial objection (already have a solution) leads to repositioning (additional features), resulting in sending a case study and detailed overview of seamless integration capabilities."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a healthcare company and need a solution for secure data management."
+      },
+      {
+        "role": "agent",
+        "content": "Our platform is HIPAA and GDPR compliant, ensuring secure data management for healthcare companies. Would you like to schedule a demo to see how it can help manage your sensitive data securely?"
+      },
+      {
+        "role": "user",
+        "content": "We have strict data privacy requirements beyond HIPAA and GDPR."
+      },
+      {
+        "role": "agent",
+        "content": "We understand the importance of data privacy. Our platform offers customizable data privacy settings that can accommodate your specific requirements. We would be happy to discuss these settings in more detail to ensure they meet your needs. Would you like to schedule a call to discuss your data privacy requirements?"
+      },
+      {
+        "role": "user",
+        "content": "We would appreciate a more detailed discussion on the customizable data privacy settings."
+      },
+      {
+        "role": "agent",
+        "content": "I can schedule a call with our data privacy specialist to discuss your specific data privacy requirements in detail and provide you with a comprehensive overview of the customizable data privacy settings."
+      }
+    ],
+    "notes": "Multi-turn flow: initial interest leads to discussing customizable data privacy settings, resulting in scheduling a call with a data privacy specialist."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large-scale enterprise, but we don't have a dedicated IT team to manage the software."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our platform offers a managed service option, where our team handles the day-to-day operations for you. Would that be something of interest, or do you prefer an in-house solution?"
+      },
+      {
+        "role": "user",
+        "content": "Managed service is definitely a consideration, but let me discuss it with our team first."
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely, I'd be happy to schedule a call with our managed services team to discuss the details and address any concerns your team might have. In the meantime, I'll send you a case study on similar companies using our managed service option. How does that sound?"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. Please send the case study, and let's schedule a call with your team next week."
+      },
+      {
+        "role": "agent",
+        "content": "I'll send the case study immediately, and I'll reach out to schedule a call with our team next week. I'll also follow up with a product demo and pricing details at that time."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification (enterprise size), objection handling (no dedicated IT team), repositioning (offering managed service), proposal (send case study and schedule call with managed services team, follow up with product demo and pricing details)."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a startup in the healthcare industry, but we don't have a clear understanding of how your software can help us."
+      },
+      {
+        "role": "agent",
+        "content": "I understand. Our software is designed to streamline API integration and data management for various industries, including healthcare. Let me share some success stories and use cases from similar healthcare companies to demonstrate its benefits."
+      },
+      {
+        "role": "user",
+        "content": "Please share those success stories and use cases."
+      },
+      {
+        "role": "agent",
+        "content": "I've sent you a case study highlighting how our software helped improve patient care and streamline operations for other healthcare companies. I'd be happy to discuss these specific examples in more detail during a demo if that would be helpful."
+      },
+      {
+        "role": "user",
+        "content": "Yes, I'd appreciate a demo to understand the details better."
+      },
+      {
+        "role": "agent",
+        "content": "I'll schedule a demo for next week. In the meantime, I'll also send you a product guide to help you better understand our features and capabilities."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification (healthcare startup), objection handling (lack of understanding of software benefits), repositioning (sharing success stories and use cases), proposal (schedule a demo and send product guide)."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small non-profit organization, and our budget is quite limited."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your budget concerns. Our software can help optimize your operations and increase productivity, which may help generate additional funds in the long run. Let me share some success stories from similar organizations that have seen significant benefits."
+      },
+      {
+        "role": "user",
+        "content": "Please share those success stories."
+      },
+      {
+        "role": "agent",
+        "content": "I've sent you a case study highlighting how our software helped other non-profit organizations increase efficiency and generate more revenue. I'd be happy to discuss these specific examples in more detail during a demo if that would be helpful."
+      },
+      {
+        "role": "user",
+        "content": "Yes, I'd appreciate a demo to understand the details better."
+      },
+      {
+        "role": "agent",
+        "content": "I'll schedule a demo for next week. In the meantime, I'll also send you a product guide to help you better understand our features and capabilities."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification (small non-profit), objection handling (limited budget), repositioning (potential for long-term benefits), proposal (schedule a demo and send product guide)."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small e-commerce company, but we're not sure if we need a cloud-native solution like yours."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Our software is designed to handle high traffic and large amounts of data, ensuring your e-commerce platform remains fast and reliable, even during peak shopping periods. Let me share some success stories and use cases from similar e-commerce companies to demonstrate its benefits."
+      },
+      {
+        "role": "user",
+        "content": "Please share those success stories."
+      },
+      {
+        "role": "agent",
+        "content": "I've sent you a case study highlighting how our software helped other e-commerce companies maintain fast and reliable service during high-traffic periods. I'd be happy to discuss these specific examples in more detail during a demo if that would be helpful."
+      },
+      {
+        "role": "user",
+        "content": "Yes, I'd appreciate a demo to understand the details better."
+      },
+      {
+        "role": "agent",
+        "content": "I'll schedule a demo for next week. In the meantime, I'll also send you a product guide to help you better understand our features and capabilities."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification (small e-commerce company), objection handling (unsure if they need a cloud-native solution), repositioning (offering benefits for handling high traffic and data), proposal (schedule a demo and send product guide)."
+  },
+  {
+    "intent": "select_followup_stage",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large educational institution, but we're not sure if we need a cloud-based solution like yours."
+      },
+      {
+        "role": "agent",
+        "content": "I understand. Our software is designed to handle large amounts of data and streamline API integration for various educational applications, ensuring your institution remains efficient and effective. Let me share some success stories and use cases from similar educational institutions to demonstrate its benefits."
+      },
+      {
+        "role": "user",
+        "content": "Please share those success stories."
+      },
+      {
+        "role": "agent",
+        "content": "I've sent you a case study highlighting how our software helped other educational institutions streamline their operations and enhance student experiences. I'd be happy to discuss these specific examples in more detail during a demo if that would be helpful."
+      },
+      {
+        "role": "user",
+        "content": "Yes, I'd appreciate a demo to understand the details better."
+      },
+      {
+        "role": "agent",
+        "content": "I'll schedule a demo for next week. In the meantime, I'll also send you a product guide to help you better understand our features and capabilities."
+      }
+    ],
+    "notes": "Multi-turn flow: qualification (large educational institution), objection handling (unsure if they need a cloud-based solution), repositioning (offering benefits for handling large amounts of data and streamlining API integration), proposal (schedule a demo and send product guide)."
+  }
+]
