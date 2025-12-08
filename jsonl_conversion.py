@@ -1,8 +1,10 @@
 import json
+import os
+import glob
 
 # --- Configuration ---
-INPUT_FILE = "reframe_to_value.json"
-OUTPUT_FILE = "data/reframe_to_value.jsonl"
+INPUT_DIR = "input"
+OUTPUT_DIR = "data"
 SYSTEM_PROMPT = (
     "You are a helpful and enthusiastic Presales Agent for a B2B SaaS product. "
     "Your goal is to qualify leads, answer product-related questions accurately, "
@@ -22,8 +24,7 @@ def format_conversation_for_llama3(conversation_data, system_prompt):
     Applies the Llama 3 chat template to a single conversation.
 
     Args:
-        conversation_data (list): A list of message objects, e.g.,
-            [{"role": "user", "content": "..."}, {"role": "assistant", "content": "..."}]
+        conversation_data (list): A list of message objects.
         system_prompt (str): The initial system instruction.
 
     Returns:
@@ -44,62 +45,43 @@ def format_conversation_for_llama3(conversation_data, system_prompt):
         content = message.get("content", "").strip()
 
         if role == "user":
-            full_text += f"{USER_HEADER}{content}{EOS}"
-        elif role == "assistant":
-            full_text += f"{ASSISTANT_HEADER}{content}{EOS}"
-        # Ignoring other roles (like 'system' if it appeared mid-chat) for simplicity
+            # Only add the USER_HEADER if content is non-empty
+            if content:
+                full_text += f"{USER_HEADER}{content}{EOS}"
+        elif role == "agent": # NOTE: Assumes agent role is synonymous with assistant
+            # Only add the ASSISTANT_HEADER if content is non-empty
+            if content:
+                full_text += f"{ASSISTANT_HEADER}{content}{EOS}"
+        # If the role is neither user nor agent/assistant, it's ignored.
 
     # 3. End the entire sequence with the EOT token
     full_text += EOT
     return full_text
 
-def transform_json_to_jsonl(input_file, output_file, system_prompt):
+def transform_json_to_jsonl(input_path, output_path, system_prompt):
     """
     Reads a raw JSON file containing conversations, formats them, and writes to a JSONL file.
     """
     try:
-        with open(input_file, 'r', encoding='utf-8') as f:
+        with open(input_path, 'r', encoding='utf-8') as f:
             raw_data = json.load(f)
     except FileNotFoundError:
-        print(f"Error: Input file '{input_file}' not found.")
+        print(f"Error: Input file '{input_path}' not found. Skipping.")
         return
     except json.JSONDecodeError:
-        print(f"Error: Failed to parse '{input_file}'. Ensure it is valid JSON.")
+        print(f"Error: Failed to parse '{input_path}'. Skipping.")
         return
 
-    # Normalize loaded JSON to a list of conversation objects
-    # Common input shapes:
-    # - top-level list of conversations
-    # - top-level dict with a wrapper key like 'conversations', 'items', 'data', or 'messages'
-    # - a single conversation dict (possibly containing 'messages' or 'conversation')
-    if isinstance(raw_data, dict):
-        # If it's a wrapper dict containing a list, extract it
-        for key in ("conversations", "items", "data", "messages"):
-            if key in raw_data and isinstance(raw_data[key], list):
-                raw_data = raw_data[key]
-                break
-        else:
-            # If the dict itself contains a 'messages' or 'conversation' list, wrap that
-            if "messages" in raw_data and isinstance(raw_data["messages"], list):
-                # keep outer structure so downstream can use .get('messages')
-                raw_data = [raw_data]
-            elif "conversation" in raw_data and isinstance(raw_data["conversation"], list):
-                raw_data = [raw_data]
-            else:
-                # Treat the dict as a single conversation object
-                raw_data = [raw_data]
-
-    elif not isinstance(raw_data, list):
-        # Unknown top-level type (e.g., string/number) -> wrap to avoid crashes
-        raw_data = [raw_data]
+    # Assuming raw_data is a list of conversation objects
+    if not isinstance(raw_data, list):
+        print(f"Warning: Expected a list in {input_path}, found {type(raw_data)}. Skipping.")
+        return
 
     processed_count = 0
-    with open(output_file, 'w', encoding='utf-8') as outfile:
-        # Assuming raw_data is a list of conversation objects
+    with open(output_path, 'w', encoding='utf-8') as outfile:
+        # Assuming each object in raw_data contains the 'dialogue' key
         for conversation_obj in raw_data:
-            # Assuming the conversation history is stored under a key like 'messages' or 'conversation'
-            # Adjust this key if your raw JSON structure is different
-            conversation = conversation_obj.get("dialogue") or conversation_obj.get("messages") or conversation_obj.get("conversation", [])
+            conversation = conversation_obj.get("dialogue", [])
 
             templated_text = format_conversation_for_llama3(conversation, system_prompt)
 
@@ -109,12 +91,29 @@ def transform_json_to_jsonl(input_file, output_file, system_prompt):
                 outfile.write(jsonl_line + '\n')
                 processed_count += 1
 
-    print(f"\nTransformation complete.")
-    print(f"Processed {processed_count} conversations.")
-    print(f"Output saved to '{output_file}'. This is ready for Llama 3.2 fine-tuning.")
-    print("\n--- Example of the Llama 3.2 Format (1 line in JSONL) ---")
-    if processed_count > 0:
-        print(jsonl_line[:200] + "...") # Print first 200 chars of the last line
+    print(f"Processed {processed_count} conversations from '{os.path.basename(input_path)}'.")
+    print(f"Output saved to '{output_path}'.")
 
 if __name__ == "__main__":
-    transform_json_to_jsonl(INPUT_FILE, OUTPUT_FILE, SYSTEM_PROMPT)
+    print("--- Starting Batch JSON to JSONL Conversion ---")
+
+    # 1. Ensure the output directory exists
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    # 2. Find all relevant JSON files in the input directory
+    json_files = glob.glob(os.path.join(INPUT_DIR, "*.json"))
+
+    if not json_files:
+        print(f"No JSON files found in the '{INPUT_DIR}' directory. Exiting.")
+    else:
+        # 3. Process each file
+        for input_path in json_files:
+            # Determine output filename: e.g., input/file.json -> data/file.jsonl
+            base_filename = os.path.basename(input_path)
+            output_filename = base_filename.replace(".json", ".jsonl")
+            output_path = os.path.join(OUTPUT_DIR, output_filename)
+
+            transform_json_to_jsonl(input_path, output_path, SYSTEM_PROMPT)
+
+        print("\n--- Batch Conversion Complete ---")
+        print("All intent JSON files are now in the Llama 3.2 SFT JSONL format.")
