@@ -10,7 +10,7 @@ MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 OUTPUT_DIR = "input/"
 
 # The intent and output file name must reflect the new target
-UNIFIED_INTENT = "adjust_offer_positioning" 
+UNIFIED_INTENT = "schedule_meeting" 
 FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{UNIFIED_INTENT}.json")
 
 # --- Sample Counts based on 60:40 Ratio ---
@@ -49,39 +49,39 @@ except Exception as e:
 
 # ---------------- EXAMPLES ---------------- #
 
-# --- Single Turn Examples (adjust_offer_positioning) ---
+# --- Single Turn Examples (schedule_meeting) ---
 SINGLE_TURN_EXAMPLES = [
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "Your Pro tier is too expensive; we can get similar features from Competitor X for 15% less."},
-            {"role": "agent", "content": "I understand the need to be cost-effective. However, the Pro tier’s value comes from the included 24/7 dedicated support, which translates directly into less downtime and an estimated 20% faster deployment for your team, minimizing setup costs in the long run. Isn't rapid deployment a top priority?"}
+            {"role": "user", "content": "Can we do a 30-minute demo this Thursday at 2 PM PST?"},
+            {"role": "agent", "content": "That works perfectly. I've booked Thursday at 2:00 PM PST for your Technical Deep Dive. You'll receive the calendar invite with the meeting link shortly."}
         ],
-        "notes": "Adjusts positioning from price vs. features to value vs. cost (downtime/deployment speed)."
+        "notes": "Direct confirmation of a user-specified time slot, ready for TTS."
     },
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "We need a one-month trial, not just the 14-day free period you offer."},
-            {"role": "agent", "content": "While we strictly maintain the 14-day period to ensure fair resource allocation, we can adjust the positioning by offering a dedicated Solutions Engineer for three days within that period to guarantee you hit your key integration milestones faster, effectively doubling the value of the trial. Would access to a dedicated engineer help your evaluation?"}
+            {"role": "user", "content": "I need to speak to an expert about API limitations next week."},
+            {"role": "agent", "content": "I can schedule that now. Our API specialist, Jordan, has an opening next Tuesday at 11:00 AM EST. I'll reserve the slot now and send the invite over."}
         ],
-        "notes": "Adjusts a term request (length of trial) by repositioning the offer with enhanced service/support (speed of integration)."
+        "notes": "Agent suggests a time/expert and confirms the booking naturally."
     }
 ]
 
-# --- Multi-Turn Examples (adjust_offer_positioning) ---
+# --- Multi-Turn Examples (schedule_meeting) ---
 MULTI_TURN_EXAMPLES = [
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "We need a 20% discount on the annual plan to meet our budget targets."},
-            {"role": "agent", "content": "I appreciate you sharing your budget constraint. While a 20% price reduction is outside our standard policy for the annual plan, we can reposition the offer: what if we reduced the initial cost by 5% and included 5 hours of premium consulting services (worth $1,500) for free to ensure immediate ROI?"},
-            {"role": "user", "content": "The consulting hours are helpful, but the budget reduction is the non-negotiable part for my finance team."},
-            {"role": "agent", "content": "Understood. The finance team needs the numbers to work. If we kept the list price but **reduced the per-unit cost** by shifting your organization to a consumption-based metering system (often reducing overall cost by 10-15% for growing startups), would that meet the finance requirement?"},
-            {"role": "user", "content": "A consumption model might work, yes, but we'd need a projection first."},
-            {"role": "agent", "content": "Absolutely. I can generate a projection model right now. Based on your current usage estimates, the consumption model would position the offer to achieve your 15% saving goal by month three. Shall I send that breakdown over?"}
+            {"role": "user", "content": "I'd like to schedule some time with a Solutions Engineer soon."},
+            {"role": "agent", "content": "Great idea! To ensure we cover everything, would a 45-minute technical session be sufficient, and what time zone are you currently in?"},
+            {"role": "user", "content": "45 minutes is fine, and I'm in EST."},
+            {"role": "agent", "content": "Understood. Our Solutions Engineer, Sarah, is free next Tuesday morning. Does 10:30 AM EST work for your team?"},
+            {"role": "user", "content": "10:30 AM EST on Tuesday is great."},
+            {"role": "agent", "content": "Confirmed! I've booked the 'API Integration Workshop' for next Tuesday at 10:30 AM EST. The calendar invite is on its way now."}
         ],
-        "notes": "Multi-turn flow demonstrating sustained negotiation, shifting from direct discount to value-add (consulting) and then to a structural cost adjustment (consumption model)."
+        "notes": "Multi-turn flow demonstrating clarification of details before the final scheduling confirmation, suitable for TTS."
     }
 ]
 
@@ -89,18 +89,18 @@ MULTI_TURN_EXAMPLES = [
 
 SYSTEM_INSTRUCTION = (
     "You are a highly professional Presales Agent for a **Startup Suite** software company (API-first, cloud-native, focused on scale). "
-    "Output ONLY a JSON array. No explanations."
+    "Output ONLY a JSON array. No explanations. The responses must be natural conversational confirmations, suitable for Text-to-Speech (TTS) generation. DO NOT include any structured JSON tags or special formatting in the agent's dialogue."
 )
 
 SINGLE_TURN_TASK = (
     "Generate {num_to_generate} new 2-turn dialogues for the intent '{intent_name}'. "
-    "The Agent's response MUST adjust the offer positioning by **reframing a customer's objection** (price, term, feature) into a discussion about **unique Startup Suite value** (e.g., speed, scalability, API maturity, total cost of ownership). Output JSON array only."
+    "The Agent's response MUST directly confirm and finalize a meeting schedule using natural, conversational language, assuming all necessary details were provided. Output JSON array only."
 )
 
 MULTI_TURN_TASK = (
     "Generate {num_to_generate} new multi-turn dialogues for the intent '{intent_name}'. "
     "Each dialogue must have at least 6 turns (User, Agent, U, A, U, A). "
-    "The Agent MUST use conversational memory to handle a sustained negotiation or objection over multiple turns, **adjusting the offer's positioning multiple times** (e.g., first repositioning price to service, then shifting to a structural change like a different pricing model). Output JSON array only."
+    "The Agent MUST use conversational memory to clarify scheduling details (e.g., time zone, duration) before successfully booking the meeting and confirming it in a final, natural response. Output JSON array only."
 )
 
 def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
