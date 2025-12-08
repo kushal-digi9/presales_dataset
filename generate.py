@@ -10,7 +10,7 @@ MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 OUTPUT_DIR = "input/"
 
 # The intent and output file name must reflect the new target
-UNIFIED_INTENT = "match_message_to_source" 
+UNIFIED_INTENT = "adjust_offer_positioning" 
 FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{UNIFIED_INTENT}.json")
 
 # --- Sample Counts based on 60:40 Ratio ---
@@ -49,39 +49,39 @@ except Exception as e:
 
 # ---------------- EXAMPLES ---------------- #
 
-# --- Single Turn Examples (match_message_to_source) ---
+# --- Single Turn Examples (adjust_offer_positioning) ---
 SINGLE_TURN_EXAMPLES = [
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "I need to see the latency numbers for your primary API endpoint during peak load."},
-            {"role": "agent", "content": "That's a critical detail for performance planning. I can direct you to our 'Performance Benchmarks' section in the documentation, which includes those specific latency metrics. [Resource: docs/api-benchmarks]"}
+            {"role": "user", "content": "Your Pro tier is too expensive; we can get similar features from Competitor X for 15% less."},
+            {"role": "agent", "content": "I understand the need to be cost-effective. However, the Pro tier’s value comes from the included 24/7 dedicated support, which translates directly into less downtime and an estimated 20% faster deployment for your team, minimizing setup costs in the long run. Isn't rapid deployment a top priority?"}
         ],
-        "notes": "Matches a technical query (API latency) to a specific technical document."
+        "notes": "Adjusts positioning from price vs. features to value vs. cost (downtime/deployment speed)."
     },
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "I'm having trouble figuring out how to set up two-factor authentication for my team members."},
-            {"role": "agent", "content": "Setting up security is key. Our step-by-step guide, 'Admin Setup: Enabling 2FA,' walks you through the entire process. I'll paste the link in the chat now. [Resource: helpcenter/admin-2fa]"}
+            {"role": "user", "content": "We need a one-month trial, not just the 14-day free period you offer."},
+            {"role": "agent", "content": "While we strictly maintain the 14-day period to ensure fair resource allocation, we can adjust the positioning by offering a dedicated Solutions Engineer for three days within that period to guarantee you hit your key integration milestones faster, effectively doubling the value of the trial. Would access to a dedicated engineer help your evaluation?"}
         ],
-        "notes": "Matches a setup/admin question to a specific help center article."
+        "notes": "Adjusts a term request (length of trial) by repositioning the offer with enhanced service/support (speed of integration)."
     }
 ]
 
-# --- Multi-Turn Examples (match_message_to_source) ---
+# --- Multi-Turn Examples (adjust_offer_positioning) ---
 MULTI_TURN_EXAMPLES = [
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "We are a small startup and need proof of concept code for integrating with your webhooks."},
-            {"role": "agent", "content": "That's a common request for early-stage integration! Do you primarily work in Python or Node.js for your backend?"},
-            {"role": "user", "content": "We use Python 3.9."},
-            {"role": "agent", "content": "Perfect. I have a direct link to our GitHub repository specifically for Python webhooks demos. This includes a complete POC environment. [Resource: github/python-webhooks]"},
-            {"role": "user", "content": "Thanks! But who should I contact if I run into a schema validation error during setup?"},
-            {"role": "agent", "content": "If you encounter a schema error, your best point of contact is directly with our dedicated Solutions Engineering team. I can instantly connect you to the engineer who handles API setup. [Resource: expert/solutions-engineering]"}
+            {"role": "user", "content": "We need a 20% discount on the annual plan to meet our budget targets."},
+            {"role": "agent", "content": "I appreciate you sharing your budget constraint. While a 20% price reduction is outside our standard policy for the annual plan, we can reposition the offer: what if we reduced the initial cost by 5% and included 5 hours of premium consulting services (worth $1,500) for free to ensure immediate ROI?"},
+            {"role": "user", "content": "The consulting hours are helpful, but the budget reduction is the non-negotiable part for my finance team."},
+            {"role": "agent", "content": "Understood. The finance team needs the numbers to work. If we kept the list price but **reduced the per-unit cost** by shifting your organization to a consumption-based metering system (often reducing overall cost by 10-15% for growing startups), would that meet the finance requirement?"},
+            {"role": "user", "content": "A consumption model might work, yes, but we'd need a projection first."},
+            {"role": "agent", "content": "Absolutely. I can generate a projection model right now. Based on your current usage estimates, the consumption model would position the offer to achieve your 15% saving goal by month three. Shall I send that breakdown over?"}
         ],
-        "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then matches secondary query to an expert."
+        "notes": "Multi-turn flow demonstrating sustained negotiation, shifting from direct discount to value-add (consulting) and then to a structural cost adjustment (consumption model)."
     }
 ]
 
@@ -94,19 +94,18 @@ SYSTEM_INSTRUCTION = (
 
 SINGLE_TURN_TASK = (
     "Generate {num_to_generate} new 2-turn dialogues for the intent '{intent_name}'. "
-    "The Agent's response MUST directly match the user's question (e.g., technical, pricing, security) to one specific, internal resource (e.g., documentation link, help article, case study). The resource link should be clearly noted with '[Resource: link]'. Output JSON array only."
+    "The Agent's response MUST adjust the offer positioning by **reframing a customer's objection** (price, term, feature) into a discussion about **unique Startup Suite value** (e.g., speed, scalability, API maturity, total cost of ownership). Output JSON array only."
 )
 
 MULTI_TURN_TASK = (
     "Generate {num_to_generate} new multi-turn dialogues for the intent '{intent_name}'. "
     "Each dialogue must have at least 6 turns (User, Agent, U, A, U, A). "
-    "The Agent MUST use conversational memory to match **multiple, different resources or experts** over the course of the conversation, demonstrating an ability to escalate or refine the resource based on new information. The resource link should be clearly noted with '[Resource: link]'. Output JSON array only."
+    "The Agent MUST use conversational memory to handle a sustained negotiation or objection over multiple turns, **adjusting the offer's positioning multiple times** (e.g., first repositioning price to service, then shifting to a structural change like a different pricing model). Output JSON array only."
 )
 
 def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
     ex_str = ""
     for i, ex in enumerate(examples):
-        # Use simple string formatting for examples
         ex_str += f"<EXAMPLE {i+1}>\n{json.dumps(ex)}\n</EXAMPLE>\n"
 
     return (

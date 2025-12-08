@@ -1,0 +1,2214 @@
+[
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What's the recommended approach for scaling our application in a multi-region setup?"
+      },
+      {
+        "role": "agent",
+        "content": "For scalable solutions across regions, I recommend reviewing our 'Scaling Guide' in the documentation. It covers best practices for multi-region deployments. [Resource: docs/scaling]"
+      }
+    ],
+    "notes": "Matches a scaling question to a specific documentation resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in your pricing options for high volume traffic."
+      },
+      {
+        "role": "agent",
+        "content": "You can find detailed pricing information for high-volume plans in our 'Pricing' section of the website. [Resource: website/pricing]"
+      }
+    ],
+    "notes": "Matches a pricing inquiry to a specific website resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for more information about your security practices."
+      },
+      {
+        "role": "agent",
+        "content": "Our 'Security Whitepaper' provides in-depth information about the security measures we have in place. [Resource: docs/security]"
+      }
+    ],
+    "notes": "Matches a security question to a specific documentation resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need help implementing serverless functions in our application."
+      },
+      {
+        "role": "agent",
+        "content": "Our 'Serverless Functions' guide offers step-by-step instructions for integrating serverless functions into your application. [Resource: docs/serverless]"
+      }
+    ],
+    "notes": "Matches a serverless implementation question to a specific documentation resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What are some examples of companies that have successfully used your platform for complex event-driven architectures?"
+      },
+      {
+        "role": "agent",
+        "content": "Explore our 'Case Studies' section to find examples of companies that have successfully implemented complex event-driven architectures using our platform. [Resource: case-studies]"
+      }
+    ],
+    "notes": "Matches a complex event-driven architecture question to a specific case studies resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm experiencing a scaling issue with our application. Can you help me understand the limits of our current plan?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! I'd recommend reviewing the 'Pricing & Limits' section of our documentation to understand the scalability limits for your plan. [Resource: docs/pricing-limits]"
+      }
+    ],
+    "notes": "Matches a technical issue (scaling) to a specific pricing and limits document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'd like to integrate our existing system with your platform. Could you provide some guidance on API usage?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! I'd recommend checking out our 'API Developer Guide' for detailed information on API usage. [Resource: docs/api-guide]"
+      }
+    ],
+    "notes": "Matches a technical query (API integration) to a specific API guide document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in a security assessment for our application. Can you walk me through the process?"
+      },
+      {
+        "role": "agent",
+        "content": "Of course! I'd recommend reviewing our 'Security Assessment Service' page for more information on how we can help you. [Resource: services/security-assessment]"
+      }
+    ],
+    "notes": "Matches a security concern to a specific security assessment service page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'd like to learn more about the performance of your platform in terms of data storage."
+      },
+      {
+        "role": "agent",
+        "content": "Great question! I'd suggest checking out our 'Data Storage Performance' section in the documentation for detailed insights. [Resource: docs/data-storage-performance]"
+      }
+    ],
+    "notes": "Matches a technical query (data storage performance) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in a case study that showcases your platform's impact on a similar business."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help! I'd recommend checking out our 'Case Studies' section to find relevant examples. [Resource: case-studies]"
+      }
+    ],
+    "notes": "Matches a request for a case study to a specific case studies page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What's the pricing structure for your enterprise offering?"
+      },
+      {
+        "role": "agent",
+        "content": "Great question! You'll find all pricing details in our 'Pricing' section. Here's the link: [Resource: pricing-page]"
+      }
+    ],
+    "notes": "Matches a pricing inquiry to the pricing page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'd like to see some case studies of your software in action."
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! You can find a collection of our case studies in the 'Success Stories' section. Here's the link: [Resource: success-stories]"
+      }
+    ],
+    "notes": "Matches a case study request to the success stories section."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "How do I scale my API endpoints for a high-traffic use case?"
+      },
+      {
+        "role": "agent",
+        "content": "Scaling APIs is one of our specialties. I recommend checking out our 'Scaling Best Practices' guide. Here's the link: [Resource: scaling-best-practices]"
+      }
+    ],
+    "notes": "Matches a scaling inquiry to the scaling best practices guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm having trouble with API authentication."
+      },
+      {
+        "role": "agent",
+        "content": "I understand. Our guide on 'API Authentication' should help. Here's the link: [Resource: api-authentication]"
+      }
+    ],
+    "notes": "Matches an API authentication issue to the API authentication guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'd like to test the performance of your software for my specific use case."
+      },
+      {
+        "role": "agent",
+        "content": "Performance testing is crucial. I'd suggest referring to our 'Performance Testing' section in the documentation. Here's the link: [Resource: performance-testing]"
+      }
+    ],
+    "notes": "Matches a performance testing request to the performance testing section."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What are the pricing details for your Enterprise plan?"
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help. You can find the pricing details for our Enterprise plan in the 'Pricing' section of our website. [Resource: website/pricing]"
+      }
+    ],
+    "notes": "Matches a pricing query to a specific pricing webpage."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need to troubleshoot a scaling issue with my application."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concern. Our 'Scaling Best Practices' guide can help you resolve the issue. [Resource: docs/scaling-best-practices]"
+      }
+    ],
+    "notes": "Matches a technical query (scaling) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Can you provide a case study on how other companies have benefited from using your product?"
+      },
+      {
+        "role": "agent",
+        "content": "Of course! We have several case studies that showcase our product's impact. You can find them in the 'Case Studies' section of our website. [Resource: website/case-studies]"
+      }
+    ],
+    "notes": "Matches a case study request to a specific case studies webpage."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need help configuring API rate limits."
+      },
+      {
+        "role": "agent",
+        "content": "I can help with that. Our 'API Rate Limiting' guide provides detailed instructions on how to configure this feature. [Resource: docs/api-rate-limiting]"
+      }
+    ],
+    "notes": "Matches a technical query (API rate limiting) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I want to ensure the security of my data. How can I set up encryption?"
+      },
+      {
+        "role": "agent",
+        "content": "Data security is important. Our 'Encryption Setup' guide walks you through the process of setting up encryption. [Resource: docs/encryption-setup]"
+      }
+    ],
+    "notes": "Matches a security question to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What is the recommended configuration for high concurrency usage with our platform?"
+      },
+      {
+        "role": "agent",
+        "content": "For optimal performance in high concurrency scenarios, I recommend checking out our 'Scalability Best Practices' guide. [Resource: docs/scalability]"
+      }
+    ],
+    "notes": "Matches a scaling question to a specific documentation guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need to understand the pricing structure for different tiers and features."
+      },
+      {
+        "role": "agent",
+        "content": "To help you make the best decision, our 'Pricing Guide' provides a clear breakdown of our various plans and offerings. [Resource: pricing/guide]"
+      }
+    ],
+    "notes": "Matches a pricing inquiry to a specific pricing guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Can you help me troubleshoot an issue with API authentication?"
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help you debug your API authentication problem. Our 'Troubleshooting API Auth' article should have some steps to guide you through the process. [Resource: helpcenter/troubleshooting-api-auth]"
+      }
+    ],
+    "notes": "Matches a technical query (API auth) to a specific help center article."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "How can I optimize the performance of my mobile app when using your API?"
+      },
+      {
+        "role": "agent",
+        "content": "For optimal mobile app performance, I suggest reviewing our 'Mobile App Performance Optimization' case study. [Resource: case-studies/mobile-app-optimization]"
+      }
+    ],
+    "notes": "Matches a mobile app optimization query to a specific case study."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm looking for information on integrating our product with yours."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our 'Integration Guide' provides detailed steps to help you seamlessly integrate our products. [Resource: docs/integration]"
+      }
+    ],
+    "notes": "Matches an integration inquiry to a specific documentation guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What are the supported database options for your API?"
+      },
+      {
+        "role": "agent",
+        "content": "For supported database options, you can refer to our 'Technical Integrations' guide. Here's the link: [Resource: docs/technical-integrations]"
+      }
+    ],
+    "notes": "Matches a technical question (supported database options) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "How can I find out the cost of your service for my specific use case?"
+      },
+      {
+        "role": "agent",
+        "content": "To get an accurate pricing quote for your use case, I recommend checking out our 'Pricing Calculator.' You can access it via this link: [Resource: pricing/calculator]"
+      }
+    ],
+    "notes": "Matches a pricing question to a specific pricing tool."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Can you help me understand the scalability limits of your API?"
+      },
+      {
+        "role": "agent",
+        "content": "To learn about scalability limits, I suggest reviewing the 'Scalability Best Practices' guide. Here's the link: [Resource: docs/scalability-best-practices]"
+      }
+    ],
+    "notes": "Matches a scalability question to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm looking for examples of how your API can be used in real-world scenarios."
+      },
+      {
+        "role": "agent",
+        "content": "For real-world use case examples, I recommend checking out our 'Case Studies' section. Here's the link: [Resource: case-studies]"
+      }
+    ],
+    "notes": "Matches a real-world usage question to a specific case studies section."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need to reset my password. How can I do that?"
+      },
+      {
+        "role": "agent",
+        "content": "To reset your password, I recommend following the steps in our 'Password Reset' guide. Here's the link: [Resource: helpcenter/password-reset]"
+      }
+    ],
+    "notes": "Matches a password reset request to a specific help center article."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm facing issues with API authentication."
+      },
+      {
+        "role": "agent",
+        "content": "I understand the concern. Our 'API Authentication Troubleshooting Guide' covers common issues and solutions. [Resource: docs/api-auth-troubleshooting]"
+      }
+    ],
+    "notes": "Matches an API authentication issue to an internal troubleshooting guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need help understanding the scaling capabilities of your solution."
+      },
+      {
+        "role": "agent",
+        "content": "That's an important question. Our 'Scaling Capabilities' section in the documentation provides detailed information on this topic. [Resource: docs/scaling-capabilities]"
+      }
+    ],
+    "notes": "Matches a scaling question to a specific documentation section."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in the pricing plans for your service."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help with that. Our 'Pricing' page offers a clear breakdown of our plans. [Resource: pricing]"
+      }
+    ],
+    "notes": "Matches a pricing inquiry to the company's pricing page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need to know more about the security measures you have in place."
+      },
+      {
+        "role": "agent",
+        "content": "Security is a top priority for us. Our 'Security Measures' page provides detailed information about our protocols. [Resource: security]"
+      }
+    ],
+    "notes": "Matches a security question to the company's security measures page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm having trouble integrating your API with my existing system."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help with that. Our 'API Integration Guide' offers step-by-step instructions for integration. [Resource: docs/api-integration]"
+      }
+    ],
+    "notes": "Matches an API integration issue to an internal integration guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Can you provide more information about the scalability features of your product?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! You'll find comprehensive details about our scalability features in the 'Scalability and Performance' section of our documentation. [Resource: docs/scalability]"
+      }
+    ],
+    "notes": "Matches a technical query (scalability) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in knowing the pricing plans for your service."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help with that! Our pricing information can be found on the 'Pricing' page. [Resource: pricing]"
+      }
+    ],
+    "notes": "Matches a pricing query to a specific pricing page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "How can I integrate third-party services with your API?"
+      },
+      {
+        "role": "agent",
+        "content": "Integrating third-party services is straightforward with our API. The 'Integration Guide' in our documentation offers a step-by-step approach. [Resource: docs/integration]"
+      }
+    ],
+    "notes": "Matches an integration query to a specific integration guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What are the security measures implemented in your platform?"
+      },
+      {
+        "role": "agent",
+        "content": "Security is our top priority. You'll find detailed information about our security measures in the 'Security Overview' section of our documentation. [Resource: docs/security]"
+      }
+    ],
+    "notes": "Matches a security query to a specific security documentation."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'd like to see some case studies of businesses that have successfully used your software."
+      },
+      {
+        "role": "agent",
+        "content": "I'm glad you asked! Our 'Case Studies' page features real-world examples of businesses that have benefited from our software. [Resource: case-studies]"
+      }
+    ],
+    "notes": "Matches a case study request to a specific case studies page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What are the supported databases for your product?"
+      },
+      {
+        "role": "agent",
+        "content": "Our product supports a wide range of databases. For a detailed list, check out the 'Database Compatibility' section in the documentation. [Resource: docs/database-compatibility]"
+      }
+    ],
+    "notes": "Matches a technical query (supported databases) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I want to understand the pricing structure for your product."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help. You can find our pricing details in the 'Pricing & Plans' section of our website. [Resource: website/pricing]"
+      }
+    ],
+    "notes": "Matches a pricing inquiry to a specific website page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Can you provide examples of companies using your product?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! We've worked with numerous companies, and you can find case studies in our 'Customer Success Stories' section. [Resource: success-stories]"
+      }
+    ],
+    "notes": "Matches a customer success query to a specific section of the website."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Is there a way to monitor our API usage within the platform?"
+      },
+      {
+        "role": "agent",
+        "content": "Yes, we offer API usage monitoring in the 'Developer Portal'. You can find more information in the 'Monitoring API Usage' section. [Resource: developer-portal/usage-monitoring]"
+      }
+    ],
+    "notes": "Matches a technical query (API usage monitoring) to a specific section of the developer portal."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need help configuring SSL for our API."
+      },
+      {
+        "role": "agent",
+        "content": "I can help you with that. Our documentation has a detailed guide on 'Securing APIs with SSL'. You can find it in the 'API Security' section. [Resource: docs/api-security/ssl]"
+      }
+    ],
+    "notes": "Matches a security query (configuring SSL) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Can you provide more information about the scalability features of your service?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely, you'll find detailed information about scalability in our 'Scalability Guide' section. [Resource: docs/scalability]"
+      }
+    ],
+    "notes": "Matches a technical query (scalability) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "How can I get pricing details for your services?"
+      },
+      {
+        "role": "agent",
+        "content": "You can find the latest pricing information in our 'Pricing' page. [Resource: pricing]"
+      }
+    ],
+    "notes": "Matches a pricing query to a specific pricing page."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Is there a case study available for your product in the healthcare industry?"
+      },
+      {
+        "role": "agent",
+        "content": "Yes, we have a case study on our 'Industry Successes' page, specifically focusing on healthcare. [Resource: case-studies/healthcare]"
+      }
+    ],
+    "notes": "Matches a query for industry-specific case studies to a specific resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in integrating your API with our existing system. Can you help me understand the process?"
+      },
+      {
+        "role": "agent",
+        "content": "Great! You can refer to our 'Integration Guide' for detailed instructions on integrating with our API. [Resource: docs/integration]"
+      }
+    ],
+    "notes": "Matches an integration query to a specific integration guide."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'd like to know more about your security measures for data protection."
+      },
+      {
+        "role": "agent",
+        "content": "We prioritize security, and you can find detailed information about our security measures in our 'Security Overview' document. [Resource: docs/security]"
+      }
+    ],
+    "notes": "Matches a security query to a specific security document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What are the supported database options for your platform?"
+      },
+      {
+        "role": "agent",
+        "content": "For a comprehensive list of supported databases, I recommend checking out our 'Database Integrations' section in the documentation. [Resource: docs/integrations/databases]"
+      }
+    ],
+    "notes": "Matches a technical query (database options) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "What is your pricing structure?"
+      },
+      {
+        "role": "agent",
+        "content": "Our pricing options and plans are outlined in the 'Pricing' section of our website. [Resource: website/pricing]"
+      }
+    ],
+    "notes": "Matches a pricing inquiry to a specific webpage."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "How do I scale my application using your platform?"
+      },
+      {
+        "role": "agent",
+        "content": "To learn about scaling and best practices for our platform, I suggest reviewing our 'Scaling Best Practices' guide in the documentation. [Resource: docs/scaling]"
+      }
+    ],
+    "notes": "Matches a technical query (scaling) to a specific technical document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need to know the SLAs for your cloud-based offering."
+      },
+      {
+        "role": "agent",
+        "content": "For detailed Service Level Agreements, I recommend checking the 'SLAs' section in our Terms of Service. [Resource: terms/sla]"
+      }
+    ],
+    "notes": "Matches a technical query (SLA) to a specific legal document."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I want to see case studies of companies that have successfully migrated to your platform."
+      },
+      {
+        "role": "agent",
+        "content": "Our Success Stories section highlights real-world examples of companies like yours that have benefited from our platform. [Resource: website/success-stories]"
+      }
+    ],
+    "notes": "Matches a business query (case study) to a specific webpage."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm looking for information on your API rate limits."
+      },
+      {
+        "role": "agent",
+        "content": "Of course! You can find our API rate limit details in the 'API Documentation' section. Here's the link: [Resource: docs/api-rate-limits]"
+      }
+    ],
+    "notes": "Matches an API-related question to the API rate limit documentation."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need help with scaling my application using your service."
+      },
+      {
+        "role": "agent",
+        "content": "Scaling is crucial for performance. Our 'Scaling Best Practices' guide can help. Here's the link: [Resource: docs/scaling-best-practices]"
+      }
+    ],
+    "notes": "Matches a scaling question to the scaling best practices documentation."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Can you provide pricing details for the premium plan?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! You can find our pricing information in the 'Pricing' section. Here's the link: [Resource: pricing]"
+      }
+    ],
+    "notes": "Matches a pricing inquiry to the pricing documentation."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'd like to know more about your security measures."
+      },
+      {
+        "role": "agent",
+        "content": "Security is one of our top priorities. Our 'Security Measures' page provides a detailed overview. Here's the link: [Resource: security]"
+      }
+    ],
+    "notes": "Matches a security question to the security documentation."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm having trouble integrating your service with my existing system."
+      },
+      {
+        "role": "agent",
+        "content": "Integration issues can be tricky. Our 'Integration Guide' can help you resolve them. Here's the link: [Resource: docs/integration-guide]"
+      }
+    ],
+    "notes": "Matches an integration question to the integration guide documentation."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a growing e-commerce startup and need a scalable solution for managing our inventory."
+      },
+      {
+        "role": "agent",
+        "content": "For managing inventory, our platform offers a powerful REST API with real-time updates. If you're working with Python, you might find our API wrapper useful. [Resource: github/python-api-wrapper]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great! But we're also looking for recommendations on an efficient database solution for the inventory data."
+      },
+      {
+        "role": "agent",
+        "content": "For efficient database solutions, I'd recommend checking out our partnership with MongoDB Atlas. It's a fully managed database service that can easily scale with your inventory needs. [Resource: mongodb-atlas]"
+      },
+      {
+        "role": "user",
+        "content": "We're using PostgreSQL for our existing database. Is there a way to connect our PostgreSQL database with your platform's API?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! Our platform provides support for connecting with external databases, including PostgreSQL. Here's a guide on how to do that: [Resource: docs/connecting-external-databases]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to API wrapper, recommends a database solution, clarifies tool, provides resource for existing database connection."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a SaaS company planning to launch a new subscription-based product. We need a robust user authentication solution."
+      },
+      {
+        "role": "agent",
+        "content": "For user authentication, our platform offers OAuth 2.0 support along with JWT-based authentication. You can find detailed setup guides in our documentation. [Resource: docs/user-authentication]"
+      },
+      {
+        "role": "user",
+        "content": "We'd prefer to implement OpenID Connect for a more seamless user experience."
+      },
+      {
+        "role": "agent",
+        "content": "I completely understand. OpenID Connect is a great choice for seamless user authentication. Our platform fully supports OpenID Connect, and you can find detailed setup guides here: [Resource: docs/openid-connect]"
+      },
+      {
+        "role": "user",
+        "content": "Additionally, we're looking for a secure way to manage user session data."
+      },
+      {
+        "role": "agent",
+        "content": "For secure session management, I recommend using our Session Management API along with Redis for caching. You can find more details about this integration in our documentation. [Resource: docs/session-management]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to API support, recommends a specific authentication method, provides resource, then addresses a secondary query."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a healthcare startup developing a telemedicine platform. We need a scalable and secure video conferencing solution."
+      },
+      {
+        "role": "agent",
+        "content": "For scalable and secure video conferencing, I'd recommend our partnership with Amazon Chime SDK. It offers end-to-end encryption and can easily scale to meet your telemedicine needs. [Resource: amazon-chime-sdk]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds good. But we also need a way to record these sessions for future reference."
+      },
+      {
+        "role": "agent",
+        "content": "For recording sessions, you can use our partnership with Twilio for easy video recording functionality. Here's a guide on how to set that up: [Resource: twilio/recording-guide]"
+      },
+      {
+        "role": "user",
+        "content": "What about HIPAA compliance? Our platform will need to be HIPAA-compliant."
+      },
+      {
+        "role": "agent",
+        "content": "Both Amazon Chime SDK and Twilio are HIPAA-compliant. To ensure your platform is fully compliant, I recommend working with our dedicated Compliance team. [Resource: expert/compliance]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to a partnership, recommends a secondary tool for an additional feature, addresses compliance concerns."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a fintech startup planning to launch a new mobile banking app. We need a secure and scalable payment gateway solution."
+      },
+      {
+        "role": "agent",
+        "content": "For secure and scalable payment gateway solutions, I'd recommend our partnership with Stripe. It offers a comprehensive suite of APIs to build a robust payment system. [Resource: stripe]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds good. But we also need a way to handle recurring payments for our subscription-based services."
+      },
+      {
+        "role": "agent",
+        "content": "For recurring payments, you can use our partnership with Chargebee. It offers a seamless solution for managing subscriptions and recurring payments. [Resource: chargebee]"
+      },
+      {
+        "role": "user",
+        "content": "What about fraud detection and prevention?"
+      },
+      {
+        "role": "agent",
+        "content": "For fraud detection and prevention, I recommend using our partnership with Kount. It offers advanced fraud detection and prevention services to keep your platform secure. [Resource: kount]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to a partnership, recommends a secondary tool for an additional feature, addresses a third query."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a gaming startup planning to launch a new multiplayer game. We need a scalable real-time multiplayer solution."
+      },
+      {
+        "role": "agent",
+        "content": "For scalable real-time multiplayer solutions, I'd recommend our partnership with Pusher. It offers a powerful API for building real-time multiplayer experiences. [Resource: pusher]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds good. But we also need a way to handle in-game purchases and currency management."
+      },
+      {
+        "role": "agent",
+        "content": "For in-game purchases and currency management, you can use our partnership with PayPal. It offers a comprehensive suite of APIs to manage transactions within your game. [Resource: paypal]"
+      },
+      {
+        "role": "user",
+        "content": "What about game analytics and player behavior tracking?"
+      },
+      {
+        "role": "agent",
+        "content": "For game analytics and player behavior tracking, I recommend using our partnership with Amplitude. It offers powerful analytics tools to help you understand player behavior and optimize your game. [Resource: amplitude]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to a partnership, recommends a secondary tool for an additional feature, addresses a third query."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized company looking for a scalable solution for our data processing needs."
+      },
+      {
+        "role": "agent",
+        "content": "For scalable data processing, our suite offers a powerful data pipeline service. [Resource: pipeline/data-processing] Do you primarily use Java or Go for your backend?"
+      },
+      {
+        "role": "user",
+        "content": "We prefer Go."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Here's a link to our Go-specific data pipeline implementation. [Resource: pipeline/go-data-processing] If you have any questions about setting up the pipeline, our DevOps team is available for support. [Resource: expert/devops]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks! However, we're also looking for a machine learning component for predictive analysis."
+      },
+      {
+        "role": "agent",
+        "content": "We've recently integrated a cutting-edge machine learning engine into our suite. [Resource: machine-learning/predictive-analysis] You can access this directly or consult our Machine Learning Engineering team for further assistance. [Resource: expert/ml-engineering]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then pivots to new query and matches it to a different resource or expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our startup is in the healthcare space and needs a HIPAA-compliant API solution."
+      },
+      {
+        "role": "agent",
+        "content": "For HIPAA-compliant API solutions, we have a specialized suite tailored to the healthcare industry. [Resource: healthcare/hipaa-api] If you have any questions about compliance or setup, our Compliance team is available for consultation. [Resource: expert/compliance]"
+      },
+      {
+        "role": "user",
+        "content": "We're also looking for a billing and invoicing solution."
+      },
+      {
+        "role": "agent",
+        "content": "We've partnered with a leading billing and invoicing provider for seamless integration. [Resource: billing/invoicing] Our Billing Solutions team can help you set up the integration and answer any questions. [Resource: expert/billing-solutions]"
+      },
+      {
+        "role": "user",
+        "content": "That's great. We're also concerned about data security."
+      },
+      {
+        "role": "agent",
+        "content": "Data security is of the utmost importance to us. In addition to HIPAA compliance, we have multiple layers of security measures in place. If you have any specific concerns or questions, our Security team is available to help. [Resource: expert/security]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then pivots to new query and matches it to a different resource or expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are an e-commerce startup looking for a solution to automate order fulfillment."
+      },
+      {
+        "role": "agent",
+        "content": "For order fulfillment automation, our suite offers an intelligent warehouse management system. [Resource: ecommerce/fulfillment] If you have any questions about setup or integration, our Warehouse Operations team is available for support. [Resource: expert/warehouse-operations]"
+      },
+      {
+        "role": "user",
+        "content": "Additionally, we need help with inventory management."
+      },
+      {
+        "role": "agent",
+        "content": "We've partnered with a leading inventory management provider for seamless integration. [Resource: inventory/management] Our Inventory Solutions team can help you set up the integration and answer any questions. [Resource: expert/inventory-solutions]"
+      },
+      {
+        "role": "user",
+        "content": "We're also interested in real-time shipping rate comparisons."
+      },
+      {
+        "role": "agent",
+        "content": "To help with real-time shipping rate comparisons, we've integrated a leading shipping rate comparison API. [Resource: shipping/comparison] Our Shipping Solutions team can help you set up the integration and answer any questions. [Resource: expert/shipping-solutions]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then pivots to new query and matches it to a different resource or expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a gaming startup and need a scalable solution for server-side rendering."
+      },
+      {
+        "role": "agent",
+        "content": "For server-side rendering, our suite offers a powerful rendering engine optimized for gaming applications. [Resource: gaming/rendering] If you have any questions about setup or optimization, our Gaming Solutions team is available for support. [Resource: expert/gaming-solutions]"
+      },
+      {
+        "role": "user",
+        "content": "We're also looking for a solution to handle real-time multiplayer gameplay."
+      },
+      {
+        "role": "agent",
+        "content": "To support real-time multiplayer gameplay, we've integrated a low-latency networking API. [Resource: gaming/networking] Our Networking Solutions team can help you set up the integration and answer any questions. [Resource: expert/networking-solutions]"
+      },
+      {
+        "role": "user",
+        "content": "We're also concerned about game server scalability."
+      },
+      {
+        "role": "agent",
+        "content": "For game server scalability, our suite offers an auto-scaling service that adjusts to your player count. [Resource: gaming/autoscaling] If you have any questions about setup or management, our Auto Scaling team is available for support. [Resource: expert/autoscaling]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then pivots to new query and matches it to a different resource or expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a fintech startup and need a solution for secure online transactions."
+      },
+      {
+        "role": "agent",
+        "content": "For secure online transactions, our suite offers a PCI-compliant payment gateway API. [Resource: fintech/payment-gateway] If you have any questions about setup or security, our Payment Security team is available for support. [Resource: expert/payment-security]"
+      },
+      {
+        "role": "user",
+        "content": "We're also interested in fraud detection and prevention."
+      },
+      {
+        "role": "agent",
+        "content": "To help with fraud detection and prevention, we've integrated a machine learning-based fraud detection API. [Resource: fintech/fraud-detection] Our Fraud Detection team can help you set up the integration and answer any questions. [Resource: expert/fraud-detection]"
+      },
+      {
+        "role": "user",
+        "content": "We're also concerned about regulatory compliance."
+      },
+      {
+        "role": "agent",
+        "content": "For regulatory compliance, we have a dedicated team of compliance experts who can help you navigate the complex landscape of fintech regulations. [Resource: expert/compliance] If you have any specific concerns or questions, they're available to help."
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then pivots to new query and matches it to a different resource or expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized company looking to optimize our customer service process."
+      },
+      {
+        "role": "agent",
+        "content": "I can definitely help with that! We have a resource that outlines best practices for improving customer service workflows. [Resource: guide/customer-service-optimization]"
+      },
+      {
+        "role": "user",
+        "content": "Great, but we're also considering implementing AI chatbots."
+      },
+      {
+        "role": "agent",
+        "content": "In that case, I recommend our AI chatbot implementation guide. It covers everything from setup to optimization. [Resource: guide/ai-chatbot-implementation]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds perfect, but we need a more detailed look at the chatbot's capabilities."
+      },
+      {
+        "role": "agent",
+        "content": "I completely understand! In that case, I'd recommend reaching out to our dedicated Solutions Engineering team. They can provide a demo and answer any specific questions you may have about the chatbot's capabilities. [Resource: expert/solutions-engineering]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help so far!"
+      },
+      {
+        "role": "agent",
+        "content": "You're very welcome! Don't hesitate to reach out if you have more questions or need further assistance."
+      }
+    ],
+    "notes": "Multi-turn flow: matches general query to resource, refines query to a more specific resource, and escalates to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are an e-commerce startup and need help with inventory management."
+      },
+      {
+        "role": "agent",
+        "content": "That's a common request for e-commerce startups! We have a resource specifically for inventory management that includes a complete guide and API documentation. [Resource: guide/inventory-management]"
+      },
+      {
+        "role": "user",
+        "content": "That's great, but we also want to implement real-time shipping rates."
+      },
+      {
+        "role": "agent",
+        "content": "In that case, I recommend our shipping rates API. It allows for real-time rate calculations and integration with major carriers. [Resource: api/shipping-rates]"
+      },
+      {
+        "role": "user",
+        "content": "We're also looking to implement a customer loyalty program."
+      },
+      {
+        "role": "agent",
+        "content": "Our loyalty program API is a great fit for your needs! It allows for the creation, management, and tracking of customer loyalty programs. [Resource: api/loyalty-programs]"
+      },
+      {
+        "role": "user",
+        "content": "This all sounds perfect, but we need help setting up the APIs."
+      },
+      {
+        "role": "agent",
+        "content": "If you encounter any issues during setup, feel free to reach out to our dedicated Solutions Engineering team. They can provide assistance and answer any specific questions you may have. [Resource: expert/solutions-engineering]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "agent",
+        "content": "You're very welcome! Don't hesitate to reach out if you have more questions or need further assistance."
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, refines query to multiple resources, and escalates to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a fintech startup and need help with secure data storage."
+      },
+      {
+        "role": "agent",
+        "content": "Secure data storage is crucial for fintech startups! We have a resource specifically for secure data storage that includes a complete guide and API documentation. [Resource: guide/secure-data-storage]"
+      },
+      {
+        "role": "user",
+        "content": "That's great, but we also want to implement real-time fraud detection."
+      },
+      {
+        "role": "agent",
+        "content": "In that case, I recommend our fraud detection API. It allows for real-time fraud detection and integration with our secure data storage solution. [Resource: api/fraud-detection]"
+      },
+      {
+        "role": "user",
+        "content": "We're also looking to implement a customer authentication system."
+      },
+      {
+        "role": "agent",
+        "content": "Our customer authentication API is a great fit for your needs! It allows for secure customer authentication and integration with our secure data storage solution. [Resource: api/customer-authentication]"
+      },
+      {
+        "role": "user",
+        "content": "This all sounds perfect, but we need help setting up the APIs."
+      },
+      {
+        "role": "agent",
+        "content": "If you encounter any issues during setup, feel free to reach out to our dedicated Solutions Engineering team. They can provide assistance and answer any specific questions you may have. [Resource: expert/solutions-engineering]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "agent",
+        "content": "You're very welcome! Don't hesitate to reach out if you have more questions or need further assistance."
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, refines query to multiple resources, and escalates to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a healthcare startup and need help with patient data management."
+      },
+      {
+        "role": "agent",
+        "content": "Patient data management is crucial for healthcare startups! We have a resource specifically for HIPAA-compliant patient data management that includes a complete guide and API documentation. [Resource: guide/hipaa-compliant-patient-data-management]"
+      },
+      {
+        "role": "user",
+        "content": "That's great, but we also want to implement a telehealth platform."
+      },
+      {
+        "role": "agent",
+        "content": "In that case, I recommend our telehealth API. It allows for secure video and text-based consultations and integrates with our HIPAA-compliant patient data management solution. [Resource: api/telehealth]"
+      },
+      {
+        "role": "user",
+        "content": "We're also looking to implement a patient scheduling system."
+      },
+      {
+        "role": "agent",
+        "content": "Our patient scheduling API is a great fit for your needs! It allows for easy scheduling, reminders, and cancellations, and integrates with our HIPAA-compliant patient data management solution. [Resource: api/patient-scheduling]"
+      },
+      {
+        "role": "user",
+        "content": "This all sounds perfect, but we need help setting up the APIs."
+      },
+      {
+        "role": "agent",
+        "content": "If you encounter any issues during setup, feel free to reach out to our dedicated Solutions Engineering team. They can provide assistance and answer any specific questions you may have. [Resource: expert/solutions-engineering]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "agent",
+        "content": "You're very welcome! Don't hesitate to reach out if you have more questions or need further assistance."
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, refines query to multiple resources, and escalates to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a gaming startup and need help with multiplayer game development."
+      },
+      {
+        "role": "agent",
+        "content": "Multiplayer game development is an exciting challenge! We have a resource specifically for cloud-based multiplayer game development that includes a complete guide and API documentation. [Resource: guide/cloud-based-multiplayer-game-development]"
+      },
+      {
+        "role": "user",
+        "content": "That's great, but we also want to implement real-time player statistics."
+      },
+      {
+        "role": "agent",
+        "content": "In that case, I recommend our real-time player statistics API. It allows for real-time tracking of player performance and integrates with our cloud-based multiplayer game development solution. [Resource: api/real-time-player-statistics]"
+      },
+      {
+        "role": "user",
+        "content": "We're also looking to implement a matchmaking system."
+      },
+      {
+        "role": "agent",
+        "content": "Our matchmaking API is a great fit for your needs! It allows for seamless player matching based on skill level, preferences, and more, and integrates with our cloud-based multiplayer game development solution. [Resource: api/matchmaking]"
+      },
+      {
+        "role": "user",
+        "content": "This all sounds perfect, but we need help setting up the APIs."
+      },
+      {
+        "role": "agent",
+        "content": "If you encounter any issues during setup, feel free to reach out to our dedicated Solutions Engineering team. They can provide assistance and answer any specific questions you may have. [Resource: expert/solutions-engineering]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks for your help!"
+      },
+      {
+        "role": "agent",
+        "content": "You're very welcome! Don't hesitate to reach out if you have more questions or need further assistance."
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, refines query to multiple resources, and escalates to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a SaaS company and need help with setting up a custom dashboard for our users."
+      },
+      {
+        "role": "agent",
+        "content": "A custom dashboard is a great way to personalize your user experience! First, I'd recommend checking out our gallery of pre-built dashboard templates. [Resource: gallery/dashboard-templates]"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to use our own data sources in the dashboard."
+      },
+      {
+        "role": "agent",
+        "content": "For custom data sources, you'll need our API integration. I can connect you with one of our API specialists who can guide you through that process. [Resource: expert/api-specialist]"
+      },
+      {
+        "role": "user",
+        "content": "We're using Angular for our frontend."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! I have a link to our Angular integration guide that includes detailed setup instructions. [Resource: guide/angular-integration]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches user requirements to resource, refines resource based on new information, and escalates to an expert when necessary."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are an e-commerce business and need help with product feed integration."
+      },
+      {
+        "role": "agent",
+        "content": "Our product feed API is a popular choice for e-commerce businesses! I can provide you with the API documentation and a step-by-step guide. [Resource: guide/product-feed-integration]"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to automate the process as much as possible."
+      },
+      {
+        "role": "agent",
+        "content": "For full automation, I recommend our webhooks service. This allows your system to send data to our platform in real-time. [Resource: webhooks/service]"
+      },
+      {
+        "role": "user",
+        "content": "We're using Shopify as our e-commerce platform."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I can connect you with one of our Shopify integration specialists who can help you set up the webhooks. [Resource: expert/shopify-integration]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches user requirements to resource, refines resource based on new information, and escalates to an expert when necessary."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a marketing agency and need help with setting up automation rules for our clients."
+      },
+      {
+        "role": "agent",
+        "content": "Our automation rules feature is a powerful tool for streamlining marketing workflows! I can provide you with the documentation for setting up automation rules. [Resource: docs/automation-rules]"
+      },
+      {
+        "role": "user",
+        "content": "We need help understanding how to use the rules."
+      },
+      {
+        "role": "agent",
+        "content": "For personalized guidance, I recommend setting up a training session with one of our Solutions Engineers. They can walk you through the process and answer any questions. [Resource: expert/solutions-engineering]"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to set up a trial run for a few clients first."
+      },
+      {
+        "role": "agent",
+        "content": "I can help you with that! I have a link to the trial setup guide that includes step-by-step instructions. [Resource: guide/trial-setup]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches user requirements to resource, refines resource based on new information, and escalates to an expert when necessary."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a healthcare provider and need help with integrating electronic health records."
+      },
+      {
+        "role": "agent",
+        "content": "Our HIPAA-compliant API is a popular choice for healthcare providers! I can provide you with the API documentation and a step-by-step guide. [Resource: guide/ehr-integration]"
+      },
+      {
+        "role": "user",
+        "content": "We need help understanding the data formats."
+      },
+      {
+        "role": "agent",
+        "content": "For detailed guidance on data formats, I recommend our Data Formats and Structures documentation. [Resource: docs/data-formats-structures]"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to validate our data before sending it to the API."
+      },
+      {
+        "role": "agent",
+        "content": "For data validation, I recommend using our data validation service. This ensures that your data meets our API requirements. [Resource: service/data-validation]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches user requirements to resource, refines resource based on new information, and introduces a new resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a software development company and need help with integrating our CRM system."
+      },
+      {
+        "role": "agent",
+        "content": "Our API integration is a popular choice for CRM systems! I can provide you with the API documentation and a step-by-step guide. [Resource: guide/crm-integration]"
+      },
+      {
+        "role": "user",
+        "content": "We need help understanding how to map our data fields."
+      },
+      {
+        "role": "agent",
+        "content": "For detailed guidance on data mapping, I recommend our Data Mapping documentation. [Resource: docs/data-mapping]"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to test the integration before rolling it out to our team."
+      },
+      {
+        "role": "agent",
+        "content": "For testing, I recommend our Sandbox environment. This allows you to test the integration without affecting your live data. [Resource: environment/sandbox]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches user requirements to resource, refines resource based on new information, and introduces a new resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a medium-sized startup with a custom CRM system. We want to streamline our sales process by integrating your API."
+      },
+      {
+        "role": "agent",
+        "content": "That's great to hear! I'd recommend checking out our API documentation first. It includes detailed guides on how to integrate with our API. [Resource: docs/api-guides]"
+      },
+      {
+        "role": "user",
+        "content": "We've gone through the guides but are struggling with the specific mapping of our custom CRM fields."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concern. For a more tailored solution, you might want to consult our Integration Specialist. They can help with the mapping of custom fields. [Resource: expert/integration-specialist]"
+      },
+      {
+        "role": "user",
+        "content": "That would be very helpful. How can I get in touch with them?"
+      },
+      {
+        "role": "agent",
+        "content": "Simply click on the provided link to book a call with our Integration Specialist. They'll help you with the mapping of your custom CRM fields. [Resource: expert/integration-specialist]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource (API documentation), clarifies tool, escalates to expert when additional help needed."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large enterprise looking to implement your software suite for our marketing automation."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent choice! Our Enterprise Solutions team can guide you through the process. They'll provide a tailored implementation plan for your marketing automation needs. [Resource: expert/enterprise-solutions]"
+      },
+      {
+        "role": "user",
+        "content": "We're already familiar with the marketing automation aspects but need assistance with the scaling of our data processing."
+      },
+      {
+        "role": "agent",
+        "content": "For data scaling, I'd recommend our Scalability Engineer. They specialize in optimizing data processing and handling large data sets. [Resource: expert/scalability-engineer]"
+      },
+      {
+        "role": "user",
+        "content": "What's the best way to get in touch with the Scalability Engineer?"
+      },
+      {
+        "role": "agent",
+        "content": "You can book a call directly through the provided link. Our Scalability Engineer will help you with optimizing your data processing. [Resource: expert/scalability-engineer]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to expert, clarifies tool, escalates to a different expert when additional help needed."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small e-commerce startup and need help with implementing your API for order management."
+      },
+      {
+        "role": "agent",
+        "content": "I can definitely help with that! Our API documentation includes guides for integrating with various e-commerce platforms. [Resource: docs/ecommerce-integrations]"
+      },
+      {
+        "role": "user",
+        "content": "We use Shopify for our e-commerce platform but are having trouble connecting it to your API."
+      },
+      {
+        "role": "agent",
+        "content": "For Shopify-specific assistance, I'd recommend our Shopify Integration Specialist. They can help you connect Shopify to our API. [Resource: expert/shopify-integration]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. How do I contact them?"
+      },
+      {
+        "role": "agent",
+        "content": "You can book a call directly through the provided link. Our Shopify Integration Specialist will help you connect Shopify to our API. [Resource: expert/shopify-integration]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource (API documentation), clarifies tool, escalates to expert when additional help needed."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized SaaS company and are considering your software suite for our backend services."
+      },
+      {
+        "role": "agent",
+        "content": "That's fantastic! Our API documentation includes guides for integrating with various backend services. [Resource: docs/backend-integrations]"
+      },
+      {
+        "role": "user",
+        "content": "We're using AWS Lambda for our backend but are facing some performance issues."
+      },
+      {
+        "role": "agent",
+        "content": "For AWS Lambda performance optimization, I'd recommend our Performance Engineer. They specialize in optimizing performance for various backend services. [Resource: expert/performance-engineer]"
+      },
+      {
+        "role": "user",
+        "content": "What's the best way to get in touch with them?"
+      },
+      {
+        "role": "agent",
+        "content": "You can book a call directly through the provided link. Our Performance Engineer will help you optimize the performance of your AWS Lambda backend. [Resource: expert/performance-engineer]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource (API documentation), clarifies tool, escalates to expert when additional help needed."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large manufacturing company and need help implementing your software suite for our supply chain management."
+      },
+      {
+        "role": "agent",
+        "content": "I'd be happy to help! Our API documentation includes guides for integrating with various supply chain management systems. [Resource: docs/supply-chain-integrations]"
+      },
+      {
+        "role": "user",
+        "content": "We're using SAP for our supply chain management but are having trouble connecting it to your API."
+      },
+      {
+        "role": "agent",
+        "content": "For SAP-specific assistance, I'd recommend our SAP Integration Specialist. They can help you connect SAP to our API. [Resource: expert/sap-integration]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. How do I contact them?"
+      },
+      {
+        "role": "agent",
+        "content": "You can book a call directly through the provided link. Our SAP Integration Specialist will help you connect SAP to our API. [Resource: expert/sap-integration]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource (API documentation), clarifies tool, escalates to expert when additional help needed."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized company looking to migrate our data to your platform."
+      },
+      {
+        "role": "agent",
+        "content": "That's a common request for data migration! I have a link to our comprehensive guide on migrating data to our platform. [Resource: guide/data-migration]"
+      },
+      {
+        "role": "user",
+        "content": "Our data is quite complex. Can I speak with someone who can help me design an effective data mapping strategy?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! I can connect you with our Data Solutions Architect, who specializes in complex data migrations. [Resource: expert/data-solutions-architect]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks! How long does the migration process typically take?"
+      },
+      {
+        "role": "agent",
+        "content": "The migration timeline can vary greatly depending on the size and complexity of your data. I can put you in touch with our Project Manager who can provide a more accurate estimate based on your specific situation. [Resource: expert/project-manager]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. When can we schedule the call?"
+      },
+      {
+        "role": "agent",
+        "content": "I can schedule the call for tomorrow at 10 am. I'll send you a calendar invite with the details. [Resource: calendar/invite]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then escalates to an expert, and finally schedules a call."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large enterprise looking to integrate your platform with our existing systems."
+      },
+      {
+        "role": "agent",
+        "content": "That's a common request for enterprise integrations! I have a link to our documentation on integration options for enterprise clients. [Resource: docs/enterprise-integration]"
+      },
+      {
+        "role": "user",
+        "content": "We prefer using Java for our backend."
+      },
+      {
+        "role": "agent",
+        "content": "We support Java! I have a link to our GitHub repository specifically for Java integration demos. This includes a complete POC environment. [Resource: github/java-integration]"
+      },
+      {
+        "role": "user",
+        "content": "What about security considerations during the integration process?"
+      },
+      {
+        "role": "agent",
+        "content": "Security is of utmost importance to us. I can connect you with our Security Solutions Architect who can guide you through the security aspects of the integration process. [Resource: expert/security-solutions-architect]"
+      },
+      {
+        "role": "user",
+        "content": "That would be helpful. Can we schedule a call tomorrow at 2 pm?"
+      },
+      {
+        "role": "agent",
+        "content": "I can schedule the call for tomorrow at 2 pm. I'll send you a calendar invite with the details. [Resource: calendar/invite]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then escalates to an expert, and finally schedules a call."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a startup and need help setting up real-time notifications for our users."
+      },
+      {
+        "role": "agent",
+        "content": "Real-time notifications are a great way to engage users! I have a link to our documentation on setting up real-time notifications. [Resource: docs/notifications]"
+      },
+      {
+        "role": "user",
+        "content": "We use React Native for our mobile app."
+      },
+      {
+        "role": "agent",
+        "content": "We support React Native! I have a link to our GitHub repository specifically for React Native notification demos. This includes a complete POC environment. [Resource: github/react-native-notifications]"
+      },
+      {
+        "role": "user",
+        "content": "Can we customize the notification content for our specific use case?"
+      },
+      {
+        "role": "agent",
+        "content": "Yes! Our Custom Solutions Engineer can help you customize the notifications to fit your specific needs. [Resource: expert/custom-solutions-engineer]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. When can we schedule a call to discuss this further?"
+      },
+      {
+        "role": "agent",
+        "content": "I can schedule the call for tomorrow at 11 am. I'll send you a calendar invite with the details. [Resource: calendar/invite]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then escalates to an expert, and finally schedules a call."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small team and need assistance with setting up user roles and permissions."
+      },
+      {
+        "role": "agent",
+        "content": "User roles and permissions are essential for securing your platform! I have a link to our documentation on setting up user roles and permissions. [Resource: docs/user-roles-permissions]"
+      },
+      {
+        "role": "user",
+        "content": "We are a healthcare organization. Are there any HIPAA compliance considerations we should be aware of?"
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! I can connect you with our Compliance Officer who can guide you through the HIPAA compliance aspects of setting up user roles and permissions. [Resource: expert/compliance-officer]"
+      },
+      {
+        "role": "user",
+        "content": "That would be helpful. Can we schedule a call tomorrow at 3 pm?"
+      },
+      {
+        "role": "agent",
+        "content": "I can schedule the call for tomorrow at 3 pm. I'll send you a calendar invite with the details. [Resource: calendar/invite]"
+      },
+      {
+        "role": "user",
+        "content": "Great! Can you also send me a copy of the HIPAA compliance checklist?"
+      },
+      {
+        "role": "agent",
+        "content": "I can send you a copy of the HIPAA compliance checklist via email. I'll make sure to include it in the calendar invite. [Resource: email/hipaa-compliance-checklist]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then escalates to an expert, schedules a call, and provides additional resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small e-commerce business and need help setting up product categories."
+      },
+      {
+        "role": "agent",
+        "content": "Product categories are important for organizing your e-commerce offerings! I have a link to our documentation on setting up product categories. [Resource: docs/product-categories]"
+      },
+      {
+        "role": "user",
+        "content": "We use Shopify for our e-commerce platform."
+      },
+      {
+        "role": "agent",
+        "content": "We support Shopify! I have a link to our GitHub repository specifically for Shopify product category demos. This includes a complete POC environment. [Resource: github/shopify-product-categories]"
+      },
+      {
+        "role": "user",
+        "content": "Can we set up custom product attributes for our unique product offerings?"
+      },
+      {
+        "role": "agent",
+        "content": "Yes! Our Custom Solutions Engineer can help you set up custom product attributes. [Resource: expert/custom-solutions-engineer]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. Can we schedule a call tomorrow at 2 pm?"
+      },
+      {
+        "role": "agent",
+        "content": "I can schedule the call for tomorrow at 2 pm. I'll send you a calendar invite with the details. [Resource: calendar/invite]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then escalates to an expert, and finally schedules a call."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking to implement real-time analytics in our mobile app."
+      },
+      {
+        "role": "agent",
+        "content": "That's a great step for your mobile app! Do you prefer to work with Swift or Kotlin for iOS and Android respectively?"
+      },
+      {
+        "role": "user",
+        "content": "We mainly use Swift for iOS."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. I've prepared a demo for integrating our analytics API into Swift apps. Here's the link: [Resource: github/swift-analytics]"
+      },
+      {
+        "role": "user",
+        "content": "What if we encounter an issue with event tracking?"
+      },
+      {
+        "role": "agent",
+        "content": "For event tracking issues, you can consult our Event Tracking Specialist. Here's their contact info: [Resource: expert/event-tracking-specialist]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, that helps a lot!"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then matches secondary query to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering implementing machine learning models for predicting user behavior."
+      },
+      {
+        "role": "agent",
+        "content": "Machine learning is a powerful tool for understanding user behavior! Are you using Python or R for your data science projects?"
+      },
+      {
+        "role": "user",
+        "content": "We're using Python."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I've prepared a demo for implementing machine learning models using Python. Here's the link: [Resource: github/python-ml-models]"
+      },
+      {
+        "role": "user",
+        "content": "What if we need help with model optimization?"
+      },
+      {
+        "role": "agent",
+        "content": "For model optimization issues, you can consult our Data Science Team. Here's their contact info: [Resource: expert/data-science-team]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, that's really helpful!"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then matches secondary query to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're planning to implement a chatbot for our customer support."
+      },
+      {
+        "role": "agent",
+        "content": "A chatbot can greatly enhance your customer support experience! Do you prefer to use Node.js or Python for your backend?"
+      },
+      {
+        "role": "user",
+        "content": "We mainly use Node.js."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! I've prepared a demo for integrating our chatbot API into Node.js apps. Here's the link: [Resource: github/nodejs-chatbot]"
+      },
+      {
+        "role": "user",
+        "content": "What if we run into issues with natural language processing?"
+      },
+      {
+        "role": "agent",
+        "content": "For natural language processing issues, you can consult our NLP Specialist. Here's their contact info: [Resource: expert/nlp-specialist]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, that's really helpful!"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then matches secondary query to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in implementing serverless functions for our application."
+      },
+      {
+        "role": "agent",
+        "content": "Serverless functions can greatly improve your application's scalability and cost-effectiveness! Do you primarily work with AWS Lambda or Google Cloud Functions?"
+      },
+      {
+        "role": "user",
+        "content": "We're using AWS Lambda."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I've prepared a demo for implementing serverless functions with AWS Lambda. Here's the link: [Resource: github/aws-lambda]"
+      },
+      {
+        "role": "user",
+        "content": "What if we encounter issues with AWS Lambda triggers?"
+      },
+      {
+        "role": "agent",
+        "content": "For AWS Lambda trigger issues, you can consult our Serverless Specialist. Here's their contact info: [Resource: expert/serverless-specialist]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, that's really helpful!"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then matches secondary query to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering implementing real-time user authentication."
+      },
+      {
+        "role": "agent",
+        "content": "Real-time user authentication is essential for secure applications! Do you primarily work with JWT or OAuth for authentication?"
+      },
+      {
+        "role": "user",
+        "content": "We're using JWT."
+      },
+      {
+        "role": "agent",
+        "content": "Great! I've prepared a demo for implementing real-time JWT authentication. Here's the link: [Resource: github/jwt-authentication]"
+      },
+      {
+        "role": "user",
+        "content": "What if we need help with JWT token refresh?"
+      },
+      {
+        "role": "agent",
+        "content": "For JWT token refresh issues, you can consult our Security Team. Here's their contact info: [Resource: expert/security-team]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks, that's really helpful!"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then matches secondary query to an expert."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized company looking for a scalable solution for our e-commerce platform."
+      },
+      {
+        "role": "agent",
+        "content": "I see! Our Startup Suite has been optimized for e-commerce integrations. Let me show you a demo for Magento 2 integration. [Resource: github/magento2-integration]"
+      },
+      {
+        "role": "user",
+        "content": "Interesting. However, we're using Shopify for our platform."
+      },
+      {
+        "role": "agent",
+        "content": "Apologies for the mix-up! Here's the link for Shopify integration demo. [Resource: github/shopify-integration]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks! But we're facing some challenges with the API rates limit."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concern. Our team of API architects can help you optimize your API calls. [Resource: expert/api-architects]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. Can we have a meeting to discuss further?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! Here's the link to schedule a meeting with our API architects. [Resource: calendar/api-architects]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, clarifies tool, provides resource, then escalates to expert when a new issue arises, and finally provides a meeting resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a large enterprise and need a secure solution for managing sensitive data."
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! Our Startup Suite offers robust security features. Let me show you a demo for data encryption. [Resource: github/data-encryption]"
+      },
+      {
+        "role": "user",
+        "content": "This looks good, but we require compliance with GDPR and HIPAA regulations."
+      },
+      {
+        "role": "agent",
+        "content": "I see. We have a dedicated team for data privacy and compliance. They can help you achieve GDPR and HIPAA compliance. [Resource: expert/data-privacy-compliance]"
+      },
+      {
+        "role": "user",
+        "content": "Great! Can we have a call to discuss our specific needs?"
+      },
+      {
+        "role": "agent",
+        "content": "Of course! Here's the link to schedule a call with our data privacy and compliance team. [Resource: calendar/data-privacy-compliance]"
+      },
+      {
+        "role": "user",
+        "content": "Thank you for your help."
+      },
+      {
+        "role": "agent",
+        "content": "You're welcome! Don't hesitate to reach out if you have any more questions."
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, provides resource, then escalates to expert when a new issue arises, and finally provides a meeting resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a startup working on a mobile app and need help with push notifications."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! Our Startup Suite offers a comprehensive solution for mobile app notifications. Let me show you a demo for Firebase Cloud Messaging integration. [Resource: github/firebase-cloud-messaging]"
+      },
+      {
+        "role": "user",
+        "content": "This is great, but we're considering Apple Push Notifications as well."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Here's the link for Apple Push Notifications integration demo. [Resource: github/apple-push-notifications]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks! But we're facing issues with the push notification delivery rates."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concern. Our team of Mobile App Specialists can help you optimize your push notification delivery rates. [Resource: expert/mobile-app-specialists]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. Can we have a meeting to discuss further?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! Here's the link to schedule a meeting with our Mobile App Specialists. [Resource: calendar/mobile-app-specialists]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, provides resource, then considers another resource when a new issue arises, and finally provides a meeting resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a startup working on a video streaming platform and need a scalable solution for video streaming."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Startup Suite offers a scalable solution for video streaming. Let me show you a demo for video streaming with AWS Elemental MediaLive. [Resource: github/aws-elemental-medialive]"
+      },
+      {
+        "role": "user",
+        "content": "This looks good, but we're considering Azure Media Services as well."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Here's the link for Azure Media Services integration demo. [Resource: github/azure-media-services]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks! But we're facing issues with the video buffering time."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concern. Our team of Video Streaming Specialists can help you optimize your video buffering time. [Resource: expert/video-streaming-specialists]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. Can we have a meeting to discuss further?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! Here's the link to schedule a meeting with our Video Streaming Specialists. [Resource: calendar/video-streaming-specialists]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, provides resource, then considers another resource when a new issue arises, and finally provides a meeting resource."
+  },
+  {
+    "intent": "match_message_to_source",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a small startup and need help with building an AI chatbot."
+      },
+      {
+        "role": "agent",
+        "content": "Absolutely! Our Startup Suite offers a comprehensive solution for building AI chatbots. Let me show you a demo for building a chatbot using Dialogflow. [Resource: github/dialogflow-chatbot]"
+      },
+      {
+        "role": "user",
+        "content": "This is great, but we're considering Microsoft Bot Framework as well."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Here's the link for Microsoft Bot Framework integration demo. [Resource: github/microsoft-bot-framework]"
+      },
+      {
+        "role": "user",
+        "content": "Thanks! But we're facing issues with the chatbot's natural language understanding."
+      },
+      {
+        "role": "agent",
+        "content": "I understand your concern. Our team of AI and Machine Learning Specialists can help you optimize your chatbot's natural language understanding. [Resource: expert/ai-ml-specialists]"
+      },
+      {
+        "role": "user",
+        "content": "That sounds great. Can we have a meeting to discuss further?"
+      },
+      {
+        "role": "agent",
+        "content": "Certainly! Here's the link to schedule a meeting with our AI and Machine Learning Specialists. [Resource: calendar/ai-ml-specialists]"
+      }
+    ],
+    "notes": "Multi-turn flow: matches tech query to resource, provides resource, then considers another resource when a new issue arises, and finally provides a meeting resource."
+  }
+]
