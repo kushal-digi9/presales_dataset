@@ -10,7 +10,7 @@ MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 OUTPUT_DIR = "input/"
 
 # The intent and output file name must reflect the new target
-UNIFIED_INTENT = "schedule_meeting" 
+UNIFIED_INTENT = "validate_availability" 
 FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{UNIFIED_INTENT}.json")
 
 # --- Sample Counts based on 60:40 Ratio ---
@@ -49,39 +49,39 @@ except Exception as e:
 
 # ---------------- EXAMPLES ---------------- #
 
-# --- Single Turn Examples (schedule_meeting) ---
+# --- Single Turn Examples (validate_availability) ---
 SINGLE_TURN_EXAMPLES = [
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "Can we do a 30-minute demo this Thursday at 2 PM PST?"},
-            {"role": "agent", "content": "That works perfectly. I've booked Thursday at 2:00 PM PST for your Technical Deep Dive. You'll receive the calendar invite with the meeting link shortly."}
+            {"role": "user", "content": "Is your API architect, Lisa, available for a 45-minute deep dive this Friday at 3 PM EST?"},
+            {"role": "agent", "content": "I just checked Lisa's calendar for Friday at 3 PM EST—she is currently booked. However, she has an opening at 11 AM EST or 4 PM EST that same day. Which of those works better?"}
         ],
-        "notes": "Direct confirmation of a user-specified time slot, ready for TTS."
+        "notes": "Agent validates availability (unsuccessful) and proposes alternatives."
     },
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "I need to speak to an expert about API limitations next week."},
-            {"role": "agent", "content": "I can schedule that now. Our API specialist, Jordan, has an opening next Tuesday at 11:00 AM EST. I'll reserve the slot now and send the invite over."}
+            {"role": "user", "content": "I need to confirm if I can get a demo slot for tomorrow afternoon."},
+            {"role": "agent", "content": "Yes, I see three available slots for tomorrow afternoon, including 2:30 PM and 4:00 PM in your local time zone. Which one should I hold for you?"}
         ],
-        "notes": "Agent suggests a time/expert and confirms the booking naturally."
+        "notes": "Agent validates availability (successful) and prompts the user to choose."
     }
 ]
 
-# --- Multi-Turn Examples (schedule_meeting) ---
+# --- Multi-Turn Examples (validate_availability) ---
 MULTI_TURN_EXAMPLES = [
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "I'd like to schedule some time with a Solutions Engineer soon."},
-            {"role": "agent", "content": "Great idea! To ensure we cover everything, would a 45-minute technical session be sufficient, and what time zone are you currently in?"},
-            {"role": "user", "content": "45 minutes is fine, and I'm in EST."},
-            {"role": "agent", "content": "Understood. Our Solutions Engineer, Sarah, is free next Tuesday morning. Does 10:30 AM EST work for your team?"},
-            {"role": "user", "content": "10:30 AM EST on Tuesday is great."},
-            {"role": "agent", "content": "Confirmed! I've booked the 'API Integration Workshop' for next Tuesday at 10:30 AM EST. The calendar invite is on its way now."}
+            {"role": "user", "content": "We need to schedule a follow-up call with the lead engineer from last week."},
+            {"role": "agent", "content": "Absolutely. Just to confirm: the engineer was Mark, and you are aiming for next Monday?"},
+            {"role": "user", "content": "Yes, Mark, and preferably Monday morning, CST."},
+            {"role": "agent", "content": "Let me check Mark's schedule for Monday morning in CST... Ah, Mark is committed until noon. Would 1:00 PM CST work, or should we look at Tuesday morning instead?"},
+            {"role": "user", "content": "Tuesday morning is fine, let's try 9 AM CST."},
+            {"role": "agent", "content": "Checking Tuesday at 9 AM CST... Success! Mark is available then. I can send the confirmation now."}
         ],
-        "notes": "Multi-turn flow demonstrating clarification of details before the final scheduling confirmation, suitable for TTS."
+        "notes": "Multi-turn flow demonstrating clarification, unsuccessful validation, alternative suggestion, and final successful validation."
     }
 ]
 
@@ -89,18 +89,18 @@ MULTI_TURN_EXAMPLES = [
 
 SYSTEM_INSTRUCTION = (
     "You are a highly professional Presales Agent for a **Startup Suite** software company (API-first, cloud-native, focused on scale). "
-    "Output ONLY a JSON array. No explanations. The responses must be natural conversational confirmations, suitable for Text-to-Speech (TTS) generation. DO NOT include any structured JSON tags or special formatting in the agent's dialogue."
+    "Output ONLY a JSON array. No explanations. The responses must be natural conversational confirmations or rejections of availability, suitable for Text-to-Speech (TTS) generation. DO NOT include any structured JSON tags or special formatting in the agent's dialogue."
 )
 
 SINGLE_TURN_TASK = (
     "Generate {num_to_generate} new 2-turn dialogues for the intent '{intent_name}'. "
-    "The Agent's response MUST directly confirm and finalize a meeting schedule using natural, conversational language, assuming all necessary details were provided. Output JSON array only."
+    "The Agent's response MUST clearly state the **validation result** (e.g., booked/available/unavailable) for a requested resource or time slot using natural, conversational language. If unavailable, propose an alternative. Output JSON array only."
 )
 
 MULTI_TURN_TASK = (
     "Generate {num_to_generate} new multi-turn dialogues for the intent '{intent_name}'. "
     "Each dialogue must have at least 6 turns (User, Agent, U, A, U, A). "
-    "The Agent MUST use conversational memory to clarify scheduling details (e.g., time zone, duration) before successfully booking the meeting and confirming it in a final, natural response. Output JSON array only."
+    "The Agent MUST use conversational memory to clarify the meeting details (who, when, duration) before attempting to **validate availability multiple times** and either offering alternatives or confirming the slot. Output JSON array only."
 )
 
 def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
