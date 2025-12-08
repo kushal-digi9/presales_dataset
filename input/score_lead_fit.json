@@ -1,0 +1,2182 @@
+[
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new CRM system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure the best solution, could you confirm if you have any specific requirements regarding data privacy and compliance?"
+      }
+    ],
+    "notes": "Qualifies based on data privacy and compliance requirements."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a new customer support software."
+      },
+      {
+        "role": "agent",
+        "content": "For optimal integration, could you confirm if you currently use any specific ticketing or helpdesk systems?"
+      }
+    ],
+    "notes": "Qualifies based on ticketing or helpdesk system alignment."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new video conferencing solution for remote meetings."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure the solution is scalable, could you confirm the estimated number of monthly active users in your organization?"
+      }
+    ],
+    "notes": "Qualifies based on estimated monthly active users."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are searching for a new HR management system."
+      },
+      {
+        "role": "agent",
+        "content": "For a seamless implementation, could you confirm if you have any specific requirements regarding HRIS integrations?"
+      }
+    ],
+    "notes": "Qualifies based on HRIS integrations alignment."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new email marketing platform."
+      },
+      {
+        "role": "agent",
+        "content": "To optimize the solution, could you confirm if you have any specific email list segmentation requirements?"
+      }
+    ],
+    "notes": "Qualifies based on email list segmentation requirements."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our sales team is looking for a CRM solution."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure we provide the best Enterprise solution, could you please share your current CRM vendor and the main reasons for considering a switch?"
+      }
+    ],
+    "notes": "Qualifies based on CRM vendor and reasons for switch."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our IT department is considering a new cloud storage service."
+      },
+      {
+        "role": "agent",
+        "content": "In order to offer the most suitable Enterprise solution, could you specify the current cloud storage capacity and the expected growth rate over the next 2 years?"
+      }
+    ],
+    "notes": "Qualifies based on current cloud storage capacity and expected growth."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our HR department is seeking a new applicant tracking system."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a tailored Enterprise solution, could you kindly provide the number of employees and the expected hiring rate for the upcoming year?"
+      }
+    ],
+    "notes": "Qualifies based on number of employees and expected hiring rate."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our finance department is interested in a new financial management software."
+      },
+      {
+        "role": "agent",
+        "content": "To provide an optimal Enterprise solution, could you confirm if your organization requires the software to be compatible with QuickBooks?"
+      }
+    ],
+    "notes": "Qualifies based on software compatibility with QuickBooks."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our support team needs a new helpdesk software."
+      },
+      {
+        "role": "agent",
+        "content": "To offer the best Enterprise solution, could you please specify if you have a preference for cloud-based or on-premises helpdesk software?"
+      }
+    ],
+    "notes": "Qualifies based on preference for cloud or on-premises software."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our sales team is looking for a CRM solution to streamline our processes."
+      },
+      {
+        "role": "agent",
+        "content": "That's helpful. To better understand if our Enterprise solution is a good fit, could you please tell us the number of users you anticipate needing access to the CRM?"
+      }
+    ],
+    "notes": "Qualifies based on user count."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our IT department is interested in a new backup and disaster recovery solution."
+      },
+      {
+        "role": "agent",
+        "content": "Great, to ensure our solution aligns with your needs, could you provide an overview of your current tech stack and any specific requirements you have for integration?"
+      }
+    ],
+    "notes": "Qualifies based on tech stack compatibility."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our HR department is seeking a new applicant tracking system."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. To assess the fit of our Enterprise solution, could you please share the number of new hires your organization expects in the next year?"
+      }
+    ],
+    "notes": "Qualifies based on hiring volume."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our engineering team is looking for a new issue tracking tool."
+      },
+      {
+        "role": "agent",
+        "content": "That's great. To ensure a good fit, could you please specify any mandatory compliance requirements your organization must adhere to during the software selection process?"
+      }
+    ],
+    "notes": "Qualifies based on mandatory compliance."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our support team is interested in a new help desk solution."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. To evaluate the fit of our Enterprise solution, could you provide details on the decision-making process for selecting a new help desk solution?"
+      }
+    ],
+    "notes": "Qualifies based on decision-making process."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a new CRM system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "In terms of the technical requirements, do you have a preferred CRM integration with your existing tools?"
+      }
+    ],
+    "notes": "Qualifies based on tech stack compatibility."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new data analytics platform."
+      },
+      {
+        "role": "agent",
+        "content": "Who is the primary decision maker for this project within your organization?"
+      }
+    ],
+    "notes": "Qualifies based on decision maker identification."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are interested in a new ERP solution for our business."
+      },
+      {
+        "role": "agent",
+        "content": "Does your organization have any mandatory compliance/regulatory requirements for the ERP system?"
+      }
+    ],
+    "notes": "Qualifies based on mandatory compliance requirements."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a new HR software solution."
+      },
+      {
+        "role": "agent",
+        "content": "What is the approximate number of employees in your organization?"
+      }
+    ],
+    "notes": "Qualifies based on employee count within the organization."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are exploring options for a new cloud storage solution."
+      },
+      {
+        "role": "agent",
+        "content": "Do you have a preferred cloud provider (AWS, GCP, or Azure) for this new solution?"
+      }
+    ],
+    "notes": "Qualifies based on preferred cloud provider."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a CRM solution to streamline sales processes."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a seamless integration with your current tech stack, could you please share the systems you are currently using?"
+      }
+    ],
+    "notes": "Qualifies based on required tech stack alignment."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new customer support tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "In order to ensure our Enterprise solution fits well, could you confirm if you have a dedicated IT team to manage and maintain the tool?"
+      }
+    ],
+    "notes": "Qualifies based on dedicated IT team availability."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a new cloud storage solution."
+      },
+      {
+        "role": "agent",
+        "content": "To assess the proper licensing requirements, what is the approximate number of users that would require access to the platform?"
+      }
+    ],
+    "notes": "Qualifies based on user count for licensing purposes."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new data analytics tool for our business."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure our Enterprise solution fits well, could you confirm if you have an in-house data analyst or data scientist on your team?"
+      }
+    ],
+    "notes": "Qualifies based on in-house data analyst availability."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're evaluating a new HR software solution."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure our Enterprise solution is the right fit, could you confirm if your organization is currently using any specific HR software?"
+      }
+    ],
+    "notes": "Qualifies based on current HR software usage."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a CRM solution to manage our customer relationships."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a seamless integration with your existing systems, could you share the tech stack you're currently using?"
+      }
+    ],
+    "notes": "Qualifies based on required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a data analytics platform for our business intelligence needs."
+      },
+      {
+        "role": "agent",
+        "content": "For optimal results, it's important to have a dedicated data analyst in your team. Do you have someone with that expertise in-house?"
+      }
+    ],
+    "notes": "Qualifies based on required expertise."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a cloud-based HR solution for our organization."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a smooth rollout, it's crucial to have a clear decision maker within your organization. Could you please identify who that would be?"
+      }
+    ],
+    "notes": "Qualifies based on clear decision maker."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a cybersecurity solution to protect our network."
+      },
+      {
+        "role": "agent",
+        "content": "For the best possible protection, it's essential to have regular security audits. Do you currently have this in place?"
+      }
+    ],
+    "notes": "Qualifies based on mandatory compliance/security audit."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering an enterprise-level collaboration tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure maximum productivity, it's important to have a clear budget allocation for this initiative. Could you share the estimated budget for this tool?"
+      }
+    ],
+    "notes": "Qualifies based on budget alignment with ICP."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a cloud-based CRM solution."
+      },
+      {
+        "role": "agent",
+        "content": "To evaluate if our solution is a good technical fit, could you please confirm your preferred cloud provider among AWS, Azure, or GCP?"
+      }
+    ],
+    "notes": "Qualifies based on required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our sales team requires a new email marketing tool."
+      },
+      {
+        "role": "agent",
+        "content": "To verify that you align with our Ideal Customer Profile, what is the typical size of your email campaigns (e.g., weekly, monthly, quarterly, or annual)?"
+      }
+    ],
+    "notes": "Qualifies based on email campaign size."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are seeking a new data analytics solution."
+      },
+      {
+        "role": "agent",
+        "content": "To determine the fit of our solution, could you please specify the number of users who will be accessing the analytics platform?"
+      }
+    ],
+    "notes": "Qualifies based on user count."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are in search of a new collaboration platform."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure our solution meets your requirements, could you confirm if you have any specific third-party integrations that are essential for your organization?"
+      }
+    ],
+    "notes": "Qualifies based on third-party integrations."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new HRMS solution."
+      },
+      {
+        "role": "agent",
+        "content": "To assess the fit of our solution, could you please confirm if your organization is planning to implement multi-language support in the near future?"
+      }
+    ],
+    "notes": "Qualifies based on language support."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a new customer relationship management tool."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure our Enterprise solution is the right fit for your organization, could you share the number of users you anticipate needing to manage?"
+      }
+    ],
+    "notes": "Qualifies based on user count."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our sales team is considering a new lead generation platform."
+      },
+      {
+        "role": "agent",
+        "content": "For the best results, it's important to align with our Ideal Customer Profile (ICP). Could you provide details about your current sales process?"
+      }
+    ],
+    "notes": "Qualifies based on sales process."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new email marketing solution."
+      },
+      {
+        "role": "agent",
+        "content": "To provide you with the best solution, could you confirm if your organization requires GDPR compliance?"
+      }
+    ],
+    "notes": "Qualifies based on mandatory compliance/regulation."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "Our support team is considering a new ticket management system."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure our solution meets your needs, who is the primary decision-maker for this project within your organization?"
+      }
+    ],
+    "notes": "Qualifies based on decision maker."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are exploring a new CRM solution for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure our solution is the right fit, could you specify the tech stack your team currently uses?"
+      }
+    ],
+    "notes": "Qualifies based on required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a new CRM system to manage our customer interactions."
+      },
+      {
+        "role": "agent",
+        "content": "That's great. To ensure a seamless integration with your existing tech stack, could you share the current tech stack your organization is using?"
+      }
+    ],
+    "notes": "Qualifies based on tech stack compatibility."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new data analytics tool for our business intelligence needs."
+      },
+      {
+        "role": "agent",
+        "content": "To confirm that our solution meets your organization's security requirements, do you have any specific compliance or data protection regulations we should be aware of?"
+      }
+    ],
+    "notes": "Qualifies based on compliance with specific data protection regulations."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a new cloud storage solution for our data."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure that our solution fits your needs, could you share the estimated amount of data you plan to store and manage?"
+      }
+    ],
+    "notes": "Qualifies based on data volume."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new HR software for managing employee data."
+      },
+      {
+        "role": "agent",
+        "content": "That's great. To confirm that our solution aligns with your organization's size, could you provide an estimate of your employee headcount?"
+      }
+    ],
+    "notes": "Qualifies based on employee headcount."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a new collaboration tool for our remote teams."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure that our solution meets your organization's needs, could you share the number of remote team members you have?"
+      }
+    ],
+    "notes": "Qualifies based on number of remote team members."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new customer relationship management tool."
+      },
+      {
+        "role": "agent",
+        "content": "To evaluate if our Enterprise solution is suitable, could you specify the size of your sales team?"
+      }
+    ],
+    "notes": "Qualifies based on team size."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are exploring a new IT service management tool."
+      },
+      {
+        "role": "agent",
+        "content": "That's helpful. To verify if our solution fits, do you have a preference for specific cloud providers?"
+      }
+    ],
+    "notes": "Qualifies based on cloud provider preference."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a new content management system."
+      },
+      {
+        "role": "agent",
+        "content": "For a proper fit, could you share the expected number of monthly content updates?"
+      }
+    ],
+    "notes": "Qualifies based on content update frequency."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are interested in a new data backup and recovery solution."
+      },
+      {
+        "role": "agent",
+        "content": "To assess the fit, could you specify the industries your organization operates in?"
+      }
+    ],
+    "notes": "Qualifies based on industry alignment."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new HR software solution."
+      },
+      {
+        "role": "agent",
+        "content": "For a proper fit, could you confirm if you require a multi-language support for your workforce?"
+      }
+    ],
+    "notes": "Qualifies based on multi-language support."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a cloud-based data backup solution."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a seamless integration, could you tell me the current cloud service provider your organization uses?"
+      }
+    ],
+    "notes": "Qualifies based on required tech stack alignment."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are interested in a CRM system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure the solution can scale with your growth, could you provide an estimated number of users that will need access to the CRM?"
+      }
+    ],
+    "notes": "Qualifies based on user count alignment with ICP."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new email security solution for our company."
+      },
+      {
+        "role": "agent",
+        "content": "To validate the need for our advanced features, could you tell me if your organization has experienced any phishing or email-based attacks recently?"
+      }
+    ],
+    "notes": "Qualifies based on security concerns."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are searching for a new HRIS solution."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure our solution is the right fit, could you confirm if your organization has multiple locations or is a single entity?"
+      }
+    ],
+    "notes": "Qualifies based on organizational structure."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are interested in a new business intelligence platform."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure our solution is a good fit, could you provide details on the types of reports and data analysis your organization needs regularly?"
+      }
+    ],
+    "notes": "Qualifies based on data analysis requirements."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a cloud-based data storage solution."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a good fit, could you share the scale of data storage requirements in terabytes?"
+      }
+    ],
+    "notes": "Qualifies based on data storage requirements."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new customer support software."
+      },
+      {
+        "role": "agent",
+        "content": "For a better assessment, could you specify the average monthly ticket volume your support team handles?"
+      }
+    ],
+    "notes": "Qualifies based on support ticket volume."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a new HR software for our organization."
+      },
+      {
+        "role": "agent",
+        "content": "To determine the suitability of our solutions, could you provide the number of employees in your organization?"
+      }
+    ],
+    "notes": "Qualifies based on employee count."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new CRM system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "For a more accurate assessment, could you share the number of sales reps in your organization?"
+      }
+    ],
+    "notes": "Qualifies based on sales rep count."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a new accounting software."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a good fit, could you confirm if your organization is subject to GAAP or IFRS compliance?"
+      }
+    ],
+    "notes": "Qualifies based on GAAP/IFRS compliance."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small retail company looking to streamline our sales processes."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To better understand your needs, could you please share your budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "Our budget is between $10,000 and $20,000."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Who will be the primary decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The primary decision maker is the owner of the company."
+      },
+      {
+        "role": "agent",
+        "content": "Alright. We offer solutions tailored to small businesses. However, we need to ensure the platform can handle your sales processes. Do you project more than 100,000 sales per month?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and sales volume."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a medium-sized law firm seeking a CRM solution."
+      },
+      {
+        "role": "agent",
+        "content": "That's great! To ensure a good fit, could you please share your budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "Our budget is between $50,000 and $100,000."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Who will be the primary decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The primary decision maker is the managing partner."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. And to ensure the platform can meet your specific needs, what CRM systems are currently in use at your firm?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and current tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a growing e-commerce company looking for a website builder."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To better understand your needs, could you please share your budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "Our budget is between $20,000 and $50,000."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Who will be the primary decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The primary decision maker is the CEO."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. To ensure the platform supports your needs, do you require any specific e-commerce features like inventory management, order management, or marketing integrations?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a large non-profit organization looking for a donor management software."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To better understand your needs, could you please share your budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "Our budget is between $100,000 and $200,000."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Who will be the primary decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The primary decision maker is the executive director."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. And to ensure the platform can meet your specific needs, what donor management features are most important to you?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a medium-sized manufacturing company looking for a warehouse management system."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To better understand your needs, could you please share your budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "Our budget is between $30,000 and $60,000."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Who will be the primary decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The primary decision maker is the operations manager."
+      },
+      {
+        "role": "agent",
+        "content": "Alright. To ensure the platform can meet your specific needs, do you require any integrations with existing manufacturing systems or specific warehouse management features?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering switching to a new CRM system."
+      },
+      {
+        "role": "agent",
+        "content": "Interesting! To start qualifying, could you please share the budget for this project?"
+      },
+      {
+        "role": "user",
+        "content": "Our budget is around $50,000."
+      },
+      {
+        "role": "agent",
+        "content": "That's within our range. Who would be the primary user or decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the CTO."
+      },
+      {
+        "role": "agent",
+        "content": "Great, and what specific features are you looking for in the new CRM?"
+      },
+      {
+        "role": "user",
+        "content": "We need API integration capabilities, mobile app support, and advanced analytics."
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're exploring cloud storage solutions for our team."
+      },
+      {
+        "role": "agent",
+        "content": "That's helpful. To begin, what is your monthly storage requirement?"
+      },
+      {
+        "role": "user",
+        "content": "We're looking for a solution that can accommodate 2 terabytes of data."
+      },
+      {
+        "role": "agent",
+        "content": "We have several options that fit that need. For the decision maker, is that role filled by an IT manager or a department head?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is a department head."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, do you require any specific compliance certifications for this solution?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need HIPAA compliance."
+      }
+    ],
+    "notes": "Multi-turn qualification based on storage, decision maker, and compliance."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're seeking a project management tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! To start, could you please provide the approximate number of team members who'll be using the tool?"
+      },
+      {
+        "role": "user",
+        "content": "Our team consists of 20 members."
+      },
+      {
+        "role": "agent",
+        "content": "Great, and who would be the primary decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the team lead."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, are there any specific project management methodologies you'd like the tool to support?"
+      },
+      {
+        "role": "user",
+        "content": "We use Agile and Scrum methodologies."
+      }
+    ],
+    "notes": "Multi-turn qualification based on team size, decision maker, and methodologies."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a secure video conferencing solution."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To start, could you please share the approximate number of users for this solution?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 100 users."
+      },
+      {
+        "role": "agent",
+        "content": "That's great. For the decision maker, who would be the primary point of contact for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the IT manager."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, are there any specific security requirements or features you're looking for in the solution?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need end-to-end encryption and single sign-on capabilities."
+      }
+    ],
+    "notes": "Multi-turn qualification based on users, decision maker, and security features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new HR management system."
+      },
+      {
+        "role": "agent",
+        "content": "That's great! To start, could you please share the approximate number of employees for this solution?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 500 employees."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. For the decision maker, who would be the primary point of contact for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the HR manager."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, are there any specific HR processes or features you're looking to streamline with the new system?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need to automate onboarding, performance reviews, and benefits administration."
+      }
+    ],
+    "notes": "Multi-turn qualification based on employees, decision maker, and HR processes."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're a growing startup and need a CRM solution."
+      },
+      {
+        "role": "agent",
+        "content": "That sounds great. To ensure we can support your growth, can you share your annual budget for a CRM solution?"
+      },
+      {
+        "role": "user",
+        "content": "We're planning to allocate $20,000 for this project."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And who will be the final decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the CEO."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. Regarding the required features, do you need advanced analytics, custom reporting, or integration with our existing tech stack?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need advanced analytics, custom reporting, and integration with Salesforce and Slack."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our Premium package offers all those features. Shall we schedule a call to discuss how we can tailor our solution to your needs?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a project management tool for our remote team."
+      },
+      {
+        "role": "agent",
+        "content": "I see. To make sure our tool suits your needs, could you share the approximate number of users who will be using the tool?"
+      },
+      {
+        "role": "user",
+        "content": "We have a team of 50 users."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And who will be the main point of contact for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The main point of contact is the Project Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Regarding the integrations, do you need it to integrate with Slack, Trello, or Google Drive?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need it to integrate with all three."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! Our Enterprise package offers all those integrations. Shall we set up a call to discuss how our tool can help streamline your team's workflow?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on number of users, main point of contact, and required integrations."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a cloud storage solution for our company data."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To provide the best fit, what is your estimated storage requirement per month?"
+      },
+      {
+        "role": "user",
+        "content": "We need 5TB of storage per month."
+      },
+      {
+        "role": "agent",
+        "content": "I see. And who will be the main point of contact for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The main point of contact is the IT Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Regarding the security, do you require two-factor authentication, encryption, and compliance with GDPR?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we require all of those features."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! Our Business package offers all those security features. Shall we schedule a call to discuss how we can tailor our solution to your needs?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on storage requirement, main point of contact, and security features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're seeking a customer service software for our e-commerce business."
+      },
+      {
+        "role": "agent",
+        "content": "I see. To ensure we provide the best fit, can you share your average monthly ticket volume?"
+      },
+      {
+        "role": "user",
+        "content": "We handle around 5,000 tickets per month."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And who will be the main point of contact for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The main point of contact is the Customer Service Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Regarding the required features, do you need multi-channel support, automated ticket routing, and customer satisfaction surveys?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need all of those features."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! Our Pro package offers all those features. Shall we schedule a call to discuss how we can tailor our solution to your needs?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on ticket volume, main point of contact, and required features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a video conferencing solution for our team."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To provide the best fit, can you share your estimated number of monthly meetings?"
+      },
+      {
+        "role": "user",
+        "content": "We hold around 20 meetings per month."
+      },
+      {
+        "role": "agent",
+        "content": "I see. And who will be the main point of contact for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The main point of contact is the HR Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Regarding the integrations, do you need it to integrate with Slack, Google Calendar, or Microsoft Outlook?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need it to integrate with all three."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! Our Business package offers all those integrations. Shall we schedule a call to discuss how we can tailor our solution to your needs?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on number of monthly meetings, main point of contact, and required integrations."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized e-commerce store looking for a CRM solution."
+      },
+      {
+        "role": "agent",
+        "content": "Great, I'd be happy to help! To ensure our CRM suits your needs, could you share your annual budget for this project?"
+      },
+      {
+        "role": "user",
+        "content": "Our budget is around $50,000 per year."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect, that fits within our pricing tiers. Now, who will be making the final decision on this purchase? Is it a director or C-level executive?"
+      },
+      {
+        "role": "user",
+        "content": "The decision will be made by the Director of Operations."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, what specific features or tech stack are you looking for in the CRM?"
+      },
+      {
+        "role": "user",
+        "content": "We require strong integration capabilities with Shopify, Salesforce, and Mailchimp."
+      }
+    ],
+    "notes": "Budget qualification, decision maker, and required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a growing B2B software company and need a sales intelligence tool."
+      },
+      {
+        "role": "agent",
+        "content": "That's great! To ensure our tool matches your needs, what is your projected monthly budget for this solution?"
+      },
+      {
+        "role": "user",
+        "content": "We are expecting to spend around $2,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect, our tool falls within that range. Could you tell me who will be the final decision maker for this purchase? Is it a director or C-level executive?"
+      },
+      {
+        "role": "user",
+        "content": "The final decision will be made by the Director of Sales."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, what specific features or requirements are you looking for in the sales intelligence tool?"
+      },
+      {
+        "role": "user",
+        "content": "We require real-time data, lead scoring, and integrations with Hubspot and Slack."
+      }
+    ],
+    "notes": "Budget qualification, decision maker, and required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a small accounting firm and are looking for a cloud-based accounting software."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect, I'd be happy to help! To ensure our software fits your needs, could you share your budget for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We have a budget of around $1,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Great, that fits within our pricing tiers. Now, who will be making the final decision on this purchase? Is it a director or C-level executive?"
+      },
+      {
+        "role": "user",
+        "content": "The final decision will be made by the Director of Finance."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, what specific features or requirements are you looking for in the cloud-based accounting software?"
+      },
+      {
+        "role": "user",
+        "content": "We require strong invoicing, expense tracking, and integration with QuickBooks."
+      }
+    ],
+    "notes": "Budget qualification, decision maker, and required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a growing digital marketing agency and need a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "Great, I'd be happy to help! To ensure our tool fits your needs, could you share your budget for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We have a budget of around $3,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect, that fits within our pricing tiers. Now, who will be making the final decision on this purchase? Is it a director or C-level executive?"
+      },
+      {
+        "role": "user",
+        "content": "The final decision will be made by the Director of Operations."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, what specific features or requirements are you looking for in the project management tool?"
+      },
+      {
+        "role": "user",
+        "content": "We require strong resource management, time tracking, and integration with Slack and Trello."
+      }
+    ],
+    "notes": "Budget qualification, decision maker, and required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a mid-sized construction company and need a construction management software."
+      },
+      {
+        "role": "agent",
+        "content": "Great, I'd be happy to help! To ensure our software fits your needs, could you share your budget for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We have a budget of around $4,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect, that fits within our pricing tiers. Now, who will be making the final decision on this purchase? Is it a director or C-level executive?"
+      },
+      {
+        "role": "user",
+        "content": "The final decision will be made by the Director of Operations."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, what specific features or requirements are you looking for in the construction management software?"
+      },
+      {
+        "role": "user",
+        "content": "We require strong project management, document management, and integration with Procore and QuickBooks."
+      }
+    ],
+    "notes": "Budget qualification, decision maker, and required tech stack."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in a CRM solution for my team."
+      },
+      {
+        "role": "agent",
+        "content": "That's a great start! To move forward, could you tell me about your budget for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We have a budget of around $10,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And who would be the primary decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The primary decision maker would be the CEO."
+      },
+      {
+        "role": "agent",
+        "content": "I see. Lastly, what specific features are you looking for in a CRM solution?"
+      },
+      {
+        "role": "user",
+        "content": "We need integrations with our existing email and calendar systems."
+      },
+      {
+        "role": "agent",
+        "content": "Noted. Given your requirements, I recommend our Premium package which offers robust features, including custom integrations. Would you like to schedule a demo to discuss further?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a cloud storage solution."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To help you choose the right plan, could you share your estimated storage requirements?"
+      },
+      {
+        "role": "user",
+        "content": "We need at least 10 TB of storage."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And who is the decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the IT director."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. Lastly, do you require any specific security or compliance features?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need HIPAA compliance."
+      },
+      {
+        "role": "agent",
+        "content": "Our Enterprise plan offers HIPAA compliance and supports large storage needs like yours. Shall we schedule a call to discuss this further?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on storage requirements, decision maker, and required compliance features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To tailor our recommendations, could you tell me the approximate number of team members that would be using the tool?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 30 team members."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And who is the decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the Project Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Lastly, are there any specific project management methodologies you follow?"
+      },
+      {
+        "role": "user",
+        "content": "We follow the Agile methodology."
+      },
+      {
+        "role": "agent",
+        "content": "Our Enterprise plan offers advanced Agile project management tools and supports large teams. Shall we schedule a demo to discuss this further?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on team size, decision maker, and required project management methodology."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in a video conferencing solution."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To help you choose the right plan, could you share your average number of monthly meetings?"
+      },
+      {
+        "role": "user",
+        "content": "We conduct around 50 meetings per month."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And who is the decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the COO."
+      },
+      {
+        "role": "agent",
+        "content": "Got it. Lastly, do you require any specific integrations with other tools?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need integration with our CRM system."
+      },
+      {
+        "role": "agent",
+        "content": "Noted. Given your requirements, I recommend our Premium plan which offers robust integrations and supports large meeting volumes. Shall we schedule a call to discuss this further?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on meeting volume, decision maker, and required integrations."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a customer support software."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To help you choose the right plan, could you tell me the average number of monthly support tickets?"
+      },
+      {
+        "role": "user",
+        "content": "We handle around 500 support tickets per month."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And who is the decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the Customer Service Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Got it. Lastly, do you require any specific features like live chat or ticketing system?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need live chat and a ticketing system."
+      },
+      {
+        "role": "agent",
+        "content": "Noted. Given your requirements, I recommend our Enterprise plan which offers advanced customer support features, including live chat and ticketing system. Shall we schedule a demo to discuss this further?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on support ticket volume, decision maker, and required features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a CRM system to manage our sales pipeline."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To determine the best fit, can you tell me your budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We're looking to invest around $10,000-$20,000 per year."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that information. Now, who will be the final decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the Director of Sales."
+      },
+      {
+        "role": "agent",
+        "content": "That's valuable. To ensure our system meets your needs, do you require custom integrations with specific third-party apps?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need integrations with Google Calendar and Salesforce."
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required tech stack (custom integrations)."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are seeking a project management tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "Great, let's discuss the budget first. Can you provide a rough budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We have around $5,000 per month to spend."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that information. Now, who will be the final decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the Head of Operations."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. To ensure our tool meets your needs, do you have any specific project management methodologies you'd like to implement?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we use Agile and Scrum methodologies."
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and specific project management methodologies."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a cloud storage solution to securely store our company files."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To start, could you provide a budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We have around $1,500 per month to spend."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that information. Now, who will be the final decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the IT Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Great. To ensure our solution meets your needs, do you require specific compliance standards like HIPAA or GDPR?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we require HIPAA compliance."
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and compliance requirements."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a content management system for our website."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Let's start with your budget range for this project."
+      },
+      {
+        "role": "user",
+        "content": "We have around $3,000 per month to spend."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that information. Now, who will be the final decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the Marketing Director."
+      },
+      {
+        "role": "agent",
+        "content": "Great. To ensure our system meets your needs, do you require multilingual support for your content?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need support for Spanish, French, and German."
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and multilingual content support."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a customer service software for our growing support team."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To determine the best fit, can you tell me your budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We're looking to invest around $7,000-$10,000 per year."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that information. Now, who will be the final decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the Customer Service Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. To ensure our software meets your needs, do you require multi-channel support like email, phone, and live chat?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need all those channels."
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and multi-channel support requirements."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are a fast-growing startup seeking a CRM solution."
+      },
+      {
+        "role": "agent",
+        "content": "That's great to hear! To help determine the best fit, could you provide a rough budget range for the CRM solution?"
+      },
+      {
+        "role": "user",
+        "content": "We are planning to invest around $5,000 - $10,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! Who would be the main point of contact and decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the CEO."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. Lastly, could you share the specific CRM features you require, such as integrations or automation workflows?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required CRM features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool for our remote team."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To start, what is your monthly budget for the project management tool?"
+      },
+      {
+        "role": "user",
+        "content": "We are looking to invest $300 - $500 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Who would be the main point of contact and decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the team lead."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic. Lastly, could you share the specific project management features you require, such as time tracking or collaboration tools?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required project management features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a cloud storage solution for our company."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. To start, what is your monthly budget for the cloud storage solution?"
+      },
+      {
+        "role": "user",
+        "content": "We are planning to invest $1,000 - $2,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Who would be the main point of contact and decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the IT Director."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic. Lastly, could you share the specific cloud storage features you require, such as encryption or data backup options?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required cloud storage features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a learning management system for our team."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To start, what is your monthly budget for the learning management system?"
+      },
+      {
+        "role": "user",
+        "content": "We are looking to invest $1,500 - $2,500 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Who would be the main point of contact and decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the HR Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic. Lastly, could you share the specific learning management features you require, such as course creation or user management options?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required learning management features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a video conferencing tool for our remote team."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To start, what is your monthly budget for the video conferencing tool?"
+      },
+      {
+        "role": "user",
+        "content": "We are planning to invest $200 - $400 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Who would be the main point of contact and decision maker for this purchase?"
+      },
+      {
+        "role": "user",
+        "content": "The decision maker is the Operations Manager."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic. Lastly, could you share the specific video conferencing features you require, such as screen sharing or recording options?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, decision maker, and required video conferencing features."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm looking for a cloud-based CRM solution for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "That's a good match for our product. To help tailor the proposal, what's your estimated monthly budget for a CRM solution?"
+      },
+      {
+        "role": "user",
+        "content": "We have a budget of around $2000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Our solution starts at $2500 per month. However, I'd like to explore if we can offer a custom package to better fit your needs. How many users do you anticipate needing access to the platform?"
+      },
+      {
+        "role": "user",
+        "content": "Initially, we plan to have 10 users."
+      },
+      {
+        "role": "agent",
+        "content": "Our basic package comes with 15 users, but we can work on a smaller package for your team. Another important factor is the sales process automation. Can you tell me about the sales stages you have and the tools you currently use?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, users, sales process automation."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a reliable project management tool for our remote team."
+      },
+      {
+        "role": "agent",
+        "content": "Our project management tool is well-suited for remote teams. To help determine the best plan for you, what is the average number of projects your team manages at any given time?"
+      },
+      {
+        "role": "user",
+        "content": "We manage around 10 projects simultaneously."
+      },
+      {
+        "role": "agent",
+        "content": "Our standard plan supports up to 5 projects. For larger teams like yours, we offer a premium plan that allows unlimited projects. Additionally, our tool integrates with popular productivity apps. Can you tell me about the current productivity apps your team uses?"
+      },
+      {
+        "role": "user",
+        "content": "We use Google Workspace and Slack."
+      },
+      {
+        "role": "agent",
+        "content": "Great! Our project management tool integrates seamlessly with both Google Workspace and Slack. I recommend the premium plan to accommodate your larger number of projects. Would you like to schedule a demo to see the tool in action?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on number of projects, current productivity apps."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a video conferencing solution for our company."
+      },
+      {
+        "role": "agent",
+        "content": "Our video conferencing solution is ideal for businesses like yours. To provide the best plan for your team, what is the average number of meetings you conduct daily?"
+      },
+      {
+        "role": "user",
+        "content": "We conduct around 20 meetings daily."
+      },
+      {
+        "role": "agent",
+        "content": "Our standard plan supports up to 50 meetings daily. For larger teams like yours, we offer a premium plan that supports unlimited meetings. Additionally, our solution offers recording and transcription features. Do you require recording and transcription for your meetings?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we would find the recording and transcription features useful."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! Our premium plan includes recording and transcription features, making it ideal for your team's needs. Shall we schedule a demo to see the platform in action?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on number of meetings, requirement for recording and transcription."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're seeking a cybersecurity solution for our business."
+      },
+      {
+        "role": "agent",
+        "content": "Our cybersecurity solution is tailored for businesses like yours. To create a personalized proposal, what is your budget for a cybersecurity solution?"
+      },
+      {
+        "role": "user",
+        "content": "We have a budget of around $5000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Our standard cybersecurity package starts at $6000 per month. However, I'd like to explore if we can offer a custom package to better fit your needs. Can you tell me about the types of threats your business currently faces?"
+      },
+      {
+        "role": "user",
+        "content": "We're primarily concerned with phishing attacks and malware infections."
+      },
+      {
+        "role": "agent",
+        "content": "Our solution includes advanced threat protection against phishing attacks and malware. I recommend our customized Enterprise package, which includes additional security measures to protect your business. Shall we schedule a call to discuss the package in more detail?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on budget, types of threats."
+  },
+  {
+    "intent": "score_lead_fit",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a web hosting solution for our e-commerce store."
+      },
+      {
+        "role": "agent",
+        "content": "Our web hosting solution is perfect for e-commerce stores. To help create the best proposal, what is the average number of daily visitors to your store?"
+      },
+      {
+        "role": "user",
+        "content": "We receive around 10,000 daily visitors."
+      },
+      {
+        "role": "agent",
+        "content": "Our standard web hosting plan supports up to 20,000 daily visitors. For higher traffic sites like yours, we offer a premium plan with enhanced performance and security. Additionally, we offer custom SSL certificates. Do you require a custom SSL certificate?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we would like a custom SSL certificate."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! Our premium plan includes a custom SSL certificate. I recommend this plan for your e-commerce store. Shall we schedule a call to discuss the plan in more detail?"
+      }
+    ],
+    "notes": "Multi-turn qualification based on number of daily visitors, requirement for a custom SSL certificate."
+  }
+]

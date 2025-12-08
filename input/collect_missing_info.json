@@ -1,0 +1,3152 @@
+[
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a CRM system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "For the efficient implementation, could you provide the estimated number of users that will be using the CRM?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend the ideal solution, could you specify the average number of concurrent projects you typically manage?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I require a video conferencing software for my team."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure seamless integration, what's the preferred video conferencing platform you would like the new software to integrate with?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're in search of a ticketing system for our IT department."
+      },
+      {
+        "role": "agent",
+        "content": "For better performance and scalability, could you tell me the approximate number of tickets you handle daily?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new email marketing tool."
+      },
+      {
+        "role": "agent",
+        "content": "To optimize your marketing campaigns, what's the average email volume you send per month?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a CRM solution for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend the best fit, what's the estimated number of users you'd like to support?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "For effective planning, what's the expected number of projects you'd like to manage simultaneously?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new HR software."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure seamless integration, what's the approximate number of employees in your organization?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for an enterprise resource planning (ERP) system."
+      },
+      {
+        "role": "agent",
+        "content": "To customize the solution, what's your preferred deployment model (on-premise, cloud, or hybrid)?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a customer service software."
+      },
+      {
+        "role": "agent",
+        "content": "To optimize support, what's the projected number of customer support requests per day?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a CRM system to manage our sales leads."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a proper fit, what is your sales team size?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are considering a new ERP solution for our manufacturing business."
+      },
+      {
+        "role": "agent",
+        "content": "For an accurate quote and recommendation, what is your annual revenue?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a project management tool for our development team."
+      },
+      {
+        "role": "agent",
+        "content": "To provide the best solution, what is the expected number of concurrent projects?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new cybersecurity solution."
+      },
+      {
+        "role": "agent",
+        "content": "To propose the ideal solution, what's your industry sector?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are thinking about a new HR software."
+      },
+      {
+        "role": "agent",
+        "content": "To find the best fit, what is your company's headcount?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a new CRM system that can integrate with our existing software."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure seamless integration, what's the API structure of your current system?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new ERP solution to streamline our business operations."
+      },
+      {
+        "role": "agent",
+        "content": "To assess the best ERP solution, could you provide the number of users expected to access the system?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a security solution to protect our network."
+      },
+      {
+        "role": "agent",
+        "content": "To tailor the solution to your specific needs, what's the industry you operate in?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new project management tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "To choose the right tool for your team, what's the average size of projects you manage?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a new HR software to manage our employees."
+      },
+      {
+        "role": "agent",
+        "content": "To help you find the most suitable HR software, what's the total number of employees you have?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a CRM solution that integrates with our existing software."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure seamless integration, what's the name of the existing software you're currently using?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a data analytics tool for our business."
+      },
+      {
+        "role": "agent",
+        "content": "To provide the best recommendation, what industry does your business operate in?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool to streamline our workflow."
+      },
+      {
+        "role": "agent",
+        "content": "To suggest an ideal tool, what's the approximate number of users that will be accessing the tool?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a virtual private server for better security."
+      },
+      {
+        "role": "agent",
+        "content": "For enhanced security, what level of data encryption do you prefer for the VPS?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a remote desktop solution for our team."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend the best remote desktop solution, what's the preferred operating system for your team?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a CRM system to manage our sales pipeline."
+      },
+      {
+        "role": "agent",
+        "content": "For efficient management, what's the approximate number of users who will need access to the CRM?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a project management tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "To tailor our recommendations, what's the expected project duration in months?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a cybersecurity solution to protect our network."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure proper protection, what's the approximate number of devices that need coverage?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a video conferencing tool for remote team collaboration."
+      },
+      {
+        "role": "agent",
+        "content": "For optimal usage, what's the estimated number of concurrent meetings that may occur?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a business intelligence tool to analyze our data."
+      },
+      {
+        "role": "agent",
+        "content": "To make informed decisions, what's the desired frequency of data refresh or updates?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a CRM system for sales automation."
+      },
+      {
+        "role": "agent",
+        "content": "To help you choose the right CRM, what is the estimated number of users that will be accessing the system?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for an enterprise resource planning (ERP) solution."
+      },
+      {
+        "role": "agent",
+        "content": "In order to recommend the ideal ERP, could you provide the industry your company operates in?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for a project management tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure the tool fits your team's needs, what's the approximate number of projects you anticipate managing simultaneously?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a video conferencing software for remote collaboration."
+      },
+      {
+        "role": "agent",
+        "content": "For better recommendations, what's the maximum number of participants you typically have in a single meeting?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a customer support software to manage our tickets."
+      },
+      {
+        "role": "agent",
+        "content": "To tailor the solution to your needs, what's your average monthly ticket volume?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a CRM system for better customer management."
+      },
+      {
+        "role": "agent",
+        "content": "To provide the most suitable CRM, could you share the estimated number of users who will be using the system?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for an ERP solution for financial management."
+      },
+      {
+        "role": "agent",
+        "content": "To suggest the right ERP solution, what's the projected number of transactions per month?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool to streamline our work."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend the best project management tool, could you specify the maximum number of projects you expect to handle simultaneously?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're in need of a helpdesk software for faster ticket resolution."
+      },
+      {
+        "role": "agent",
+        "content": "To suggest the ideal helpdesk software, what's the average number of tickets you receive daily?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a HRIS for employee management."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend the right HRIS, what's the approximate number of employees in your organization?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new CRM system."
+      },
+      {
+        "role": "agent",
+        "content": "To offer a tailored solution, can you provide an estimated number of users who will be accessing the CRM?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure proper tool selection, what is your preferred project management methodology?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a new security solution."
+      },
+      {
+        "role": "agent",
+        "content": "To propose an optimal solution, what is the approximate annual budget you're willing to allocate for security services?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new data analytics platform."
+      },
+      {
+        "role": "agent",
+        "content": "To provide an accurate recommendation, what is the expected volume of data to be analyzed daily?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're evaluating new VoIP phone system options."
+      },
+      {
+        "role": "agent",
+        "content": "To suggest the best solution, what is your organization's current number of users requiring VoIP services?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a reliable CRM system."
+      },
+      {
+        "role": "agent",
+        "content": "To suggest the ideal CRM, could you share the approximate number of users you anticipate using the system?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure the tool meets your needs, please provide the estimated project duration in months."
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a customer support software."
+      },
+      {
+        "role": "agent",
+        "content": "For the support software, what's the average volume of daily support tickets you handle?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a video conferencing tool."
+      },
+      {
+        "role": "agent",
+        "content": "To help you choose the best video conferencing tool, what's the typical number of meetings per day?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are searching for a software to automate our invoicing process."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend the optimal invoicing software, what's your preferred currency for transactions?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a CRM system that integrates with our current sales tools."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a smooth integration, can you provide the API keys or specific details about your current sales tools?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need a project management tool that supports agile methodologies."
+      },
+      {
+        "role": "agent",
+        "content": "For optimal usage, could you specify the number of team members or projects you plan to manage?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm interested in a database solution with real-time analytics capabilities."
+      },
+      {
+        "role": "agent",
+        "content": "To offer the best-suited solution, what's the expected volume of data in terms of daily transactions or concurrent users?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're seeking a cybersecurity solution for our company."
+      },
+      {
+        "role": "agent",
+        "content": "To tailor the solution, could you specify the number of users or systems that require protection?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm looking for a video conferencing tool with screen sharing capabilities."
+      },
+      {
+        "role": "agent",
+        "content": "To provide the best fit, could you estimate the average number of participants or meetings per month?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a new CRM system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "To tailor the right CRM solution for your sales team, what's the expected number of users?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are searching for a project management tool for our team."
+      },
+      {
+        "role": "agent",
+        "content": "To find the perfect project management tool, what's the estimated project count per month?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new business intelligence solution for our data analytics."
+      },
+      {
+        "role": "agent",
+        "content": "To provide an effective business intelligence solution, what's the average size of your datasets in GB?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new video conferencing tool for remote meetings."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend the ideal video conferencing tool, what's the maximum number of participants you'd like to accommodate?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a new network security solution for our organization."
+      },
+      {
+        "role": "agent",
+        "content": "To secure your organization's network effectively, what's the number of locations where the solution should be deployed?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new CRM system."
+      },
+      {
+        "role": "agent",
+        "content": "To provide a suitable recommendation, can you share the approximate number of users who will be accessing the CRM?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I need an enterprise project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure the tool meets your requirements, what's the expected number of projects you'll be managing per year?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're exploring a network security solution."
+      },
+      {
+        "role": "agent",
+        "content": "For effective security, can you provide the estimated number of network devices to be protected?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm looking for a VoIP phone system."
+      },
+      {
+        "role": "agent",
+        "content": "To tailor the system to your needs, what's the expected number of simultaneous calls during peak hours?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a collaboration platform."
+      },
+      {
+        "role": "agent",
+        "content": "To optimize the platform for your team, what's the average number of active users per day?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new CRM system to manage our sales process."
+      },
+      {
+        "role": "agent",
+        "content": "To help you find the ideal CRM, what's the estimated number of users that will be utilizing the system?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We are looking for a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "To suggest the right project management tool, could you please provide an estimate of the number of concurrent projects you anticipate managing?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a new database solution for our business."
+      },
+      {
+        "role": "agent",
+        "content": "To choose the appropriate database solution, what's the projected amount of data growth you expect annually?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new email marketing tool."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend the correct email marketing tool, what's your current monthly email volume?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new customer support software."
+      },
+      {
+        "role": "agent",
+        "content": "To offer a suitable customer support software, what's your average monthly ticket volume?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a CRM system to manage our sales leads."
+      },
+      {
+        "role": "agent",
+        "content": "To help you choose the best CRM, what's the estimated number of sales leads you expect to manage on a monthly basis?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a project management tool for our software development team."
+      },
+      {
+        "role": "agent",
+        "content": "To suggest a suitable project management tool, what's the projected team size for the software development?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new video conferencing solution."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend a suitable video conferencing solution, what's the average number of daily meetings you anticipate having?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a data visualization tool for our analytics department."
+      },
+      {
+        "role": "agent",
+        "content": "To provide a fitting data visualization tool, what's the expected number of users within the analytics department?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering an HR software solution."
+      },
+      {
+        "role": "agent",
+        "content": "To propose the right HR software, what's the number of employees in your organization?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a CRM solution to manage our customer relationships."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a seamless integration, what's the approximate number of users expected to be on the CRM?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new ERP system for our operations."
+      },
+      {
+        "role": "agent",
+        "content": "To provide a scalable solution, what's the expected number of locations the ERP system should support?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're exploring a new project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "For optimal usage, what's the expected number of concurrent projects the tool should handle?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a new cybersecurity solution."
+      },
+      {
+        "role": "agent",
+        "content": "To secure your sensitive data, what's the approximate number of data endpoints the solution should cover?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new VoIP service for our communication needs."
+      },
+      {
+        "role": "agent",
+        "content": "For cost-effective communication, what's the expected number of users the VoIP service should support?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new CRM system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "To provide a suitable solution, what's the estimated number of users who will be using the CRM?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure the right tool is suggested, what's the average number of projects you handle monthly?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I require a new cybersecurity solution for my company."
+      },
+      {
+        "role": "agent",
+        "content": "For effective recommendation, what's the approximate size of your company in terms of employees?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new customer support software."
+      },
+      {
+        "role": "agent",
+        "content": "To propose a suitable software, what's the average response time you expect to maintain for customer queries?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a video conferencing tool for our remote team."
+      },
+      {
+        "role": "agent",
+        "content": "To suggest the right tool, what's the maximum number of participants you usually have in meetings?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a CRM system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure we provide a suitable solution, what is the expected number of users for the CRM?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "To help you find the right tool, what's the average project size in terms of team members?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "I'm looking for a customer support software."
+      },
+      {
+        "role": "agent",
+        "content": "For effective support, what's the estimated average response time for your team?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a video conferencing solution."
+      },
+      {
+        "role": "agent",
+        "content": "To recommend a suitable solution, what's the maximum number of participants you require for video calls?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a cybersecurity solution."
+      },
+      {
+        "role": "agent",
+        "content": "To secure your organization, what's the typical number of devices or systems that need protection?"
+      }
+    ]
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a cloud-based HR management system."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To help me provide the best recommendations, could you tell me the approximate number of employees in your organization?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 200 employees."
+      },
+      {
+        "role": "agent",
+        "content": "That's helpful, thank you. Now, what is your estimated budget range for this HR management system implementation?"
+      },
+      {
+        "role": "user",
+        "content": "$50,000 to $75,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, is there a specific timeline or implementation deadline that you'd like to consider?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating collection of team size, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new project management tool for our development team."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. For accurate recommendations, I'll need to know the size of your development team."
+      },
+      {
+        "role": "user",
+        "content": "We have around 30 developers."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. What is your preferred budget range for this project management tool?"
+      },
+      {
+        "role": "user",
+        "content": "$10,000 to $15,000."
+      },
+      {
+        "role": "agent",
+        "content": "And do you have any specific integration requirements, such as with GitHub or Jira?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating collection of team size, budget, and tech requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for an accounting software solution for our small business."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. To better assist you, I'll need to know the approximate number of users who will be accessing the software."
+      },
+      {
+        "role": "user",
+        "content": "There will be 5 users, including myself."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Now, what is your budget range for this accounting software implementation?"
+      },
+      {
+        "role": "user",
+        "content": "$1,000 to $2,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what is your preferred timeline for implementing the software? Are you looking to start soon or can it wait a few months?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating collection of user count, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new marketing automation platform."
+      },
+      {
+        "role": "agent",
+        "content": "I see. To help me provide the best recommendations, I'll need to know the size of your marketing team."
+      },
+      {
+        "role": "user",
+        "content": "We have around 15 marketing professionals."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. What is your preferred budget range for this marketing automation platform?"
+      },
+      {
+        "role": "user",
+        "content": "$30,000 to $50,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific features or integrations that are important for your team, such as email marketing or social media management?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating collection of team size, budget, and tech requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new customer relationship management (CRM) system for our sales team."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To help me provide the best recommendations, I'll need to know the size of your sales team."
+      },
+      {
+        "role": "user",
+        "content": "We have around 50 sales reps."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Now, what is your preferred budget range for this CRM implementation?"
+      },
+      {
+        "role": "user",
+        "content": "$40,000 to $60,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific features or integrations that are important for your team, such as email marketing or phone system?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating collection of team size, budget, and tech requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "What's the estimated number of users you're planning to add initially?"
+      },
+      {
+        "role": "user",
+        "content": "We'll start with around 15 users."
+      },
+      {
+        "role": "agent",
+        "content": "Great. To ensure the tool scales with your growth, could you provide a rough estimate of the user growth rate per quarter?"
+      },
+      {
+        "role": "user",
+        "content": "We anticipate adding 5 new users each quarter."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Lastly, what's your preferred implementation timeline for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to have it set up within the next 2 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of user count, user growth rate, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a marketing automation platform."
+      },
+      {
+        "role": "agent",
+        "content": "What's the average size of your marketing campaigns?"
+      },
+      {
+        "role": "user",
+        "content": "Our campaigns typically consist of 100-200 contacts."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. To help us recommend the best fit, what's the average duration of your campaigns in months?"
+      },
+      {
+        "role": "user",
+        "content": "Average campaigns last for 3-4 months."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Lastly, are there any specific features you're particularly interested in, like A/B testing or email templates?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we're keen on having A/B testing functionality."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of campaign size, campaign duration, and specific feature requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a data visualization tool."
+      },
+      {
+        "role": "agent",
+        "content": "What type of data will you primarily visualize with this tool?"
+      },
+      {
+        "role": "user",
+        "content": "We'll be using it for sales data."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic. To provide the most effective visualizations, what specific KPIs are you interested in tracking?"
+      },
+      {
+        "role": "user",
+        "content": "We're focused on sales growth, conversion rates, and customer acquisition cost."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Lastly, what's your preferred method for integrating this tool with your existing data sources?"
+      },
+      {
+        "role": "user",
+        "content": "We'd prefer to use API integrations."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of data type, KPIs, and integration method."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a helpdesk software."
+      },
+      {
+        "role": "agent",
+        "content": "How many support agents do you currently have?"
+      },
+      {
+        "role": "user",
+        "content": "We have 5 support agents."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. To help us tailor the solution to your needs, what's the average number of tickets your team handles daily?"
+      },
+      {
+        "role": "user",
+        "content": "We handle around 50 tickets daily."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Lastly, what features are essential for your helpdesk software?"
+      },
+      {
+        "role": "user",
+        "content": "We require live chat, ticket categorization, and integration with our CRM system."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of support agent count, daily ticket volume, and essential features."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're exploring a video conferencing tool."
+      },
+      {
+        "role": "agent",
+        "content": "What's the average number of meetings your team conducts weekly?"
+      },
+      {
+        "role": "user",
+        "content": "We conduct around 30 meetings weekly."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. To ensure the tool meets your needs, what's the average meeting duration?"
+      },
+      {
+        "role": "user",
+        "content": "Meetings usually last 45-60 minutes."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Lastly, are there any specific features you're particularly interested in, such as screen sharing or breakout rooms?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we require screen sharing and breakout rooms."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of meeting frequency, meeting duration, and essential features."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool for our engineering team."
+      },
+      {
+        "role": "agent",
+        "content": "Great, can you tell me the approximate size of your engineering team?"
+      },
+      {
+        "role": "user",
+        "content": "It's around 50 engineers."
+      },
+      {
+        "role": "agent",
+        "content": "Thanks. To better tailor our suggestions, what's the allocated budget range for this project management tool?"
+      },
+      {
+        "role": "user",
+        "content": "$40,000 to $50,000."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. Now, when do you plan to implement this tool? Please provide a timeline."
+      },
+      {
+        "role": "user",
+        "content": "We'd like to start within the next 2 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for an HR software solution."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Let's discuss your requirements. What's the approximate number of employees in your company?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 300 employees."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. For budgeting purposes, could you share the budget range for this HR software implementation?"
+      },
+      {
+        "role": "user",
+        "content": "$100,000 to $150,000."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Lastly, are there specific HR tasks or processes that are particularly important for this software to handle?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need applicant tracking, performance reviews, and employee training management."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and software requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a cloud storage solution for our team."
+      },
+      {
+        "role": "agent",
+        "content": "Alright. To better understand your needs, what's the approximate size of your team?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 100 users."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. What's your allocated budget range for this cloud storage solution?"
+      },
+      {
+        "role": "user",
+        "content": "$5,000 to $8,000."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, do you have any specific security or compliance requirements that the cloud storage solution should meet?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we require HIPAA and GDPR compliance."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and security requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a customer service software solution."
+      },
+      {
+        "role": "agent",
+        "content": "Got it. Let's discuss your requirements. How many customer service agents do you have?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 25 agents."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. For budgeting purposes, could you share the budget range for this customer service software implementation?"
+      },
+      {
+        "role": "user",
+        "content": "$30,000 to $40,000."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, are there specific customer service features or integrations that are particularly important for this software to have?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need a ticketing system, live chat, and integration with our current CRM."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and software requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for a video conferencing tool for our remote team."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Let's discuss your requirements. How many team members will be using this video conferencing tool?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 75 team members."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. For budgeting purposes, could you share the budget range for this video conferencing tool implementation?"
+      },
+      {
+        "role": "user",
+        "content": "$2,000 to $3,000."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, are there specific features or integrations that are particularly important for this video conferencing tool?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need screen sharing, recording, and integration with our current project management tool."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and software requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To ensure we find the right tool for you, could you tell me the number of users you'd need?"
+      },
+      {
+        "role": "user",
+        "content": "Approximately 25 users."
+      },
+      {
+        "role": "agent",
+        "content": "That's helpful, thank you. Now, can you provide an estimate of your annual budget for this project?"
+      },
+      {
+        "role": "user",
+        "content": "$10,000 - $15,000"
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what is your preferred timeline for implementation? We need to know if we should prioritize solutions with faster onboarding."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of users, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a new HR software."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic! To better assist you, could you tell me the size of your organization?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 500 employees."
+      },
+      {
+        "role": "agent",
+        "content": "Great, thank you. Next, what is your allocated budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "$50,000 - $70,000"
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there specific HR functions or features that you'd like the software to prioritize?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of organization size, budget, and specific feature requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a marketing automation tool."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To help us find the best fit, could you tell me the number of marketing team members?"
+      },
+      {
+        "role": "user",
+        "content": "There are around 15 marketing team members."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that. Now, what is your estimated annual budget range for this tool?"
+      },
+      {
+        "role": "user",
+        "content": "$20,000 - $30,000"
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific marketing channels or automation tasks you'd like this tool to prioritize?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and specific feature requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a new accounting software."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To help us find the right solution, could you tell me the size of your accounting department?"
+      },
+      {
+        "role": "user",
+        "content": "We have 3 accountants and 2 bookkeepers."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that. Now, what is your allocated budget range for this project?"
+      },
+      {
+        "role": "user",
+        "content": "$30,000 - $40,000"
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific accounting features or integrations that you'd like this software to prioritize?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and specific feature requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new customer service software."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To ensure we find the right solution, could you tell me the number of customer service agents?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 10 agents."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that. Now, what is your estimated annual budget range for this tool?"
+      },
+      {
+        "role": "user",
+        "content": "$25,000 - $35,000"
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific customer service features or integrations that you'd like this software to prioritize?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and specific feature requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a cloud-based project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "Great! What's the average number of projects managed per month?"
+      },
+      {
+        "role": "user",
+        "content": "We manage about 20 projects monthly."
+      },
+      {
+        "role": "agent",
+        "content": "Thanks for that. Can you tell me the estimated number of users that will be accessing this tool?"
+      },
+      {
+        "role": "user",
+        "content": "We'll have around 50 users."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. To ensure proper onboarding, what's the projected timeline for the tool implementation?"
+      },
+      {
+        "role": "user",
+        "content": "We aim to have it up and running within the next 2 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of project volume, user count, and implementation timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a reliable backup solution for our datacenter."
+      },
+      {
+        "role": "agent",
+        "content": "I see. How much data do you expect to back up daily?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 5 TB of data."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. What's the desired retention period for the backed-up data?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like a retention period of 3 years."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, do you have any specific requirements for the backup solution in terms of encryption or compliance?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we require AES-256 encryption and compliance with GDPR."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of data volume, retention period, and security/compliance requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new email marketing platform."
+      },
+      {
+        "role": "agent",
+        "content": "Alright. What's the average number of email campaigns per month?"
+      },
+      {
+        "role": "user",
+        "content": "We run around 10 campaigns monthly."
+      },
+      {
+        "role": "agent",
+        "content": "Thanks. How many email subscribers do you currently have?"
+      },
+      {
+        "role": "user",
+        "content": "We have approximately 15,000 subscribers."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. To optimize deliverability, what's the desired frequency for sending emails?"
+      },
+      {
+        "role": "user",
+        "content": "We plan to send emails twice a week."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of email campaign volume, subscriber count, and email sending frequency."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a cloud-based helpdesk solution."
+      },
+      {
+        "role": "agent",
+        "content": "Got it. How many support tickets do you receive daily?"
+      },
+      {
+        "role": "user",
+        "content": "We get around 100 tickets daily."
+      },
+      {
+        "role": "agent",
+        "content": "Thanks. How many agents will be handling these tickets?"
+      },
+      {
+        "role": "user",
+        "content": "We have a team of 10 agents."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, what's the desired timeline for ticket resolution?"
+      },
+      {
+        "role": "user",
+        "content": "We aim to resolve tickets within 24 hours."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of support ticket volume, agent team size, and ticket resolution timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a video conferencing solution."
+      },
+      {
+        "role": "agent",
+        "content": "Alright. What's the average number of meetings per week?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 20 meetings weekly."
+      },
+      {
+        "role": "agent",
+        "content": "Thanks. How many participants do these meetings typically have?"
+      },
+      {
+        "role": "user",
+        "content": "Meetings usually have between 5 and 10 participants."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, do you require any specific integration with your existing tools?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, we need it to integrate with our CRM and calendar systems."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of meeting volume, meeting size, and tech requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new marketing automation tool."
+      },
+      {
+        "role": "agent",
+        "content": "That sounds interesting. To better understand your needs, could you tell me the estimated number of users who would be using this tool?"
+      },
+      {
+        "role": "user",
+        "content": "Approximately 20-25 users."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Now, what's the projected monthly budget for this marketing automation tool?"
+      },
+      {
+        "role": "user",
+        "content": "We're looking at a budget of $1,500 - $2,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what is your preferred timeline for implementing this tool?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to start using it within the next 3-4 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To help me recommend the best tool, can you tell me the average number of projects you manage simultaneously?"
+      },
+      {
+        "role": "user",
+        "content": "We usually manage around 15-20 projects at a time."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. What's the typical team size for each project?"
+      },
+      {
+        "role": "user",
+        "content": "Each project team consists of 5-7 members."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, what is your preferred budget range for this project management tool?"
+      },
+      {
+        "role": "user",
+        "content": "We're considering a budget of $10,000 - $15,000."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, number of projects, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new document management system."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. For better recommendations, could you tell me the approximate number of users who would need access to this system?"
+      },
+      {
+        "role": "user",
+        "content": "We're expecting about 50 users."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. What is your preferred monthly budget for this document management system?"
+      },
+      {
+        "role": "user",
+        "content": "We're looking at a budget of $500 - $800 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what is your preferred timeline for implementing this new document management system?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to have it up and running within the next 2-3 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a new email marketing service."
+      },
+      {
+        "role": "agent",
+        "content": "Got it. To help me recommend the best service, could you tell me the average number of emails you send per campaign?"
+      },
+      {
+        "role": "user",
+        "content": "We send around 5,000-7,000 emails per campaign."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. What's your preferred monthly budget for this email marketing service?"
+      },
+      {
+        "role": "user",
+        "content": "We're considering a budget of $300 - $500 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what is your preferred timeline for implementing this new email marketing service?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to have it set up within the next month."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of emails per campaign, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a new customer service software."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. To help me recommend the best software, could you tell me the average number of customer service tickets handled daily?"
+      },
+      {
+        "role": "user",
+        "content": "We handle around 50-75 tickets daily."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. What's your preferred monthly budget for this customer service software?"
+      },
+      {
+        "role": "user",
+        "content": "We're considering a budget of $1,000 - $1,500 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what is your preferred timeline for implementing this new customer service software?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to have it up and running within the next 2 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of average daily tickets, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in a project management tool for our development team."
+      },
+      {
+        "role": "agent",
+        "content": "What's the approximate size of your development team?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 30 developers."
+      },
+      {
+        "role": "agent",
+        "content": "To ensure a smooth implementation, I'd like to know your timeline for this project."
+      },
+      {
+        "role": "user",
+        "content": "We'd like to start using it within the next 2 months."
+      },
+      {
+        "role": "agent",
+        "content": "Great, and what's your budget range for this project management tool?"
+      },
+      {
+        "role": "user",
+        "content": "$10,000 to $15,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific features or integrations you'd like this tool to have?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, timeline, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a marketing automation tool."
+      },
+      {
+        "role": "agent",
+        "content": "What's the estimated number of marketing personnel that would be using this tool?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 20 marketing personnel."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred implementation timeline for this tool?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to implement it within the next 3 months."
+      },
+      {
+        "role": "agent",
+        "content": "In terms of budget, what's the budget range for this marketing automation tool?"
+      },
+      {
+        "role": "user",
+        "content": "$30,000 to $40,000."
+      },
+      {
+        "role": "agent",
+        "content": "Are there any specific features or integrations you'd like this tool to have?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, timeline, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're seeking a HR software solution."
+      },
+      {
+        "role": "agent",
+        "content": "What's the approximate size of your organization?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 500 employees."
+      },
+      {
+        "role": "agent",
+        "content": "What's your preferred implementation timeline for this HR software?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to implement it within the next 6 months."
+      },
+      {
+        "role": "agent",
+        "content": "What's your budget range for this HR software solution?"
+      },
+      {
+        "role": "user",
+        "content": "$50,000 to $60,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific features or integrations you'd like this software to have?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, timeline, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a learning management system."
+      },
+      {
+        "role": "agent",
+        "content": "What's the estimated number of users for this system?"
+      },
+      {
+        "role": "user",
+        "content": "We expect around 250 users."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred implementation timeline for this LMS?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to implement it within the next 4 months."
+      },
+      {
+        "role": "agent",
+        "content": "In terms of budget, what's the budget range for this LMS?"
+      },
+      {
+        "role": "user",
+        "content": "$30,000 to $40,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific features or integrations you'd like this system to have?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, timeline, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for an e-commerce platform for our online store."
+      },
+      {
+        "role": "agent",
+        "content": "What's the estimated number of products you'd like to manage on this platform?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 500 products."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred implementation timeline for this e-commerce platform?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to implement it within the next 5 months."
+      },
+      {
+        "role": "agent",
+        "content": "In terms of budget, what's the budget range for this e-commerce platform?"
+      },
+      {
+        "role": "user",
+        "content": "$40,000 to $50,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, are there any specific features or integrations you'd like this platform to have?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, timeline, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a cloud storage solution."
+      },
+      {
+        "role": "agent",
+        "content": "What's the minimum storage capacity required?"
+      },
+      {
+        "role": "user",
+        "content": "At least 5TB."
+      },
+      {
+        "role": "agent",
+        "content": "How many users do you anticipate will be accessing this solution?"
+      },
+      {
+        "role": "user",
+        "content": "We expect around 20 users."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. For budgeting purposes, could you provide a rough range for your monthly subscription costs?"
+      },
+      {
+        "role": "user",
+        "content": "We're looking at a $300 to $400 range."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of storage capacity, user count, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "What features are essential for your team?"
+      },
+      {
+        "role": "user",
+        "content": "Gantt charts, file sharing, and team collaboration."
+      },
+      {
+        "role": "agent",
+        "content": "Great. For a better understanding, could you specify the number of projects you plan to manage simultaneously?"
+      },
+      {
+        "role": "user",
+        "content": "We plan to manage around 10 projects."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Lastly, can you share a rough estimate of your team size?"
+      },
+      {
+        "role": "user",
+        "content": "We have about 30 team members."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of essential features, project count, and team size."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a video conferencing solution."
+      },
+      {
+        "role": "agent",
+        "content": "What's the maximum number of participants you'd like to host in a single call?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to host up to 50 participants."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. To optimize the solution for your needs, could you specify the ideal recording duration for meetings?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like the recordings to be saved for up to a week."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, do you have any specific requirements for screen sharing or breakout rooms?"
+      },
+      {
+        "role": "user",
+        "content": "Screen sharing and breakout rooms are important."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of maximum participants, recording duration, and specific requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a customer support solution."
+      },
+      {
+        "role": "agent",
+        "content": "What's the average monthly ticket volume you expect?"
+      },
+      {
+        "role": "user",
+        "content": "We expect around 1000 tickets per month."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. For better resource allocation, could you estimate the average response time you'd like to maintain?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to maintain an average response time of 4 hours."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, do you have a preference for a knowledge base or self-service portal?"
+      },
+      {
+        "role": "user",
+        "content": "A knowledge base would be helpful."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of ticket volume, average response time, and preferences for self-service."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a marketing automation tool."
+      },
+      {
+        "role": "agent",
+        "content": "What's the primary focus of your marketing campaigns?"
+      },
+      {
+        "role": "user",
+        "content": "Email campaigns and social media promotions."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. To tailor the solution to your needs, could you provide an estimate of the number of contacts you'll manage?"
+      },
+      {
+        "role": "user",
+        "content": "We plan to manage around 10,000 contacts."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, do you require a CRM integration for a more streamlined approach?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, CRM integration would be beneficial."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of marketing campaign focus, contact management, and CRM integration."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool for our engineering team."
+      },
+      {
+        "role": "agent",
+        "content": "Great, to help us find the best fit, can you provide the approximate number of engineers on your team?"
+      },
+      {
+        "role": "user",
+        "content": "Approximately 40 engineers."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you for that. Now, what's your preferred timeline for implementing this tool?"
+      },
+      {
+        "role": "user",
+        "content": "We're aiming to have it up and running within 2 months."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, do you have a budget range set aside for this project?"
+      },
+      {
+        "role": "user",
+        "content": "$50,000 to $60,000."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, timeline, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a marketing automation platform."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To help tailor our suggestions, could you share the number of marketing teams you have?"
+      },
+      {
+        "role": "user",
+        "content": "We have 6 marketing teams."
+      },
+      {
+        "role": "agent",
+        "content": "Great, and approximately how many users do you anticipate will be using this platform?"
+      },
+      {
+        "role": "user",
+        "content": "We estimate around 150 users."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Lastly, what's your preferred timeline for implementing this platform?"
+      },
+      {
+        "role": "user",
+        "content": "We're aiming to have it up and running within 3 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team count, user count, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a cloud storage solution."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! To find the right solution, could you share your storage requirements (in GB)?"
+      },
+      {
+        "role": "user",
+        "content": "We require around 5TB of storage."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And what's your preferred budget range for this solution?"
+      },
+      {
+        "role": "user",
+        "content": "$10,000 to $15,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what's your preferred timeline for implementing this solution?"
+      },
+      {
+        "role": "user",
+        "content": "We're aiming to have it up and running within 1 month."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of storage requirements, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a customer service software."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To help us find the right fit, could you share the average monthly volume of customer support tickets?"
+      },
+      {
+        "role": "user",
+        "content": "We handle around 500 tickets per month."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And what's your preferred budget range for this software?"
+      },
+      {
+        "role": "user",
+        "content": "$25,000 to $35,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what's your preferred timeline for implementing this software?"
+      },
+      {
+        "role": "user",
+        "content": "We're aiming to have it up and running within 2 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of support ticket volume, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a video conferencing tool."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To help us find the right fit, could you share the average number of meetings per month?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 100 meetings per month."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. And what's your preferred budget range for this tool?"
+      },
+      {
+        "role": "user",
+        "content": "$15,000 to $20,000."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what's your preferred timeline for implementing this tool?"
+      },
+      {
+        "role": "user",
+        "content": "We're aiming to have it up and running within 1 month."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of meeting frequency, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're considering a project management tool for our engineering team."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To help us recommend the best fit, what is your estimated project timeline?"
+      },
+      {
+        "role": "user",
+        "content": "We're hoping to launch in 3 months."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Next, what's the size of your engineering team?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 15 engineers."
+      },
+      {
+        "role": "agent",
+        "content": "Lastly, what is your allocated budget for this project management tool?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of timeline, team size, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new data visualization tool."
+      },
+      {
+        "role": "agent",
+        "content": "Fantastic! What is your team's familiarity with the existing tools? Are you looking to migrate or implement something new?"
+      },
+      {
+        "role": "user",
+        "content": "We're open to new tools."
+      },
+      {
+        "role": "agent",
+        "content": "Great! What is your preferred visualization style? (Bar, Line, Pie, etc.)"
+      },
+      {
+        "role": "user",
+        "content": "Line graphs are preferred."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To help me suggest the best options, what is your allocated budget range for this tool?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team familiarity, visualization preference, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a new HR management system."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To ensure a smooth transition, what is your expected implementation timeline?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to have it up and running within 2 months."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. For accurate sizing, what's the approximate size of your organization?"
+      },
+      {
+        "role": "user",
+        "content": "We have about 200 employees."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Lastly, what is your allocated budget range for this HR management system?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of timeline, organization size, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a new email marketing solution."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent! To optimize results, what is your email list size?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 10,000 subscribers."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. Next, what's your average monthly email volume?"
+      },
+      {
+        "role": "user",
+        "content": "We send about 4-5 campaigns per month."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Lastly, what is your allocated budget range for this email marketing solution?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of email list size, email volume, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a new video conferencing tool."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect! To ensure a smooth transition, what is your expected implementation timeline?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to have it up and running within 1 month."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. For accurate sizing, what's the approximate size of your organization?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 500 employees."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Lastly, what is your allocated budget range for this video conferencing tool?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of timeline, organization size, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We require a cloud storage solution for our team."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred cloud provider? (AWS, Google Cloud, or Azure?)"
+      },
+      {
+        "role": "user",
+        "content": "We're open to all providers."
+      },
+      {
+        "role": "agent",
+        "content": "In that case, what is your storage capacity requirement in terabytes?"
+      },
+      {
+        "role": "user",
+        "content": "We need around 10 terabytes."
+      },
+      {
+        "role": "agent",
+        "content": "Approximately how many users will require access to this cloud storage?"
+      },
+      {
+        "role": "user",
+        "content": "There will be about 50 users."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of cloud provider, storage capacity, and user count."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for a project management tool."
+      },
+      {
+        "role": "agent",
+        "content": "Do you have any specific project management methodology, like Agile or Waterfall?"
+      },
+      {
+        "role": "user",
+        "content": "We're currently following the Agile methodology."
+      },
+      {
+        "role": "agent",
+        "content": "What is your team size for this project?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 20 team members."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred timeline for the implementation and rollout of the tool?"
+      },
+      {
+        "role": "user",
+        "content": "We aim to start using the tool within the next 2 months."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of project management methodology, team size, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a learning management system."
+      },
+      {
+        "role": "agent",
+        "content": "Do you have any specific features or functionalities you'd like to prioritize?"
+      },
+      {
+        "role": "user",
+        "content": "We'd like to have course creation, assessment, and progress tracking."
+      },
+      {
+        "role": "agent",
+        "content": "What is the estimated number of users for the LMS?"
+      },
+      {
+        "role": "user",
+        "content": "We anticipate around 500 users."
+      },
+      {
+        "role": "agent",
+        "content": "What is your budget range for the LMS implementation?"
+      },
+      {
+        "role": "user",
+        "content": "$50,000 to $70,000."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of features, users, and budget."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a customer support ticketing system."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred ticketing system software, like Zendesk, Freshdesk, or Salesforce?"
+      },
+      {
+        "role": "user",
+        "content": "We're open to all options."
+      },
+      {
+        "role": "agent",
+        "content": "What is your approximate annual ticket volume?"
+      },
+      {
+        "role": "user",
+        "content": "We anticipate around 15,000 tickets annually."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred language for the system interface?"
+      },
+      {
+        "role": "user",
+        "content": "English language is preferred."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of ticketing system software, ticket volume, and interface language."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're seeking a video conferencing solution."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred video conferencing software, like Zoom, Microsoft Teams, or Webex?"
+      },
+      {
+        "role": "user",
+        "content": "We're open to all options."
+      },
+      {
+        "role": "agent",
+        "content": "What is your team size for the video conferencing solution?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 100 team members."
+      },
+      {
+        "role": "agent",
+        "content": "What is your preferred meeting frequency and duration for the video conferencing solution?"
+      },
+      {
+        "role": "user",
+        "content": "We conduct daily meetings that last for around 1 hour."
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of video conferencing software, team size, and meeting frequency and duration."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a project management tool for our software development team."
+      },
+      {
+        "role": "agent",
+        "content": "That sounds great! To help us find the right solution, what's the average team size for your software development projects?"
+      },
+      {
+        "role": "user",
+        "content": "We typically work in teams of 5-6 members."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Now, could you please share your budget range for this project management tool?"
+      },
+      {
+        "role": "user",
+        "content": "$5,000 to $7,000."
+      },
+      {
+        "role": "agent",
+        "content": "Great. Lastly, what's the estimated timeline for implementing this tool in your workflow?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of team size, budget, and timeline."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're searching for a customer support solution."
+      },
+      {
+        "role": "agent",
+        "content": "Excellent. To provide you with the best options, could you tell me the average number of support tickets you handle daily?"
+      },
+      {
+        "role": "user",
+        "content": "We handle around 200 tickets per day."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Now, what's your preferred budget range for this customer support solution?"
+      },
+      {
+        "role": "user",
+        "content": "$2,000 to $3,000."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, are there any specific features or integrations you're looking for in this solution?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of ticket volume, budget, and requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're looking for a marketing automation platform."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To offer you the best solutions, could you tell me the average number of leads you generate per month?"
+      },
+      {
+        "role": "user",
+        "content": "We generate around 1,500 leads per month."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Now, what's your preferred budget range for this marketing automation platform?"
+      },
+      {
+        "role": "user",
+        "content": "$3,000 to $5,000."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, are you also looking for a solution that integrates with your current CRM system?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of lead volume, budget, and tech requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We need a cloud storage solution for our team."
+      },
+      {
+        "role": "agent",
+        "content": "Understood. To recommend the right solution, could you tell me the average monthly storage usage for your team?"
+      },
+      {
+        "role": "user",
+        "content": "We use around 1TB of storage per month."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Now, what's your preferred budget range for this cloud storage solution?"
+      },
+      {
+        "role": "user",
+        "content": "$100 to $200 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, are you also looking for a solution with collaboration features, like shared folders or real-time editing?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of storage usage, budget, and requirements."
+  },
+  {
+    "intent": "collect_missing_info",
+    "dialogue": [
+      {
+        "role": "user",
+        "content": "We're interested in an HR management software."
+      },
+      {
+        "role": "agent",
+        "content": "Great! To provide you with the best options, could you tell me the approximate number of employees in your company?"
+      },
+      {
+        "role": "user",
+        "content": "We have around 150 employees."
+      },
+      {
+        "role": "agent",
+        "content": "Thank you. Now, what's your preferred budget range for this HR management software?"
+      },
+      {
+        "role": "user",
+        "content": "$1,000 to $2,000 per month."
+      },
+      {
+        "role": "agent",
+        "content": "Perfect. Lastly, are you also looking for a solution that integrates with your current payroll system?"
+      }
+    ],
+    "notes": "Multi-turn flow demonstrating consecutive collection of employee count, budget, and tech requirements."
+  }
+]
