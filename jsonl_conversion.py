@@ -12,9 +12,10 @@ SYSTEM_PROMPT = (
 )
 
 # --- Llama 3 Chat Template Constants ---
+# NOTE: Using the standard Llama 3.1/3.2 tokens for alignment
 BOS = "<|begin_of_text|>"
 EOS = "<|eot|>"
-EOT = "<|end_of_text|>"
+EOT = "<|end_of_text|>" # This token is typically the same as EOS but used here for clarity
 SYSTEM_HEADER = "<|start_header_id|>system<|end_header_id|>\n\n"
 USER_HEADER = "<|start_header_id|>user<|end_header_id|>\n\n"
 ASSISTANT_HEADER = "<|start_header_id|>assistant<|end_header_id|>\n\n"
@@ -45,11 +46,11 @@ def format_conversation_for_llama3(conversation_data, system_prompt):
         content = message.get("content", "").strip()
 
         if role == "user":
-            # Only add the USER_HEADER if content is non-empty
+            # Add the USER_HEADER and content
             if content:
                 full_text += f"{USER_HEADER}{content}{EOS}"
         elif role == "agent": # NOTE: Assumes agent role is synonymous with assistant
-            # Only add the ASSISTANT_HEADER if content is non-empty
+            # Add the ASSISTANT_HEADER and content
             if content:
                 full_text += f"{ASSISTANT_HEADER}{content}{EOS}"
         # If the role is neither user nor agent/assistant, it's ignored.
@@ -91,11 +92,12 @@ def transform_json_to_jsonl(input_path, output_path, system_prompt):
                 outfile.write(jsonl_line + '\n')
                 processed_count += 1
 
-    print(f"Processed {processed_count} conversations from '{os.path.basename(input_path)}'.")
+    print(f"✅ Processed {processed_count} conversations from '{os.path.basename(input_path)}'.")
     print(f"Output saved to '{output_path}'.")
 
 if __name__ == "__main__":
     print("--- Starting Batch JSON to JSONL Conversion ---")
+    print(f"Targeting all files in '{INPUT_DIR}' for Llama 3 SFT format.")
 
     # 1. Ensure the output directory exists
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -104,7 +106,7 @@ if __name__ == "__main__":
     json_files = glob.glob(os.path.join(INPUT_DIR, "*.json"))
 
     if not json_files:
-        print(f"No JSON files found in the '{INPUT_DIR}' directory. Exiting.")
+        print(f"❌ No JSON files found in the '{INPUT_DIR}' directory. Exiting.")
     else:
         # 3. Process each file
         for input_path in json_files:
@@ -115,5 +117,5 @@ if __name__ == "__main__":
 
             transform_json_to_jsonl(input_path, output_path, SYSTEM_PROMPT)
 
-        print("\n--- Batch Conversion Complete ---")
+        print("\n--- Batch Conversion Complete 🎉 ---")
         print("All intent JSON files are now in the Llama 3.2 SFT JSONL format.")

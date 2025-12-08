@@ -9,8 +9,8 @@ import re
 MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 OUTPUT_DIR = "input/"
 
-# The intent and output file name must reflect the new target
-UNIFIED_INTENT = "select_followup_stage" 
+# The intent and output file name must reflect the new merged target
+UNIFIED_INTENT = "handle_scheduling" 
 FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{UNIFIED_INTENT}.json")
 
 # --- Sample Counts based on 60:40 Ratio ---
@@ -20,8 +20,8 @@ MULTI_TURN_SAMPLES = TOTAL_SAMPLES_NEEDED - SINGLE_TURN_SAMPLES # 40 samples
 
 BATCH_SIZE = 5
 RETRY_LIMIT = 5
-TOKENS_PER_SAMPLE_SINGLE = 300 
-TOKENS_PER_SAMPLE_MULTI = 700 
+TOKENS_PER_SAMPLE_SINGLE = 350 
+TOKENS_PER_SAMPLE_MULTI = 750 
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -49,39 +49,47 @@ except Exception as e:
 
 # ---------------- EXAMPLES ---------------- #
 
-# --- Single Turn Examples (select_followup_stage) ---
+# --- Single Turn Examples (handle_scheduling: Validation and Confirmation) ---
 SINGLE_TURN_EXAMPLES = [
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "The pricing looks good, and the integration with Kubernetes is exactly what we need."},
-            {"role": "agent", "content": "That's fantastic news! Since we've confirmed the technical and financial fit, the logical next step is to schedule a technical deep dive session with one of our Solutions Architects. How does next Wednesday look for a 60-minute session?"}
+            {"role": "user", "content": "Is your API architect, Lisa, available for a 45-minute deep dive this Friday at 3 PM EST?"},
+            {"role": "agent", "content": "I just checked Lisa's calendar for Friday at 3 PM EST—she is currently booked. However, she has an opening at 11 AM EST or 4 PM EST that same day. Which of those works better?"}
         ],
-        "notes": "Positive outcome leads to 'schedule technical deep dive'."
+        "notes": "Validation fails, agent proposes alternatives."
     },
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "We're currently locked into a 3-year contract with a competitor, so we can't move until 2026."},
-            {"role": "agent", "content": "I completely understand long-term commitments. Since you won't be evaluating solutions until 2026, let me set you up to receive our monthly API trends newsletter and a case study on zero-downtime migration, so you're ready when the time comes. I'll reach out again mid-2025 to check in."}
+            {"role": "user", "content": "Can we do a 30-minute demo this Thursday at 2 PM PST?"},
+            {"role": "agent", "content": "That works perfectly. I've booked Thursday at 2:00 PM PST for your Technical Deep Dive. You'll receive the calendar invite with the meeting link shortly."}
         ],
-        "notes": "Negative timeline leads to 'send nurturing content'."
+        "notes": "Direct confirmation of a user-specified time slot, simulating a successful booking."
+    },
+    {
+        "intent": UNIFIED_INTENT,
+        "dialogue": [
+            {"role": "user", "content": "I need to confirm if I can get a demo slot for tomorrow afternoon."},
+            {"role": "agent", "content": "Yes, I see three available slots for tomorrow afternoon, including 2:30 PM and 4:00 PM in your local time zone. Which one should I hold for you?"}
+        ],
+        "notes": "Validation succeeds, agent prompts the user to select the final time."
     }
 ]
 
-# --- Multi-Turn Examples (select_followup_stage) ---
+# --- Multi-Turn Examples (handle_scheduling) ---
 MULTI_TURN_EXAMPLES = [
     {
         "intent": UNIFIED_INTENT,
         "dialogue": [
-            {"role": "user", "content": "We are a small startup, and we need a solution, but our budget is only $200 per month."},
-            {"role": "agent", "content": "I see. Our entry-level Pro tier starts at $500 per month. Is there any flexibility in that $200 budget, or is that a hard limit for all new software?"},
-            {"role": "user", "content": "It's a very hard limit for Q3, I'm afraid."},
-            {"role": "agent", "content": "No problem at all. We have a dedicated resource hub for early-stage companies that covers optimizing your current toolset. Let's start by sending you that resource guide and a tiered pricing model analysis. I'll check back in Q4 when the budget cycle restarts to see if the Pro tier is feasible then. Does that sound like a good plan?"},
-            {"role": "user", "content": "Yes, please send the resource hub and check back in Q4."},
-            {"role": "agent", "content": "Perfect. I'll send that guide immediately, and I'll schedule a note to touch base with you in October to see if we can move you to the product evaluation stage."}
+            {"role": "user", "content": "I'd like to schedule some time with a Solutions Engineer soon."},
+            {"role": "agent", "content": "Great idea! To ensure we cover everything, would a 45-minute technical session be sufficient, and what time zone are you currently in?"},
+            {"role": "user", "content": "45 minutes is fine, and I'm in EST."},
+            {"role": "agent", "content": "Understood. Our Solutions Engineer, Sarah, is free next Tuesday morning. Does 10:30 AM EST work for your team? I'm just checking her availability now."},
+            {"role": "user", "content": "10:30 AM EST on Tuesday is great."},
+            {"role": "agent", "content": "Confirmed! I've booked the 'API Integration Workshop' for next Tuesday at 10:30 AM EST. The calendar invite is on its way now."}
         ],
-        "notes": "Multi-turn flow: initial objection leads to repositioning (unsuccessful), then the agent determines the followup stage is 'send nurturing content/re-engage later'."
+        "notes": "Multi-turn flow demonstrating clarification, validation (implied successful), and final confirmation."
     }
 ]
 
@@ -89,18 +97,18 @@ MULTI_TURN_EXAMPLES = [
 
 SYSTEM_INSTRUCTION = (
     "You are a highly professional Presales Agent for a **Startup Suite** software company (API-first, cloud-native, focused on scale). "
-    "Output ONLY a JSON array. No explanations. The responses must be natural conversational proposals for the next logical step in the sales cycle, suitable for Text-to-Speech (TTS) generation. DO NOT include any structured JSON tags or special formatting in the agent's dialogue."
+    "Output ONLY a JSON array. No explanations. The responses must be natural conversational statements that **propose, validate, or confirm a meeting time**, suitable for Text-to-Speech (TTS) generation. DO NOT include any structured JSON tags or special formatting in the agent's dialogue."
 )
 
 SINGLE_TURN_TASK = (
-    "Generate {num_to_generate} new 2-turn dialogues for the intent '{intent_name}'. "
-    "The Agent's response MUST clearly and naturally **propose the next logical step** (e.g., schedule a demo, send nurturing content, escalate to an expert) based on the user's statement. Output JSON array only."
+    "Generate {num_to_generate} new 2-turn dialogues for the unified intent '{intent_name}'. "
+    "The Agent's response MUST either confirm a meeting time, propose an alternative time due to unavailability, or offer available slots, using natural language. Output JSON array only."
 )
 
 MULTI_TURN_TASK = (
-    "Generate {num_to_generate} new multi-turn dialogues for the intent '{intent_name}'. "
+    "Generate {num_to_generate} new multi-turn dialogues for the unified intent '{intent_name}'. "
     "Each dialogue must have at least 6 turns (User, Agent, U, A, U, A). "
-    "The Agent MUST use the conversation flow to gather enough information (qualification/objection handling) to logically **determine and propose the best next followup stage** to the user. The final response must be a natural proposal. Output JSON array only."
+    "The Agent MUST use conversational memory to clarify meeting details (who, when, duration) and, within the turns, **perform availability checks** (implicitly reporting status/proposing alternatives) before finalizing the booking in the last turn. Output JSON array only."
 )
 
 def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
