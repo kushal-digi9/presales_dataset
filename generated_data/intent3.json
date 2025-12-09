@@ -1,0 +1,302 @@
+[
+  {
+    "text": "Could you please send me the latest version of the product datasheets?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to know the uptime percentage for your cloud service.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you provide me with the contact details for the technical support team?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to verify the scalability limits of the enterprise plan.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you share the installation guide for the new API integration?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to request a copy of the security compliance documentation.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the typical data processing time for our daily backups.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you confirm the SLA for data recovery in the event of a service interruption?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd appreciate if you could send me the pricing breakdown for the professional services package.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to check the response time for technical support tickets within our service agreement.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you send me the user manual for the new software update?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What are the system requirements for the cloud service we're considering?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you provide the detailed specifications for the on-premises hardware solution?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the uptime guarantee for the enterprise plan we're considering.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What is the average downtime for maintenance in the Gold Support package?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to know the exact number of seats included in the standard subscription.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you send me the whitepaper on the security measures implemented in your solution?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What is the pricing structure for the advanced integration options?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to see the SLA document for our contract to understand the service level guarantees.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you clarify the data retention period in your compliance-focused solution?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you please provide the documentation for the API integration process?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to know the uptime guarantee in the SLA for our contract.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What are the specific system requirements for the enterprise solution?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you share the pricing breakdown for the professional services package?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to verify the data retention period in the backup and recovery process.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What are the details on the service credits for breached SLAs?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd appreciate if you could send the documentation for the custom reporting functionality.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you clarify the support hours for our account in the SLA?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to know the response time for security incident notifications in the SLA.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you provide the details on the scalability limits for the enterprise plan?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you please send me the user manual for the product we're considering?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the average uptime percentage for your service.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you provide the details on the scalability options for the enterprise plan?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What is the typical turnaround time for software updates and patches?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to know the maximum number of users that can be supported under the premium plan.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you share the documentation on the data migration process?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'm interested in the service level guarantees for the support team's response times.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you confirm the number of free trial days offered for new accounts?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What is the pricing breakdown for the advanced analytics features?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the average resolution time for technical issues within the service level agreement.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you please provide the system uptime data for the past month?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to know the scalability limits for the premium plan we're considering.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need the details on the data migration process for our account.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you send the documentation for the advanced analytics module?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd appreciate if you could share the details on the integration with third-party tools.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the average downtime in the last quarter.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you provide the details on the service level agreement for the advanced analytics module?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to know the pricing breakdown for the enterprise plan.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to confirm the response time for support tickets within the SLA.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd appreciate if you could share the details on the customization options for the platform.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you please provide me with the documentation for the integration process with our existing system?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to know the uptime percentage guaranteed in the service level agreement for the solution we're considering.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you send me the pricing breakdown for the enterprise package, including any additional fees?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd appreciate if you could share the details on the data retention policy for the service.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What is the maximum number of users that can be added to the basic plan we're evaluating?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the average resolution time for support tickets within the service level agreement.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you send me the user guide for the advanced analytics module?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to confirm the service level guarantees for the backup and recovery process.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you provide the details on the security measures implemented for data protection?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the specific limitations on the trial version of the product.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you send me the detailed documentation for the software integration process?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you please provide the average uptime for your services as stated in the SLA agreement?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the specifics about the scalability options available in the premium plan.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What is the exact process for escalating support tickets if we encounter issues outside of normal business hours?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to request a breakdown of the pricing for the additional user licenses.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you provide the response time for emergency support requests as stated in the SLA?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to confirm the data retention policy for our account.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you send me the details about the service level guarantees for data security?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd appreciate if you could share the specifics about the support hours for our account.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you send me the information about the maintenance windows for our account?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Could you please send me the latest version of the user manual for the software?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I need to know the exact uptime guarantee in the service level agreement for our account.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "I'd like to request a breakdown of the features included in the premium plan.",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "What is the typical response time for support requests during business hours?",
+    "label": "collect_missing_info"
+  },
+  {
+    "text": "Can you provide the pricing details for the additional storage option?",
+    "label": "collect_missing_info"
+  }
+]

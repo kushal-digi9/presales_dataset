@@ -10,11 +10,11 @@ MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 OUTPUT_DIR = "generated_data" 
 
 # Target Intent and Output File
-TARGET_INTENT = "score_lead_fit" 
-FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "intent2.json")
+TARGET_INTENT = "collect_missing_info" 
+FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "intent3.json")
 
-# Generation parameters (Targeting 100 samples for the weakest intent)
-TOTAL_SAMPLES_TO_GENERATE = 100 # Adjusted target for a high-priority intent
+# Generation parameters (Targeting 75 samples)
+TOTAL_SAMPLES_TO_GENERATE = 75 # Strategic target for this intent
 BATCH_SIZE = 10
 RETRY_LIMIT = 5
 TOKENS_PER_SAMPLE = 60 
@@ -42,14 +42,15 @@ except Exception as e:
     print(f"FATAL ERROR during model loading: {e}")
     sys.exit(1)
 
-# ---------------- EXAMPLES (High-Quality Qualification Signals) ---------------- #
+# ---------------- EXAMPLES (Factual Information Requests) ---------------- #
 
+# Examples must reflect specific product/process information needed (not scheduling or pricing).
 FEW_SHOT_EXAMPLES = [
-    {"text": "What is the policy for multi-seat licenses for companies under 20 people?", "label": TARGET_INTENT},
-    {"text": "We are a pre-seed startup with no active revenue, but we want to scale rapidly.", "label": TARGET_INTENT},
-    {"text": "Does your platform work well for SaaS companies with strict SOC 2 compliance requirements?", "label": TARGET_INTENT},
-    {"text": "Can we get a custom quote if we only need read-only access for 10 users?", "label": TARGET_INTENT},
-    {"text": "Our current monthly budget cap for new tools is $500.", "label": TARGET_INTENT},
+    {"text": "Can you send me the SLA agreement for our contract to confirm the service level guarantees?", "label": TARGET_INTENT},
+    {"text": "Could you provide the details on the data backup and recovery process for our account?", "label": TARGET_INTENT},
+    {"text": "I need to know the exact features offered in the enterprise plan we're considering.", "label": TARGET_INTENT},
+    {"text": "What is the average response time for support tickets within the service level agreement?", "label": TARGET_INTENT},
+    {"text": "I'd appreciate if you could share the pricing details for the advanced analytics module.", "label": TARGET_INTENT},
 ]
 
 # ---------------- PROMPTS ---------------- #
@@ -61,7 +62,7 @@ SYSTEM_INSTRUCTION = (
 
 TARGETED_TASK = (
     "Generate {num_to_generate} unique, single-turn customer utterances that strictly express the intent '{intent_name}'. "
-    "These utterances must be related to the customer's **qualification status, budget, scale, or industry fit**. Output JSON array only."
+    "These utterances must be requests for **specific, factual, product, or operational information** (e.g., documentation, SLAs, features, pricing breakdown). Output JSON array only."
 )
 
 def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
@@ -108,7 +109,7 @@ def generate_data(intent_name, total_samples, examples, task_instruction, tokens
 
     print(f"\n--- Starting generation for {intent_name} ({total_samples} samples) ---")
 
-    while len(data) < total_samples and attempts < RETRY_LIMIT * (total_samples / BATCH_SIZE):
+    while len(data) < total_samples and attempts < 5 * (total_samples / BATCH_SIZE):
         attempts += 1
         num = min(BATCH_SIZE, total_samples - len(data))
         
@@ -143,26 +144,17 @@ def generate_data(intent_name, total_samples, examples, task_instruction, tokens
             
             json_str = extract_json(decoded)
 
-            if not json_str:
-                # print("❌ No valid JSON structure found in output.") # Suppress internal retry noise
-                continue
+            if not json_str: continue
             
             parsed = json.loads(json_str)
 
-            # Basic verification
-            if not isinstance(parsed, list) or len(parsed) != num or not all('text' in item and 'label' in item for item in parsed):
-                # print(f"❌ JSON structure or size error.") # Suppress internal retry noise
-                continue
+            if not isinstance(parsed, list) or len(parsed) != num or not all('text' in item and 'label' in item for item in parsed): continue
 
             data.extend(parsed)
             print(f"✅ Batch: {len(parsed)}. Total {len(data)}/{total_samples}.")
 
-        except json.JSONDecodeError:
-            # print(f"❌ JSON Decode Error.") # Suppress internal retry noise
-            pass
-        except Exception:
-            # print(f"❌ Unexpected Error.") # Suppress internal retry noise
-            pass
+        except json.JSONDecodeError: pass
+        except Exception: pass
 
     return data
 
@@ -184,7 +176,7 @@ if __name__ == "__main__":
     )
 
     if generated_data:
-        # Save the result to intent2.json
+        # Save the result to intent3.json
         with open(FINAL_OUTPUT_FILE, "w") as f:
             json.dump(generated_data, f, indent=2)
 
