@@ -10,14 +10,14 @@ MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 OUTPUT_DIR = "generated_data" 
 
 # Target Intent and Output File
-TARGET_INTENT = "collect_missing_info" 
-FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "intent3.json")
+TARGET_INTENT = "adjust_offer_positioning" 
+FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "intent4.json")
 
 # Generation parameters (Targeting 75 samples)
-TOTAL_SAMPLES_TO_GENERATE = 75 # Strategic target for this intent
+TOTAL_SAMPLES_TO_GENERATE = 75 
 BATCH_SIZE = 10
 RETRY_LIMIT = 5
-TOKENS_PER_SAMPLE = 60 
+TOKENS_PER_SAMPLE = 80 
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -37,20 +37,19 @@ try:
         model.eval()
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token_id = tokenizer.eos_token_id 
-    print(f"Model {MODEL_ID} loaded successfully.")
 except Exception as e:
     print(f"FATAL ERROR during model loading: {e}")
     sys.exit(1)
 
-# ---------------- EXAMPLES (Factual Information Requests) ---------------- #
+# ---------------- EXAMPLES (Competitive/Objection) ---------------- #
 
-# Examples must reflect specific product/process information needed (not scheduling or pricing).
+# Using the high-quality samples from the assessment
 FEW_SHOT_EXAMPLES = [
-    {"text": "Can you send me the SLA agreement for our contract to confirm the service level guarantees?", "label": TARGET_INTENT},
-    {"text": "Could you provide the details on the data backup and recovery process for our account?", "label": TARGET_INTENT},
-    {"text": "I need to know the exact features offered in the enterprise plan we're considering.", "label": TARGET_INTENT},
-    {"text": "What is the average response time for support tickets within the service level agreement?", "label": TARGET_INTENT},
-    {"text": "I'd appreciate if you could share the pricing details for the advanced analytics module.", "label": TARGET_INTENT},
+    {"text": "I've noticed that your product has a higher monthly cost compared to competitor 'Z', is there any room for negotiation?", "label": TARGET_INTENT},
+    {"text": "Your offering seems to lack real-time data analysis, while 'Competitor A' provides this feature. Is there a possibility to add it?", "label": TARGET_INTENT},
+    {"text": "Could we discuss the possibility of waiving the setup fee for our company's initial implementation?", "label": TARGET_INTENT},
+    {"text": "I've observed that 'Solution B' offers a longer trial period. Can we extend the trial period for our evaluation?", "label": TARGET_INTENT},
+    {"text": "The monthly cost per user for your product seems high. Are there any discounts available for larger teams?", "label": TARGET_INTENT},
 ]
 
 # ---------------- PROMPTS ---------------- #
@@ -62,7 +61,7 @@ SYSTEM_INSTRUCTION = (
 
 TARGETED_TASK = (
     "Generate {num_to_generate} unique, single-turn customer utterances that strictly express the intent '{intent_name}'. "
-    "These utterances must be requests for **specific, factual, product, or operational information** (e.g., documentation, SLAs, features, pricing breakdown). Output JSON array only."
+    "These utterances must be **objections, questions comparing the product to competitors, requests for discounts, or statements of perceived feature gaps**. Output JSON array only."
 )
 
 def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
@@ -78,11 +77,7 @@ def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
     )
 
 # ---------------- CLEAN JSON (Robust Extraction) ---------------- #
-
 def extract_json(raw_text):
-    """
-    Extracts the JSON array from the LLM's raw output, searching for [ ... ].
-    """
     response_start_tag = "[/INST]"
     start_index_search = raw_text.rfind(response_start_tag)
     if start_index_search == -1:
@@ -91,14 +86,11 @@ def extract_json(raw_text):
         start_index_search += len(response_start_tag)
     
     clean_text = raw_text[start_index_search:].strip()
-    
     match = re.search(r'\[\s*\{.*\}\s*\]', clean_text, flags=re.DOTALL)
-    
     if match:
         json_str = match.group(0).strip()
         json_str = json_str.replace("```json", "").replace("```", "").strip()
         return json_str
-        
     return None
 
 # ---------------- GENERATION ---------------- #
@@ -109,39 +101,23 @@ def generate_data(intent_name, total_samples, examples, task_instruction, tokens
 
     print(f"\n--- Starting generation for {intent_name} ({total_samples} samples) ---")
 
-    while len(data) < total_samples and attempts < 5 * (total_samples / BATCH_SIZE):
+    while len(data) < total_samples and attempts < RETRY_LIMIT * (total_samples / BATCH_SIZE):
         attempts += 1
         num = min(BATCH_SIZE, total_samples - len(data))
-        
-        # Max tokens needed for the batch
         max_tokens_batch = tokens_per_sample * num * 2
 
         prompt = build_full_prompt(examples, task_instruction, intent_name, num)
         messages = [{"role": "user", "content": prompt}]
 
         try:
-            encoded = tokenizer.apply_chat_template(
-                messages,
-                return_tensors="pt",
-                tokenize=True,
-                add_generation_prompt=True
-            )
-            
+            encoded = tokenizer.apply_chat_template(messages, return_tensors="pt", tokenize=True, add_generation_prompt=True)
             input_ids = encoded.to(model.device)
             pad_token_id = tokenizer.eos_token_id 
 
             with torch.no_grad():
-                out = model.generate(
-                    input_ids=input_ids,
-                    max_new_tokens=max_tokens_batch, 
-                    do_sample=True,
-                    temperature=0.8,
-                    top_p=0.9,
-                    pad_token_id=pad_token_id
-                )
+                out = model.generate(input_ids=input_ids, max_new_tokens=max_tokens_batch, do_sample=True, temperature=0.8, top_p=0.9, pad_token_id=pad_token_id)
 
             decoded = tokenizer.decode(out[0][input_ids.shape[-1]:], skip_special_tokens=True)
-            
             json_str = extract_json(decoded)
 
             if not json_str: continue
@@ -176,7 +152,7 @@ if __name__ == "__main__":
     )
 
     if generated_data:
-        # Save the result to intent3.json
+        # Save the result to intent4.json
         with open(FINAL_OUTPUT_FILE, "w") as f:
             json.dump(generated_data, f, indent=2)
 

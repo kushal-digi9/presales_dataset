@@ -1,0 +1,302 @@
+[
+  {
+    "text": "I've noticed that 'Competitor X' offers a more affordable pricing plan. Could we discuss potential price reductions for our subscription?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Your product seems to be missing the customization features that 'Solution Y' provides. Can we negotiate adding these capabilities?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'm interested in your offering, but I've noticed that 'Competitor Z' offers a longer support response time. Can we improve that for your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "The onboarding process seems complex for your product. Is there a possibility to simplify it or offer additional resources during implementation?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've observed that 'Solution A' offers a scalable solution for growing businesses. Can we discuss options for future growth with your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Competitor W' provides a dedicated account manager. Can we discuss adding this feature for your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've observed that 'Solution V' offers a more comprehensive training program. Can we enhance the training resources for your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Your pricing model seems to be less flexible compared to 'Competitor U'. Can we discuss alternative payment plans or a more flexible pricing structure?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Solution T' offers integration with more third-party tools. Can we discuss adding more integrations to your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've observed that 'Competitor R' offers a more extensive API library. Can we discuss expanding the API capabilities for your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've been considering your solution, but I've noticed that 'Competitor X' offers a more cost-effective solution. Can we discuss a potential price reduction?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'm interested in your product, but I've heard that 'Solution Y' provides better support. Is there a way to improve the support we would receive from your team?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've seen that 'Product Z' offers a longer free trial period. Could we negotiate a longer trial period for our evaluation?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that your product seems to lack real-time analytics. Is there a possibility to add this feature to your offering?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'd like to move forward with your product, but I was wondering if there are any volume discounts available for larger teams?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'm considering your solution, but 'Competitor W' offers a lower monthly cost per user. Can we discuss a potential price adjustment?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've observed that 'Solution V' offers additional integrations that would benefit our team. Are there any plans to add these integrations to your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'm interested in your product, but I've noticed that 'Competitor U' offers a more robust set of features. Can we discuss a feature upgrade or customization?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'm intrigued by your offering, but I've heard that 'Product T' has a more user-friendly interface. Is there a possibility to enhance the user experience?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'm considering your solution, but I've seen that 'Competitor R' offers a longer contract term. Can we negotiate a longer contract for a better price?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've seen that 'Competitor C' offers a more affordable annual pricing plan. Can we discuss a potential adjustment for our long-term contract?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Your pricing seems to be higher than 'Solution D'. Could we negotiate a better rate for our specific use case?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Product E' offers a more comprehensive onboarding service. Can we discuss a more personalized approach for our team?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've observed that 'Vendor F' provides a free trial period extension for larger teams. Could we receive a similar offer for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Service G' offers a dedicated account manager for all customers. Is there a possibility to have this for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Your product seems to lack a robust customer support system. Is there a plan that includes 24/7 support like 'Provider H' offers?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've seen that 'Solution I' offers a lower cost per user for larger teams. Can we discuss a volume discount for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Vendor J' offers a longer warranty period. Can we discuss extending the warranty period for our purchase?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've seen that 'Product K' offers a more flexible payment plan. Can we discuss a payment plan that suits our financial needs?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've observed that 'Service L' offers a more extensive library of training materials. Can we have access to additional resources for our team?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "We've been considering your solution, but the setup fee seems quite high. Can we negotiate a lower fee for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that competitor 'X' offers a longer free trial period. Is it possible to extend the trial period for our evaluation?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'm concerned about the monthly cost per user for your product. Are there any volume discounts available for our large team?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've been evaluating several solutions, and I've found that 'Competitor Y' offers real-time data analysis. Can your product provide this feature?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "We've been using a similar solution, but it offers a lower monthly cost. Can you match or beat that price for our contract?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've observed that 'Solution A' offers a waived setup fee for initial implementation. Is this something you can offer for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that your product lacks a mobile app, which is a key feature for our team. Can you develop this feature in the near future?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've been evaluating your product, but I'm concerned about the ongoing maintenance costs. Can these be reduced for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've been comparing your product to 'Competitor Z'. They offer a more comprehensive reporting dashboard. Can we discuss adding this feature to your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've found that 'Solution C' offers a more affordable pricing plan for teams with a larger number of users. Can we discuss a similar plan for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Could we negotiate the annual licensing fee for our company's needs?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Is there a possibility to lower the one-time implementation cost for our project?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I see that 'Competitor C' provides unlimited users for the same price. Can we get the same offer?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Your product seems to lack customization options compared to 'Solution D'. Could we discuss this further?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Is there any discount available for a multi-year contract?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I noticed that 'Product E' offers a more flexible pricing plan. Could we have a similar arrangement?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've observed that 'Solution F' offers a free trial without a credit card. Can we do the same?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'd like to discuss a custom pricing plan based on our specific usage and needs.",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Could we negotiate the pricing for the additional training and support services?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Product G' offers more storage space for the same price. Can we have more storage included in our plan?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've been looking at 'Competitor X', they offer a lower monthly rate for similar features. Can you match or beat their price?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Your annual contract seems expensive, especially when compared to 'Solution Y'. Are there any discounts for longer commitment periods?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Product Z' offers a more comprehensive data analysis tool. Could we discuss integrating that feature into your product?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'd like to request a reduction in the setup fee for our project. Is this something that can be negotiated?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've found that 'Solution A' offers a more flexible pricing model for larger teams. Can we adjust your pricing to better accommodate our needs?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Is there a possibility to extend the trial period for our team to fully evaluate the product's capabilities?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've been considering 'Competitor W', they offer a free training session for new users. Could we negotiate something similar?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "The cost of your add-on features seems high. Are there any bundles or packages that can lower our overall costs?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've been looking at 'Product X', they offer a more streamlined implementation process. Can we discuss expediting our implementation process?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Solution B' offers a dedicated account manager. Could we discuss adding this service to our package?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Could you tell me if there's any possibility to reduce the annual subscription fee for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that our competitor 'X' offers a free training session, is this something you could provide?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Is there any room for negotiation on the contract duration or setup fee?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've seen that 'Competitor Y' offers a 24/7 customer support, do you provide that as well?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Your product seems to lack the ability to integrate with our existing systems, can this be addressed?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "We were hoping for a longer trial period for a more comprehensive evaluation of your product. Is this possible?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that 'Solution C' offers a more flexible pricing plan, could we discuss a similar arrangement?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Are there any discounts available for purchasing multiple licenses at once?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "We've observed that 'Competitor Z' offers a dedicated account manager, could this be a possibility for our company?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that your product lacks customizable reporting options. Can we discuss this further?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that competitor 'X' offers a lower monthly cost for a similar package. Can we discuss a more competitive rate?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "Your product seems to lack the real-time analytics feature that 'Competitor Y' offers. Is there a possibility to add this functionality?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I'm considering 'Solution Z' as well, which offers a longer trial period. Could we negotiate an extended trial period for our evaluation?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "The initial setup fee seems high. Are there any discounts or waivers available for a larger implementation?",
+    "label": "adjust_offer_positioning"
+  },
+  {
+    "text": "I've noticed that your product's pricing for larger teams isn't as competitive as 'Competitor W'. Could we discuss a more favorable pricing structure?",
+    "label": "adjust_offer_positioning"
+  }
+]
