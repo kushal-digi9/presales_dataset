@@ -1,0 +1,202 @@
+[
+  {
+    "text": "I found your company while researching for a reliable CRM solution on LinkedIn.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was recommended to your company by a colleague who uses your project management tool.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I came across your services after seeing a sponsored ad on Facebook about your data analytics solutions.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I'm reaching out because I saw a tweet about your B2B software from a thought leader in my industry.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was directed to your company through a Google Adwords campaign for 'AI-powered marketing solutions'.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was reading an article on Forbes about your ERP system and decided to reach out for more information.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I heard about your company through a webinar on B2B sales automation solutions that I attended.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I saw a video on YouTube about your cloud-based customer service platform and wanted to learn more.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was reading a blog post about your company's IoT services on TechCrunch and thought it would be a good fit for our needs.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was referred to your company by a business partner who uses your supply chain management solution.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I discovered your company through a LinkedIn ad about your advanced data analytics services.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was referred to you by a colleague who read about your blockchain solutions in a Forbes article.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I'm reaching out because I saw your company's name in a list of top cybersecurity providers from Gartner.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I came across your AI services after a friend recommended your company in a business networking event.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I'm interested in your solutions after reading a whitepaper on your website about the benefits of your data migration service.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I found your company through a Twitter post about your IoT platform.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I'm contacting you because I received a direct mailer about your ERP solutions.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I heard about your company from a webinar on the latest trends in cloud services.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I'm here because I saw your company's name in a list of top B2B solutions providers in a Business Insider article.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I'm reaching out because I saw a Google ad about your data visualization tools.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I discovered your company through an ad on LinkedIn about your advanced CRM solutions.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I found your website after clicking on a Google AdWords ad for your cloud services.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was directed to your platform by a colleague who recommended your marketing automation tools.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I learned about your company from a whitepaper I downloaded on your website about AI-driven supply chain management.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was referred to your service by a partner company that mentioned your excellent data security solutions.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was intrigued by a Facebook post promoting your ERP software and decided to reach out.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I came across your website after seeing a tweet about your AI-based predictive analytics.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was referred by a friend who mentioned your cutting-edge SaaS solutions in a conversation.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I read an article in Forbes about your blockchain-based solutions and wanted to know more.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I heard about your company through a webinar on your innovative cybersecurity offerings.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I discovered your company through a LinkedIn ad promoting your B2B SaaS solutions.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was recommended by a colleague who has been using your cloud services.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I came across your company while researching the best CRM solutions for my business.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I saw a webinar about your AI-powered marketing automation platform and was impressed.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was directed to your company by a Google search for 'B2B cybersecurity solutions'.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was referred by a professional network group that mentioned your ERP software.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I attended a trade show where I learned about your IoT platform and its capabilities.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was interested in your services after reading a review on Gartner.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I found your company in a list of top B2B data management providers.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was introduced to your company through a seminar about your enterprise software suite.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I discovered your company through a LinkedIn ad about your advanced data management solutions.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was referred by a colleague who read about your AI services in Information Age.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I've been considering your cloud solutions after reading the success story on Forbes.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I found your website through a Google search for 'B2B data analytics providers'.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was introduced to your company by a webinar on 'Data-Driven Decision Making'.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was intrigued by your product after reading a review on TechCrunch.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was directed to your platform by a Twitter post about your AI capabilities.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I learned about your company from a podcast episode on 'Innovative Data Solutions'.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I'm here because I saw a banner ad on Gartner for your predictive analytics services.",
+    "label": "match_message_to_source"
+  },
+  {
+    "text": "I was contacted through an email campaign about your IoT solutions.",
+    "label": "match_message_to_source"
+  }
+]

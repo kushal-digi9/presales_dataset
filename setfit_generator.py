@@ -10,14 +10,14 @@ MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 OUTPUT_DIR = "generated_data" 
 
 # Target Intent and Output File
-TARGET_INTENT = "adjust_offer_positioning" 
-FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "intent4.json")
+TARGET_INTENT = "match_message_to_source" 
+FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "intent5.json")
 
-# Generation parameters (Targeting 75 samples)
-TOTAL_SAMPLES_TO_GENERATE = 75 
+# Generation parameters (Targeting 50 samples for this clean intent)
+TOTAL_SAMPLES_TO_GENERATE = 50 
 BATCH_SIZE = 10
 RETRY_LIMIT = 5
-TOKENS_PER_SAMPLE = 80 
+TOKENS_PER_SAMPLE = 60 
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -25,7 +25,7 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_compute_dtype=torch.bfloat16,
 )
 
-print("Loading Model and Tokenizer...")
+# Suppress model loading output if already loaded
 try:
     if 'model' not in locals() or 'tokenizer' not in locals():
         tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
@@ -41,15 +41,15 @@ except Exception as e:
     print(f"FATAL ERROR during model loading: {e}")
     sys.exit(1)
 
-# ---------------- EXAMPLES (Competitive/Objection) ---------------- #
+# ---------------- EXAMPLES (Source/Referral) ---------------- #
 
 # Using the high-quality samples from the assessment
 FEW_SHOT_EXAMPLES = [
-    {"text": "I've noticed that your product has a higher monthly cost compared to competitor 'Z', is there any room for negotiation?", "label": TARGET_INTENT},
-    {"text": "Your offering seems to lack real-time data analysis, while 'Competitor A' provides this feature. Is there a possibility to add it?", "label": TARGET_INTENT},
-    {"text": "Could we discuss the possibility of waiving the setup fee for our company's initial implementation?", "label": TARGET_INTENT},
-    {"text": "I've observed that 'Solution B' offers a longer trial period. Can we extend the trial period for our evaluation?", "label": TARGET_INTENT},
-    {"text": "The monthly cost per user for your product seems high. Are there any discounts available for larger teams?", "label": TARGET_INTENT},
+    {"text": "I found your company through a Google search for 'top B2B data solutions' and decided to reach out.", "label": TARGET_INTENT},
+    {"text": "I came across your product after seeing a positive review on CIO Dive.", "label": TARGET_INTENT},
+    {"text": "I was referred by 'Oracle' and they recommended your cloud services.", "label": TARGET_INTENT},
+    {"text": "I was interested in your offer after reading the case study about your AI-powered analytics.", "label": TARGET_INTENT},
+    {"text": "I'm here because I received an email about your new IoT platform.", "label": TARGET_INTENT},
 ]
 
 # ---------------- PROMPTS ---------------- #
@@ -61,7 +61,7 @@ SYSTEM_INSTRUCTION = (
 
 TARGETED_TASK = (
     "Generate {num_to_generate} unique, single-turn customer utterances that strictly express the intent '{intent_name}'. "
-    "These utterances must be **objections, questions comparing the product to competitors, requests for discounts, or statements of perceived feature gaps**. Output JSON array only."
+    "These utterances must clearly state the **source, referrer, campaign, or specific content** that led the customer to the conversation. Output JSON array only."
 )
 
 def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
@@ -152,7 +152,7 @@ if __name__ == "__main__":
     )
 
     if generated_data:
-        # Save the result to intent4.json
+        # Save the result to intent5.json
         with open(FINAL_OUTPUT_FILE, "w") as f:
             json.dump(generated_data, f, indent=2)
 
