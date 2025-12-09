@@ -10,14 +10,14 @@ MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 OUTPUT_DIR = "generated_data" 
 
 # Target Intent and Output File
-TARGET_INTENT = "handle_scheduling" 
-FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "intent1.json")
+TARGET_INTENT = "score_lead_fit" 
+FINAL_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "intent2.json")
 
-# Generation parameters (Focused on the single-turn user input)
-TOTAL_SAMPLES_TO_GENERATE = 50 # Set this to your desired final number (e.g., 50-100)
+# Generation parameters (Targeting 100 samples for the weakest intent)
+TOTAL_SAMPLES_TO_GENERATE = 100 # Adjusted target for a high-priority intent
 BATCH_SIZE = 10
 RETRY_LIMIT = 5
-TOKENS_PER_SAMPLE = 60 # User utterances are short, use a low max token count
+TOKENS_PER_SAMPLE = 60 
 
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
@@ -42,15 +42,14 @@ except Exception as e:
     print(f"FATAL ERROR during model loading: {e}")
     sys.exit(1)
 
-# ---------------- EXAMPLES (Crucial for SetFit Format) ---------------- #
+# ---------------- EXAMPLES (High-Quality Qualification Signals) ---------------- #
 
-# Examples now show the desired final structure: {"text": "...", "label": "..."}
 FEW_SHOT_EXAMPLES = [
-    {"text": "Is your API architect, Lisa, available for a 45-minute deep dive this Friday at 3 PM EST?", "label": TARGET_INTENT},
-    {"text": "Can we do a 30-minute demo this Thursday at 2 PM PST?", "label": TARGET_INTENT},
-    {"text": "I need to confirm if I can get a demo slot for tomorrow afternoon.", "label": TARGET_INTENT},
-    {"text": "Please move our follow-up meeting from Friday to Wednesday morning at 10 AM my time.", "label": TARGET_INTENT},
-    {"text": "I'm looking to book a new appointment with the solutions team next week.", "label": TARGET_INTENT},
+    {"text": "What is the policy for multi-seat licenses for companies under 20 people?", "label": TARGET_INTENT},
+    {"text": "We are a pre-seed startup with no active revenue, but we want to scale rapidly.", "label": TARGET_INTENT},
+    {"text": "Does your platform work well for SaaS companies with strict SOC 2 compliance requirements?", "label": TARGET_INTENT},
+    {"text": "Can we get a custom quote if we only need read-only access for 10 users?", "label": TARGET_INTENT},
+    {"text": "Our current monthly budget cap for new tools is $500.", "label": TARGET_INTENT},
 ]
 
 # ---------------- PROMPTS ---------------- #
@@ -62,7 +61,7 @@ SYSTEM_INSTRUCTION = (
 
 TARGETED_TASK = (
     "Generate {num_to_generate} unique, single-turn customer utterances that strictly express the intent '{intent_name}'. "
-    "The output must match the exact format of the few-shot examples provided. Output JSON array only."
+    "These utterances must be related to the customer's **qualification status, budget, scale, or industry fit**. Output JSON array only."
 )
 
 def build_full_prompt(examples, task_instruction, intent_name, num_to_generate):
@@ -114,7 +113,7 @@ def generate_data(intent_name, total_samples, examples, task_instruction, tokens
         num = min(BATCH_SIZE, total_samples - len(data))
         
         # Max tokens needed for the batch
-        max_tokens_batch = tokens_per_sample * num * 2 # Multiply by 2 for safety
+        max_tokens_batch = tokens_per_sample * num * 2
 
         prompt = build_full_prompt(examples, task_instruction, intent_name, num)
         messages = [{"role": "user", "content": prompt}]
@@ -145,28 +144,25 @@ def generate_data(intent_name, total_samples, examples, task_instruction, tokens
             json_str = extract_json(decoded)
 
             if not json_str:
-                print("❌ No valid JSON structure found in output.")
+                # print("❌ No valid JSON structure found in output.") # Suppress internal retry noise
                 continue
             
             parsed = json.loads(json_str)
 
-            # Basic verification: check if it's a list and has the right number of elements
-            if not isinstance(parsed, list) or len(parsed) != num:
-                print(f"❌ JSON array size mismatch (Expected {num}, Got {len(parsed)}).")
+            # Basic verification
+            if not isinstance(parsed, list) or len(parsed) != num or not all('text' in item and 'label' in item for item in parsed):
+                # print(f"❌ JSON structure or size error.") # Suppress internal retry noise
                 continue
-            
-            # Additional verification: ensure the keys are correct
-            if not all('text' in item and 'label' in item for item in parsed):
-                 print(f"❌ JSON key mismatch: Missing 'text' or 'label'.")
-                 continue
 
             data.extend(parsed)
             print(f"✅ Batch: {len(parsed)}. Total {len(data)}/{total_samples}.")
 
-        except json.JSONDecodeError as e:
-            print(f"❌ JSON Decode Error: {e}")
-        except Exception as e:
-            print(f"❌ Unexpected Error during generation: {e}")
+        except json.JSONDecodeError:
+            # print(f"❌ JSON Decode Error.") # Suppress internal retry noise
+            pass
+        except Exception:
+            # print(f"❌ Unexpected Error.") # Suppress internal retry noise
+            pass
 
     return data
 
@@ -188,12 +184,13 @@ if __name__ == "__main__":
     )
 
     if generated_data:
+        # Save the result to intent2.json
         with open(FINAL_OUTPUT_FILE, "w") as f:
             json.dump(generated_data, f, indent=2)
 
-        print("\n=== COMPLETE ===")
+        print("\n=== GENERATION COMPLETE ===")
         print(f"Intent: {TARGET_INTENT}")
         print(f"Total Generated: {len(generated_data)}/{TOTAL_SAMPLES_TO_GENERATE}")
         print(f"Saved to: {FINAL_OUTPUT_FILE}")
     else:
-        print("\n⚠️ No samples generated.")
+        print("\n⚠️ Generation failed or returned empty data.")
