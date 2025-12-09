@@ -1,0 +1,202 @@
+[
+  {
+    "text": "Can we arrange a meeting with the product specialist on Monday at 11 AM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I would like to schedule a call with the sales team for next Tuesday at 2 PM PST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Is it possible to reschedule our meeting to Wednesday at 10 AM my time?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I need to confirm the date and time for our demo session.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could you find a slot for a 60-minute presentation this coming Thursday?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to book a meeting with the engineering team for Friday morning.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Is there availability for a webinar with the solutions architect on Wednesday at 1 PM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I need to set up a call with the pre-sales team for next week.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could you check if we can have a 45-minute discussion with the solutions team on Monday at 4 PM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to schedule a 30-minute call with the solutions architect on Friday at 10 AM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Can we arrange a 1-hour meeting with the technical team next Monday at 11 AM CET?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I would like to reschedule our call to next Tuesday at 2 PM EST",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could we possibly do a 45-minute meeting on Wednesday at 10 AM PST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I need to set up a 30-minute demo for this coming Thursday at 11 AM GMT",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to request a meeting with the product specialist for next Friday at 4 PM MST",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Is it possible to have a 60-minute meeting with the sales team this coming Wednesday at 9 AM CET?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to schedule a call with the account manager for next Tuesday at 2 PM GMT+2",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Can we arrange a quick 15-minute call for tomorrow afternoon at 3 PM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I need to set up a 45-minute meeting with the implementation team for next Thursday at 10 AM PST",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could we possibly move our meeting to next week, specifically on Wednesday at 2 PM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could we schedule a call with the technical expert for Monday at 11 AM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to arrange a 60-minute meeting with the product specialist on Tuesday at 2 PM PST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Can we reschedule our meeting from Wednesday to Thursday at 10 AM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I need to confirm a demo on Friday at 4 PM my time.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Please arrange a follow-up call with the sales team on Monday at 9 AM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd appreciate it if we could set up a call with the support team for Tuesday at 5 PM PST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Is it possible to have a meeting with the development team on Thursday at 11 AM my time?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Can we schedule a 45-minute call with the account manager for Wednesday at 2 PM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I need to schedule a call with the implementation team for next Monday at 10 AM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to arrange a demo with the marketing team on Thursday at 3 PM PST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could we arrange a call with the product specialist on Tuesday at 11 AM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to request a 60-minute meeting with the sales team next Monday at 9 AM PST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Is it possible to schedule a webinar for our team on Wednesday at 2 PM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I need to reschedule our meeting from next week to this coming Thursday at 1 PM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could we set up a 30-minute call with the technical support team on Friday at 4 PM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd appreciate it if we could schedule a follow-up meeting with the account manager on Wednesday at 10 AM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to confirm a meeting with the CTO for next Tuesday at 2 PM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Is there any availability for a quick 15-minute call with the solutions architect on Thursday at 11 AM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to schedule a 45-minute call with the product manager on Wednesday at 3 PM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Can we schedule a 60-minute call with the implementation team on Thursday at 10 AM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could we arrange a 60-minute meeting with the product specialist next Monday at 11 AM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Is it possible to schedule a call with the technical team for Tuesday at 2 PM PST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Can we reschedule our meeting from Wednesday to Thursday at 10 AM EST?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to request a demo for Wednesday at 1 PM PST if it's available.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Let's set up a call with the sales team for Thursday at 3 PM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Please schedule a meeting with the support team for next Friday at 10 AM EST.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "Could we move our meeting to a later time this week?",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I need to confirm the date and time for our follow-up call.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd appreciate it if we could reschedule our meeting for a later date.",
+    "label": "handle_scheduling"
+  },
+  {
+    "text": "I'd like to schedule a call with the executive team next week. Any availability?",
+    "label": "handle_scheduling"
+  }
+]
