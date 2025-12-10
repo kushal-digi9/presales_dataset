@@ -4,7 +4,7 @@ import glob
 
 # --- Configuration ---
 INPUT_DIR = "input"
-OUTPUT_DIR = "data"
+OUTPUT_DIR = "jsonl"
 SYSTEM_PROMPT = (
     "You are a helpful and enthusiastic Presales Agent for a B2B SaaS product. "
     "Your goal is to qualify leads, answer product-related questions accurately, "
